@@ -92,6 +92,11 @@ const airDateModeOptions: Option[] = [
 // Options for season select
 const seasonOptions = [
     {
+        value: "all",
+        label: "全年",
+        icon: CalendarDays,
+    },
+    {
         value: Season.Winter,
         label: "冬",
         icon: Snowflake,
@@ -164,6 +169,7 @@ export function AdvancedFilter({
         tags: parseAsJson(tagSchema).withDefault({
             enable: true,
             tags: [],
+            excludedTags: [],
         }),
     })
 
@@ -307,9 +313,18 @@ export function AdvancedFilter({
                                     </SelectContent>
                                 </Select>
                                 {filters.category === Category.Anime && (
-                                    <Select value={filters.airDate.season ?? seasonValues[Math.floor(now.getMonth() / 3)]} onValueChange={(value) => {
-                                        if (filters.airDate.mode === AirDateMode.Period && isSeasonValue(value)) {
-                                            setFilters({ airDate: { ...filters.airDate, season: value } })
+                                    <Select value={filters.airDate.season ?? "all"} onValueChange={(value) => {
+                                        if (filters.airDate.mode === AirDateMode.Period) {
+                                            setFilters({
+                                                airDate: {
+                                                    ...filters.airDate,
+                                                    season: value === "all"
+                                                        ? undefined
+                                                        : isSeasonValue(value)
+                                                            ? value
+                                                            : filters.airDate.season,
+                                                }
+                                            })
                                         }
                                     }} disabled={!filters.airDate.enable}>
                                         <SelectTrigger className="sm:w-32 font-medium">

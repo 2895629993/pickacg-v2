@@ -1,0 +1,6430 @@
+- generic [active] [ref=e1]:
+  - main [ref=e3]:
+    - list [ref=e4]:
+      - listitem [ref=e5]:
+        - link "PickACG logo PickACG" [ref=e6] [cursor=pointer]:
+          - /url: /
+          - img "PickACG logo" [ref=e7]
+          - heading "PickACG" [level=1] [ref=e8]
+      - listitem
+      - listitem [ref=e9]:
+        - link [ref=e10] [cursor=pointer]:
+          - /url: https://github.com/2895629993/pickacg-v2
+          - img
+    - search [ref=e11]:
+      - combobox [ref=e12] [cursor=pointer]:
+        - generic: 动画
+        - img
+      - combobox [ref=e1125]
+      - group [ref=e14]:
+        - textbox "搜索..." [ref=e1126]
+        - group [ref=e15]:
+          - img [ref=e1127]
+        - group [ref=e18]:
+          - button "搜索 ⏎" [ref=e1130] [cursor=pointer]:
+            - text: 搜索
+            - generic: ⏎
+    - list [ref=e20]:
+      - listitem [ref=e21]:
+        - img [ref=e22]
+      - listitem [ref=e24]:
+        - group [ref=e25]:
+          - radio "匹配度" [ref=e26] [cursor=pointer]:
+            - img
+            - text: 匹配度
+          - radio "热度" [checked] [ref=e27] [cursor=pointer]:
+            - img
+            - text: 热度
+          - radio "排名" [ref=e28] [cursor=pointer]:
+            - img
+            - text: 排名
+      - listitem [ref=e29]:
+        - list [ref=e30]:
+          - listitem [ref=e31]:
+            - button [ref=e32] [cursor=pointer]:
+              - img
+    - list [ref=e33]:
+      - generic [ref=e1131]:
+        - figure [ref=e1133]:
+          - link "超时空辉夜姬！" [ref=e1134] [cursor=pointer]:
+            - /url: https://bgm.tv/subject/604826
+            - img "超时空辉夜姬！" [ref=e1135]
+          - list [ref=e1136]:
+            - listitem [ref=e1137]:
+              - generic [ref=e1138]: "# 180"
+            - listitem [ref=e1139]:
+              - generic [ref=e1140]:
+                - img
+                - text: "8.1"
+          - list [ref=e1141]:
+            - listitem [ref=e1142]:
+              - link "酒寄彩叶" [ref=e1143] [cursor=pointer]:
+                - /url: https://bgm.tv/character/189814
+                - img "酒寄彩叶" [ref=e1145]
+              - link "辉夜" [ref=e1146] [cursor=pointer]:
+                - /url: https://bgm.tv/character/189813
+                - img "辉夜" [ref=e1148]
+              - link "月见八千代" [ref=e1149] [cursor=pointer]:
+                - /url: https://bgm.tv/character/189815
+                - img "月见八千代" [ref=e1151]
+            - listitem [ref=e1152]:
+              - list [ref=e1153]:
+                - listitem [ref=e1154]:
+                  - generic [ref=e1155]:
+                    - img
+                    - text: 2026-01-22
+                - listitem [ref=e1156]:
+                  - generic [ref=e1157]:
+                    - img
+                    - text: 1 eps
+        - generic [ref=e1158]:
+          - generic [ref=e1159]:
+            - generic [ref=e1160]: 超时空辉夜姬！
+            - button [ref=e1161] [cursor=pointer]:
+              - img
+          - generic [ref=e1162]: 超かぐや姫！
+          - list [ref=e1163]:
+            - listitem [ref=e1164]:
+              - generic [ref=e1165]:
+                - text: 百合
+                - button [ref=e1166] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1167]:
+              - generic [ref=e1168]:
+                - text: 剧场版
+                - button [ref=e1169] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1170]:
+              - generic [ref=e1171]:
+                - text: 原创
+                - button [ref=e1172] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1173]:
+              - generic [ref=e1174]:
+                - text: 音乐
+                - button [ref=e1175] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1176]:
+              - generic [ref=e1177]:
+                - text: 科幻
+                - button [ref=e1178] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1179]:
+              - generic [ref=e1180]:
+                - text: 奇幻
+                - button [ref=e1181] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1182]:
+              - generic [ref=e1183]:
+                - text: 山下清悟
+                - button [ref=e1184] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1185]:
+              - generic [ref=e1186]:
+                - text: "2026"
+                - button [ref=e1187] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1188]:
+              - generic [ref=e1189]:
+                - text: WEB
+                - button [ref=e1190] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1191]:
+              - generic [ref=e1192]:
+                - text: STUDIOCHROMATO
+                - button [ref=e1193] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1194]:
+              - generic [ref=e1195]:
+                - text: StudioColorido
+                - button [ref=e1196] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1197]:
+              - generic [ref=e1198]:
+                - text: 网飞
+                - button [ref=e1199] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1200]:
+              - generic [ref=e1201]:
+                - text: Netflix
+                - button [ref=e1202] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1203]:
+              - generic [ref=e1204]:
+                - text: 恋爱
+                - button [ref=e1205] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1206]:
+              - generic [ref=e1207]:
+                - text: 战斗
+                - button [ref=e1208] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1209]:
+              - generic [ref=e1210]:
+                - text: 治愈
+                - button [ref=e1211] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1212]:
+              - generic [ref=e1213]:
+                - text: 早見沙織
+                - button [ref=e1214] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1215]:
+              - generic [ref=e1216]:
+                - text: 搞笑
+                - button [ref=e1217] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1218]:
+              - generic [ref=e1219]:
+                - text: 动画电影
+                - button [ref=e1220] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1221]:
+              - generic [ref=e1222]:
+                - text: 偶像
+                - button [ref=e1223] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1224]:
+              - generic [ref=e1225]:
+                - text: 日常
+                - button [ref=e1226] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1227]:
+              - generic [ref=e1228]:
+                - text: 电影
+                - button [ref=e1229] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1230]:
+              - generic [ref=e1231]:
+                - text: 早见沙织
+                - button [ref=e1232] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1233]:
+              - generic [ref=e1234]:
+                - text: 入野自由
+                - button [ref=e1235] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1236]:
+              - generic [ref=e1237]:
+                - text: 轻百合
+                - button [ref=e1238] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1239]:
+              - generic [ref=e1240]:
+                - text: 青春
+                - button [ref=e1241] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1242]:
+              - generic [ref=e1243]:
+                - text: 夏吉优子
+                - button [ref=e1244] [cursor=pointer]:
+                  - img
+      - generic [ref=e1245]:
+        - figure [ref=e1247]:
+          - link "葬送的芙莉莲 第二季" [ref=e1248] [cursor=pointer]:
+            - /url: https://bgm.tv/subject/515759
+            - img "葬送的芙莉莲 第二季" [ref=e1249]
+          - list [ref=e1250]:
+            - listitem [ref=e1251]:
+              - generic [ref=e1252]: "# 722"
+            - listitem [ref=e1253]:
+              - generic [ref=e1254]:
+                - img
+                - text: "7.6"
+          - list [ref=e1255]:
+            - listitem [ref=e1256]:
+              - link "芙莉莲" [ref=e1257] [cursor=pointer]:
+                - /url: https://bgm.tv/character/86246
+                - img "芙莉莲" [ref=e1259]
+              - link "菲伦" [ref=e1260] [cursor=pointer]:
+                - /url: https://bgm.tv/character/86247
+                - img "菲伦" [ref=e1262]
+              - link "修塔尔克" [ref=e1263] [cursor=pointer]:
+                - /url: https://bgm.tv/character/89182
+                - img "修塔尔克" [ref=e1265]
+              - link "辛美尔" [ref=e1266] [cursor=pointer]:
+                - /url: https://bgm.tv/character/88208
+                - img "辛美尔" [ref=e1268]
+              - link "海塔" [ref=e1269] [cursor=pointer]:
+                - /url: https://bgm.tv/character/89183
+                - img "海塔" [ref=e1271]
+              - link "艾森" [ref=e1272] [cursor=pointer]:
+                - /url: https://bgm.tv/character/89184
+                - img "艾森" [ref=e1274]
+            - listitem [ref=e1275]:
+              - list [ref=e1276]:
+                - listitem [ref=e1277]:
+                  - generic [ref=e1278]:
+                    - img
+                    - text: 2026-01-16
+                - listitem [ref=e1279]:
+                  - generic [ref=e1280]:
+                    - img
+                    - text: 10 eps
+        - generic [ref=e1281]:
+          - generic [ref=e1282]:
+            - generic [ref=e1283]: 葬送的芙莉莲 第二季
+            - button [ref=e1284] [cursor=pointer]:
+              - img
+          - generic [ref=e1285]: 葬送のフリーレン 第2期
+          - list [ref=e1286]:
+            - listitem [ref=e1287]:
+              - generic [ref=e1288]:
+                - text: 奇幻
+                - button [ref=e1289] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1290]:
+              - generic [ref=e1291]:
+                - text: MADHouse
+                - button [ref=e1292] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1293]:
+              - generic [ref=e1294]:
+                - text: 漫画改
+                - button [ref=e1295] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1296]:
+              - generic [ref=e1297]:
+                - text: 公路片
+                - button [ref=e1298] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1299]:
+              - generic [ref=e1300]:
+                - text: 治愈
+                - button [ref=e1301] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1302]:
+              - generic [ref=e1303]:
+                - text: 葬送的芙莉莲
+                - button [ref=e1304] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1305]:
+              - generic [ref=e1306]:
+                - text: "2026"
+                - button [ref=e1307] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1308]:
+              - generic [ref=e1309]:
+                - text: 异世界
+                - button [ref=e1310] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1311]:
+              - generic [ref=e1312]:
+                - text: 漫改
+                - button [ref=e1313] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1314]:
+              - generic [ref=e1315]:
+                - text: 战斗
+                - button [ref=e1316] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1317]:
+              - generic [ref=e1318]:
+                - text: 续集
+                - button [ref=e1319] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1320]:
+              - generic [ref=e1321]:
+                - text: 北川朋哉
+                - button [ref=e1322] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1323]:
+              - generic [ref=e1324]:
+                - text: 续作
+                - button [ref=e1325] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1326]:
+              - generic [ref=e1327]:
+                - text: 日常
+                - button [ref=e1328] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1329]:
+              - generic [ref=e1330]:
+                - text: 未定档
+                - button [ref=e1331] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1332]:
+              - generic [ref=e1333]:
+                - text: 旅行
+                - button [ref=e1334] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1335]:
+              - generic [ref=e1336]:
+                - text: 冒险
+                - button [ref=e1337] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1338]:
+              - generic [ref=e1339]:
+                - text: 魔法
+                - button [ref=e1340] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1341]:
+              - generic [ref=e1342]:
+                - text: 公路
+                - button [ref=e1343] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1344]:
+              - generic [ref=e1345]:
+                - text: 寿命论
+                - button [ref=e1346] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1347]:
+              - generic [ref=e1348]:
+                - text: 奇幻，
+                - button [ref=e1349] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1350]:
+              - generic [ref=e1351]:
+                - text: ，
+                - button [ref=e1352] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1353]:
+              - generic [ref=e1354]:
+                - text: 恋爱
+                - button [ref=e1355] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1356]:
+              - generic [ref=e1357]:
+                - text: 鈴木智尋
+                - button [ref=e1358] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1359]:
+              - generic [ref=e1360]:
+                - text: 催泪
+                - button [ref=e1361] [cursor=pointer]:
+                  - img
+      - generic [ref=e1362]:
+        - figure [ref=e1364]:
+          - link "Fate/strange Fake" [ref=e1365] [cursor=pointer]:
+            - /url: https://bgm.tv/subject/443831
+            - img "Fate/strange Fake" [ref=e1366]
+          - list [ref=e1367]:
+            - listitem [ref=e1368]:
+              - generic [ref=e1369]: "# 933"
+            - listitem [ref=e1370]:
+              - generic [ref=e1371]:
+                - img
+                - text: "7.5"
+          - list [ref=e1372]:
+            - listitem [ref=e1373]:
+              - link "绫香·沙条" [ref=e1374] [cursor=pointer]:
+                - /url: https://bgm.tv/character/107687
+                - img "绫香·沙条" [ref=e1376]
+              - link "理查一世" [ref=e1377] [cursor=pointer]:
+                - /url: https://bgm.tv/character/38176
+                - img "理查一世" [ref=e1379]
+              - link "蒂妮·切尔克" [ref=e1380] [cursor=pointer]:
+                - /url: https://bgm.tv/character/50143
+                - img "蒂妮·切尔克" [ref=e1382]
+              - link "吉尔伽美什" [ref=e1383] [cursor=pointer]:
+                - /url: https://bgm.tv/character/1227
+                - img "吉尔伽美什" [ref=e1385]
+              - link "银狼合成兽" [ref=e1386] [cursor=pointer]:
+                - /url: https://bgm.tv/character/123460
+                - img "银狼合成兽" [ref=e1388]
+              - link "恩奇都" [ref=e1389] [cursor=pointer]:
+                - /url: https://bgm.tv/character/29849
+                - img "恩奇都" [ref=e1391]
+              - link "弗拉特·艾斯卡尔德斯" [ref=e1392] [cursor=pointer]:
+                - /url: https://bgm.tv/character/50146
+                - img "弗拉特·艾斯卡尔德斯" [ref=e1394]
+            - listitem [ref=e1395]:
+              - list [ref=e1396]:
+                - listitem [ref=e1397]:
+                  - generic [ref=e1398]:
+                    - img
+                    - text: 2026-01-03
+                - listitem [ref=e1399]:
+                  - generic [ref=e1400]:
+                    - img
+                    - text: 13 eps
+        - generic [ref=e1401]:
+          - generic [ref=e1402]:
+            - generic [ref=e1403]: Fate/strange Fake
+            - button [ref=e1404] [cursor=pointer]:
+              - img
+          - generic [ref=e1405]: Fate/strange Fake
+          - list [ref=e1406]:
+            - listitem [ref=e1407]:
+              - generic [ref=e1408]:
+                - text: Fate
+                - button [ref=e1409] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1410]:
+              - generic [ref=e1411]:
+                - text: A-1Pictures
+                - button [ref=e1412] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1413]:
+              - generic [ref=e1414]:
+                - text: 战斗
+                - button [ref=e1415] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1416]:
+              - generic [ref=e1417]:
+                - text: 奇幻
+                - button [ref=e1418] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1419]:
+              - generic [ref=e1420]:
+                - text: Type-Moon
+                - button [ref=e1421] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1422]:
+              - generic [ref=e1423]:
+                - text: 轻小说改
+                - button [ref=e1424] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1425]:
+              - generic [ref=e1426]:
+                - text: 小说改
+                - button [ref=e1427] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1428]:
+              - generic [ref=e1429]:
+                - text: 成田良悟
+                - button [ref=e1430] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1431]:
+              - generic [ref=e1432]:
+                - text: "2026"
+                - button [ref=e1433] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1434]:
+              - generic [ref=e1435]:
+                - text: 轻改
+                - button [ref=e1436] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1437]:
+              - generic [ref=e1438]:
+                - text: 榎户骏
+                - button [ref=e1439] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1440]:
+              - generic [ref=e1441]:
+                - text: 坂诘嵩仁
+                - button [ref=e1442] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1443]:
+              - generic [ref=e1444]:
+                - text: 坂詰嵩仁
+                - button [ref=e1445] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1446]:
+              - generic [ref=e1447]:
+                - text: 群像
+                - button [ref=e1448] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1449]:
+              - generic [ref=e1450]:
+                - text: 榎戸駿
+                - button [ref=e1451] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1452]:
+              - generic [ref=e1453]:
+                - text: 热血
+                - button [ref=e1454] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1455]:
+              - generic [ref=e1456]:
+                - text: 未定档
+                - button [ref=e1457] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1458]:
+              - generic [ref=e1459]:
+                - text: 音乐
+                - button [ref=e1460] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1461]:
+              - generic [ref=e1462]:
+                - text: A-1
+                - button [ref=e1463] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1464]:
+              - generic [ref=e1465]:
+                - text: 泽野弘之
+                - button [ref=e1466] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1467]:
+              - generic [ref=e1468]:
+                - text: 日本动画
+                - button [ref=e1469] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1470]:
+              - generic [ref=e1471]:
+                - text: 动画
+                - button [ref=e1472] [cursor=pointer]:
+                  - img
+      - generic [ref=e1473]:
+        - figure [ref=e1475]:
+          - link "辉夜大小姐想让我告白 通往大人的阶梯" [ref=e1476] [cursor=pointer]:
+            - /url: https://bgm.tv/subject/565802
+            - img "辉夜大小姐想让我告白 通往大人的阶梯" [ref=e1477]
+          - list [ref=e1478]:
+            - listitem [ref=e1479]:
+              - generic [ref=e1480]: "# 93"
+            - listitem [ref=e1481]:
+              - generic [ref=e1482]:
+                - img
+                - text: "8.3"
+          - list [ref=e1483]:
+            - listitem [ref=e1484]:
+              - link "四宫辉夜" [ref=e1485] [cursor=pointer]:
+                - /url: https://bgm.tv/character/66899
+                - img "四宫辉夜" [ref=e1487]
+              - link "白银御行" [ref=e1488] [cursor=pointer]:
+                - /url: https://bgm.tv/character/66900
+                - img "白银御行" [ref=e1490]
+              - link "藤原千花" [ref=e1491] [cursor=pointer]:
+                - /url: https://bgm.tv/character/67408
+                - img "藤原千花" [ref=e1493]
+              - link "石上优" [ref=e1494] [cursor=pointer]:
+                - /url: https://bgm.tv/character/67409
+                - img "石上优" [ref=e1496]
+              - link "伊井野弥子" [ref=e1497] [cursor=pointer]:
+                - /url: https://bgm.tv/character/69198
+                - img "伊井野弥子" [ref=e1499]
+            - listitem [ref=e1500]:
+              - list [ref=e1501]:
+                - listitem [ref=e1502]:
+                  - generic [ref=e1503]:
+                    - img
+                    - text: 2025-12-31
+                - listitem [ref=e1504]:
+                  - generic [ref=e1505]:
+                    - img
+                    - text: 2 eps
+        - generic [ref=e1506]:
+          - generic [ref=e1507]:
+            - generic [ref=e1508]: 辉夜大小姐想让我告白 通往大人的阶梯
+            - button [ref=e1509] [cursor=pointer]:
+              - img
+          - generic [ref=e1510]: かぐや様は告らせたい 大人への階段
+          - list [ref=e1511]:
+            - listitem [ref=e1512]:
+              - generic [ref=e1513]:
+                - text: 恋爱
+                - button [ref=e1514] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1515]:
+              - generic [ref=e1516]:
+                - text: A-1Pictures
+                - button [ref=e1517] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1518]:
+              - generic [ref=e1519]:
+                - text: 校园
+                - button [ref=e1520] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1521]:
+              - generic [ref=e1522]:
+                - text: 漫画改
+                - button [ref=e1523] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1524]:
+              - generic [ref=e1525]:
+                - text: OVA
+                - button [ref=e1526] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1527]:
+              - generic [ref=e1528]:
+                - text: 搞笑
+                - button [ref=e1529] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1530]:
+              - generic [ref=e1531]:
+                - text: "2025"
+                - button [ref=e1532] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1533]:
+              - generic [ref=e1534]:
+                - text: 辉夜大小姐想让我告白
+                - button [ref=e1535] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1536]:
+              - generic [ref=e1537]:
+                - text: 漫改
+                - button [ref=e1538] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1539]:
+              - generic [ref=e1540]:
+                - text: 日常
+                - button [ref=e1541] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1542]:
+              - generic [ref=e1543]:
+                - text: 赤坂明
+                - button [ref=e1544] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1545]:
+              - generic [ref=e1546]:
+                - text: 青春
+                - button [ref=e1547] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1548]:
+              - generic [ref=e1549]:
+                - text: 畠山守
+                - button [ref=e1550] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1551]:
+              - generic [ref=e1552]:
+                - text: 喜剧
+                - button [ref=e1553] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1554]:
+              - generic [ref=e1555]:
+                - text: 小俣真一
+                - button [ref=e1556] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1557]:
+              - generic [ref=e1558]:
+                - text: 续作
+                - button [ref=e1559] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1560]:
+              - generic [ref=e1561]:
+                - text: 恋爱喜剧
+                - button [ref=e1562] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1563]:
+              - generic [ref=e1564]:
+                - text: TVSP
+                - button [ref=e1565] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1566]:
+              - generic [ref=e1567]:
+                - text: 纯爱
+                - button [ref=e1568] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1569]:
+              - generic [ref=e1570]:
+                - text: 未定档
+                - button [ref=e1571] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1572]:
+              - generic [ref=e1573]:
+                - text: 赤坂アカ
+                - button [ref=e1574] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1575]:
+              - generic [ref=e1576]:
+                - text: 神作
+                - button [ref=e1577] [cursor=pointer]:
+                  - img
+      - generic [ref=e1578]:
+        - figure [ref=e1580]:
+          - link "相反的你和我" [ref=e1581] [cursor=pointer]:
+            - /url: https://bgm.tv/subject/525565
+            - img "相反的你和我" [ref=e1582]
+          - list [ref=e1583]:
+            - listitem [ref=e1584]:
+              - generic [ref=e1585]: "# 619"
+            - listitem [ref=e1586]:
+              - generic [ref=e1587]:
+                - img
+                - text: "7.7"
+          - list [ref=e1588]:
+            - listitem [ref=e1589]:
+              - link "谷悠介" [ref=e1590] [cursor=pointer]:
+                - /url: https://bgm.tv/character/166838
+                - img "谷悠介" [ref=e1592]
+              - link "铃木实优" [ref=e1593] [cursor=pointer]:
+                - /url: https://bgm.tv/character/166839
+                - img "铃木实优" [ref=e1595]
+            - listitem [ref=e1596]:
+              - list [ref=e1597]:
+                - listitem [ref=e1598]:
+                  - generic [ref=e1599]:
+                    - img
+                    - text: 2026-01-11
+                - listitem [ref=e1600]:
+                  - generic [ref=e1601]:
+                    - img
+                    - text: 12 eps
+        - generic [ref=e1602]:
+          - generic [ref=e1603]:
+            - generic [ref=e1604]: 相反的你和我
+            - button [ref=e1605] [cursor=pointer]:
+              - img
+          - generic [ref=e1606]: 正反対な君と僕
+          - list [ref=e1607]:
+            - listitem [ref=e1608]:
+              - generic [ref=e1609]:
+                - text: 恋爱
+                - button [ref=e1610] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1611]:
+              - generic [ref=e1612]:
+                - text: 校园
+                - button [ref=e1613] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1614]:
+              - generic [ref=e1615]:
+                - text: 漫画改
+                - button [ref=e1616] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1617]:
+              - generic [ref=e1618]:
+                - text: LapinTrack
+                - button [ref=e1619] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1620]:
+              - generic [ref=e1621]:
+                - text: 搞笑
+                - button [ref=e1622] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1623]:
+              - generic [ref=e1624]:
+                - text: "2026"
+                - button [ref=e1625] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1626]:
+              - generic [ref=e1627]:
+                - text: 漫改
+                - button [ref=e1628] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1629]:
+              - generic [ref=e1630]:
+                - text: 日常
+                - button [ref=e1631] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1632]:
+              - generic [ref=e1633]:
+                - text: 少年向
+                - button [ref=e1634] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1635]:
+              - generic [ref=e1636]:
+                - text: 长友孝和
+                - button [ref=e1637] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1638]:
+              - generic [ref=e1639]:
+                - text: 青春
+                - button [ref=e1640] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1641]:
+              - generic [ref=e1642]:
+                - text: 2026冬
+                - button [ref=e1643] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1644]:
+              - generic [ref=e1645]:
+                - text: ラパントラック
+                - button [ref=e1646] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1647]:
+              - generic [ref=e1648]:
+                - text: 喜剧
+                - button [ref=e1649] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1650]:
+              - generic [ref=e1651]:
+                - text: 群像
+                - button [ref=e1652] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1653]:
+              - generic [ref=e1654]:
+                - text: 長友孝和
+                - button [ref=e1655] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1656]:
+              - generic [ref=e1657]:
+                - text: 纯爱
+                - button [ref=e1658] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1659]:
+              - generic [ref=e1660]:
+                - text: 治愈
+                - button [ref=e1661] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1662]:
+              - generic [ref=e1663]:
+                - text: 游戏改
+                - button [ref=e1664] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1665]:
+              - generic [ref=e1666]:
+                - text: 内海照子
+                - button [ref=e1667] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1668]:
+              - generic [ref=e1669]:
+                - text: 铃代纱弓
+                - button [ref=e1670] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1671]:
+              - generic [ref=e1672]:
+                - text: 鈴代紗弓
+                - button [ref=e1673] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1674]:
+              - generic [ref=e1675]:
+                - text: 动画
+                - button [ref=e1676] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1677]:
+              - generic [ref=e1678]:
+                - text: 相反的你和我
+                - button [ref=e1679] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1680]:
+              - generic [ref=e1681]:
+                - text: 坂田将吾
+                - button [ref=e1682] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1683]:
+              - generic [ref=e1684]:
+                - text: TVA
+                - button [ref=e1685] [cursor=pointer]:
+                  - img
+      - generic [ref=e1686]:
+        - figure [ref=e1688]:
+          - link "【我推的孩子】 第三季" [ref=e1689] [cursor=pointer]:
+            - /url: https://bgm.tv/subject/517057
+            - img "【我推的孩子】 第三季" [ref=e1690]
+          - list [ref=e1691]:
+            - listitem [ref=e1692]:
+              - generic [ref=e1693]: "# 1809"
+            - listitem [ref=e1694]:
+              - generic [ref=e1695]:
+                - img
+                - text: "7.2"
+          - list [ref=e1696]:
+            - listitem [ref=e1697]:
+              - link "阿库亚 / 星野爱久爱海" [ref=e1698] [cursor=pointer]:
+                - /url: https://bgm.tv/character/102125
+                - img "阿库亚 / 星野爱久爱海" [ref=e1700]
+              - link "露比 / 星野瑠美衣" [ref=e1701] [cursor=pointer]:
+                - /url: https://bgm.tv/character/102126
+                - img "露比 / 星野瑠美衣" [ref=e1703]
+            - listitem [ref=e1704]:
+              - list [ref=e1705]:
+                - listitem [ref=e1706]:
+                  - generic [ref=e1707]:
+                    - img
+                    - text: 2026-01-14
+                - listitem [ref=e1708]:
+                  - generic [ref=e1709]:
+                    - img
+                    - text: 11 eps
+        - generic [ref=e1710]:
+          - generic [ref=e1711]:
+            - generic [ref=e1712]: 【我推的孩子】 第三季
+            - button [ref=e1713] [cursor=pointer]:
+              - img
+          - generic [ref=e1714]: 【推しの子】 第3期
+          - list [ref=e1715]:
+            - listitem [ref=e1716]:
+              - generic [ref=e1717]:
+                - text: 动画工房
+                - button [ref=e1718] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1719]:
+              - generic [ref=e1720]:
+                - text: 漫画改
+                - button [ref=e1721] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1722]:
+              - generic [ref=e1723]:
+                - text: 偶像
+                - button [ref=e1724] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1725]:
+              - generic [ref=e1726]:
+                - text: 恋爱
+                - button [ref=e1727] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1728]:
+              - generic [ref=e1729]:
+                - text: 悬疑
+                - button [ref=e1730] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1731]:
+              - generic [ref=e1732]:
+                - text: 赤坂明
+                - button [ref=e1733] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1734]:
+              - generic [ref=e1735]:
+                - text: "2026"
+                - button [ref=e1736] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1737]:
+              - generic [ref=e1738]:
+                - text: 我推的孩子
+                - button [ref=e1739] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1740]:
+              - generic [ref=e1741]:
+                - text: 漫改
+                - button [ref=e1742] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1743]:
+              - generic [ref=e1744]:
+                - text: 奇幻
+                - button [ref=e1745] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1746]:
+              - generic [ref=e1747]:
+                - text: 复仇
+                - button [ref=e1748] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1749]:
+              - generic [ref=e1750]:
+                - text: 续作
+                - button [ref=e1751] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1752]:
+              - generic [ref=e1753]:
+                - text: 职场
+                - button [ref=e1754] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1755]:
+              - generic [ref=e1756]:
+                - text: 青年向
+                - button [ref=e1757] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1758]:
+              - generic [ref=e1759]:
+                - text: 平牧大辅
+                - button [ref=e1760] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1761]:
+              - generic [ref=e1762]:
+                - text: 党争
+                - button [ref=e1763] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1764]:
+              - generic [ref=e1765]:
+                - text: 平牧大輔
+                - button [ref=e1766] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1767]:
+              - generic [ref=e1768]:
+                - text: 動画工房
+                - button [ref=e1769] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1770]:
+              - generic [ref=e1771]:
+                - text: 田中仁
+                - button [ref=e1772] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1773]:
+              - generic [ref=e1774]:
+                - text: 搞笑
+                - button [ref=e1775] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1776]:
+              - generic [ref=e1777]:
+                - text: 未定档
+                - button [ref=e1778] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1779]:
+              - generic [ref=e1780]:
+                - text: 日常
+                - button [ref=e1781] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1782]:
+              - generic [ref=e1783]:
+                - text: 后宫
+                - button [ref=e1784] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1785]:
+              - generic [ref=e1786]:
+                - text: 2026冬
+                - button [ref=e1787] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1788]:
+              - generic [ref=e1789]:
+                - text: 大久保瑠美
+                - button [ref=e1790] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1791]:
+              - generic [ref=e1792]:
+                - text: 季番
+                - button [ref=e1793] [cursor=pointer]:
+                  - img
+      - generic [ref=e1794]:
+        - figure [ref=e1796]:
+          - link "我们不可能成为恋人！绝对不行。 (※似乎可行？) 〜再次闪耀！〜" [ref=e1797] [cursor=pointer]:
+            - /url: https://bgm.tv/subject/587454
+            - img "我们不可能成为恋人！绝对不行。 (※似乎可行？) 〜再次闪耀！〜" [ref=e1798]
+          - list [ref=e1799]:
+            - listitem [ref=e1800]:
+              - generic [ref=e1801]: "# 1294"
+            - listitem [ref=e1802]:
+              - generic [ref=e1803]:
+                - img
+                - text: "7.3"
+          - list [ref=e1804]:
+            - listitem [ref=e1805]:
+              - link "甘织玲奈子" [ref=e1806] [cursor=pointer]:
+                - /url: https://bgm.tv/character/101792
+                - img "甘织玲奈子" [ref=e1808]
+              - link "王冢真唯" [ref=e1809] [cursor=pointer]:
+                - /url: https://bgm.tv/character/101793
+                - img "王冢真唯" [ref=e1811]
+              - link "濑名紫阳花" [ref=e1812] [cursor=pointer]:
+                - /url: https://bgm.tv/character/101794
+                - img "濑名紫阳花" [ref=e1814]
+              - link "琴纱月" [ref=e1815] [cursor=pointer]:
+                - /url: https://bgm.tv/character/101795
+                - img "琴纱月" [ref=e1817]
+              - link "小柳香穗" [ref=e1818] [cursor=pointer]:
+                - /url: https://bgm.tv/character/101796
+                - img "小柳香穗" [ref=e1820]
+            - listitem [ref=e1821]:
+              - list [ref=e1822]:
+                - listitem [ref=e1823]:
+                  - generic [ref=e1824]:
+                    - img
+                    - text: 2026-01-01
+                - listitem [ref=e1825]:
+                  - generic [ref=e1826]:
+                    - img
+                    - text: 5 eps
+        - generic [ref=e1827]:
+          - generic [ref=e1828]:
+            - generic [ref=e1829]: 我们不可能成为恋人！绝对不行。 (※似乎可行？) 〜再次闪耀！〜
+            - button [ref=e1830] [cursor=pointer]:
+              - img
+          - generic [ref=e1831]: わたしが恋人になれるわけないじゃん、ムリムリ!（※ムリじゃなかった!?）〜ネクストシャイン！〜
+          - list [ref=e1832]:
+            - listitem [ref=e1833]:
+              - generic [ref=e1834]:
+                - text: 百合
+                - button [ref=e1835] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1836]:
+              - generic [ref=e1837]:
+                - text: 后宫
+                - button [ref=e1838] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1839]:
+              - generic [ref=e1840]:
+                - text: 校园
+                - button [ref=e1841] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1842]:
+              - generic [ref=e1843]:
+                - text: 喜剧
+                - button [ref=e1844] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1845]:
+              - generic [ref=e1846]:
+                - text: 恋爱
+                - button [ref=e1847] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1848]:
+              - generic [ref=e1849]:
+                - text: studioMOTHER
+                - button [ref=e1850] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1851]:
+              - generic [ref=e1852]:
+                - text: 轻小说改
+                - button [ref=e1853] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1854]:
+              - generic [ref=e1855]:
+                - text: 小说改
+                - button [ref=e1856] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1857]:
+              - generic [ref=e1858]:
+                - text: "2026"
+                - button [ref=e1859] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1860]:
+              - generic [ref=e1861]:
+                - text: 剧场版
+                - button [ref=e1862] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1863]:
+              - generic [ref=e1864]:
+                - text: 搞笑
+                - button [ref=e1865] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1866]:
+              - generic [ref=e1867]:
+                - text: 轻改
+                - button [ref=e1868] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1869]:
+              - generic [ref=e1870]:
+                - text: OVA
+                - button [ref=e1871] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1872]:
+              - generic [ref=e1873]:
+                - text: 内沼菜摘
+                - button [ref=e1874] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1875]:
+              - generic [ref=e1876]:
+                - text: 续作
+                - button [ref=e1877] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1878]:
+              - generic [ref=e1879]:
+                - text: 日常
+                - button [ref=e1880] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1881]:
+              - generic [ref=e1882]:
+                - text: 荒川稔久
+                - button [ref=e1883] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1884]:
+              - generic [ref=e1885]:
+                - text: 恋人不行
+                - button [ref=e1886] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1887]:
+              - generic [ref=e1888]:
+                - text: 青春
+                - button [ref=e1889] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1890]:
+              - generic [ref=e1891]:
+                - text: 真百合
+                - button [ref=e1892] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1893]:
+              - generic [ref=e1894]:
+                - text: 大女主
+                - button [ref=e1895] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1896]:
+              - generic [ref=e1897]:
+                - text: studio_MOTHER
+                - button [ref=e1898] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1899]:
+              - generic [ref=e1900]:
+                - text: 再次神人！
+                - button [ref=e1901] [cursor=pointer]:
+                  - img
+      - generic [ref=e1902]:
+        - figure [ref=e1904]:
+          - link "金牌得主 第二季" [ref=e1905] [cursor=pointer]:
+            - /url: https://bgm.tv/subject/548818
+            - img "金牌得主 第二季" [ref=e1906]
+          - list [ref=e1907]:
+            - listitem [ref=e1908]:
+              - generic [ref=e1909]: "# 477"
+            - listitem [ref=e1910]:
+              - generic [ref=e1911]:
+                - img
+                - text: "7.7"
+          - list [ref=e1912]:
+            - listitem [ref=e1913]:
+              - link "结束祈" [ref=e1914] [cursor=pointer]:
+                - /url: https://bgm.tv/character/92177
+                - img "结束祈" [ref=e1916]
+              - link "明浦路司" [ref=e1917] [cursor=pointer]:
+                - /url: https://bgm.tv/character/112477
+                - img "明浦路司" [ref=e1919]
+            - listitem [ref=e1920]:
+              - list [ref=e1921]:
+                - listitem [ref=e1922]:
+                  - generic [ref=e1923]:
+                    - img
+                    - text: 2026-01-24
+                - listitem [ref=e1924]:
+                  - generic [ref=e1925]:
+                    - img
+                    - text: 9 eps
+        - generic [ref=e1926]:
+          - generic [ref=e1927]:
+            - generic [ref=e1928]: 金牌得主 第二季
+            - button [ref=e1929] [cursor=pointer]:
+              - img
+          - generic [ref=e1930]: メダリスト 第2期
+          - list [ref=e1931]:
+            - listitem [ref=e1932]:
+              - generic [ref=e1933]:
+                - text: 运动
+                - button [ref=e1934] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1935]:
+              - generic [ref=e1936]:
+                - text: 漫画改
+                - button [ref=e1937] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1938]:
+              - generic [ref=e1939]:
+                - text: Engi
+                - button [ref=e1940] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1941]:
+              - generic [ref=e1942]:
+                - text: 花滑
+                - button [ref=e1943] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1944]:
+              - generic [ref=e1945]:
+                - text: "2026"
+                - button [ref=e1946] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1947]:
+              - generic [ref=e1948]:
+                - text: 竞技
+                - button [ref=e1949] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1950]:
+              - generic [ref=e1951]:
+                - text: 漫改
+                - button [ref=e1952] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1953]:
+              - generic [ref=e1954]:
+                - text: 续作
+                - button [ref=e1955] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1956]:
+              - generic [ref=e1957]:
+                - text: 花田十辉
+                - button [ref=e1958] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1959]:
+              - generic [ref=e1960]:
+                - text: 金牌得主
+                - button [ref=e1961] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1962]:
+              - generic [ref=e1963]:
+                - text: 滑冰
+                - button [ref=e1964] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1965]:
+              - generic [ref=e1966]:
+                - text: 鹤舞墨鱼太
+                - button [ref=e1967] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1968]:
+              - generic [ref=e1969]:
+                - text: 励志
+                - button [ref=e1970] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1971]:
+              - generic [ref=e1972]:
+                - text: 热血
+                - button [ref=e1973] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1974]:
+              - generic [ref=e1975]:
+                - text: 山本靖贵
+                - button [ref=e1976] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1977]:
+              - generic [ref=e1978]:
+                - text: 萝莉
+                - button [ref=e1979] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1980]:
+              - generic [ref=e1981]:
+                - text: 治愈
+                - button [ref=e1982] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1983]:
+              - generic [ref=e1984]:
+                - text: 未定档
+                - button [ref=e1985] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1986]:
+              - generic [ref=e1987]:
+                - text: 山本靖貴
+                - button [ref=e1988] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1989]:
+              - generic [ref=e1990]:
+                - text: 林友树
+                - button [ref=e1991] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1992]:
+              - generic [ref=e1993]:
+                - text: 市之濑加那
+                - button [ref=e1994] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1995]:
+              - generic [ref=e1996]:
+                - text: 科普
+                - button [ref=e1997] [cursor=pointer]:
+                  - img
+            - listitem [ref=e1998]:
+              - generic [ref=e1999]:
+                - text: 春濑夏美
+                - button [ref=e2000] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2001]:
+              - generic [ref=e2002]:
+                - text: 大冢刚央
+                - button [ref=e2003] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2004]:
+              - generic [ref=e2005]:
+                - text: 内田雄马
+                - button [ref=e2006] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2007]:
+              - generic [ref=e2008]:
+                - text: 花田十輝
+                - button [ref=e2009] [cursor=pointer]:
+                  - img
+      - generic [ref=e2010]:
+        - figure [ref=e2012]:
+          - link "异国日记" [ref=e2013] [cursor=pointer]:
+            - /url: https://bgm.tv/subject/493016
+            - img "异国日记" [ref=e2014]
+          - list [ref=e2015]:
+            - listitem [ref=e2016]:
+              - generic [ref=e2017]: "# 89"
+            - listitem [ref=e2018]:
+              - generic [ref=e2019]:
+                - img
+                - text: "8.3"
+          - list [ref=e2020]:
+            - listitem [ref=e2021]:
+              - link "高代槙生" [ref=e2022] [cursor=pointer]:
+                - /url: https://bgm.tv/character/183514
+                - img "高代槙生" [ref=e2024]
+              - link "田汲朝" [ref=e2025] [cursor=pointer]:
+                - /url: https://bgm.tv/character/183515
+                - img "田汲朝" [ref=e2027]
+            - listitem [ref=e2028]:
+              - list [ref=e2029]:
+                - listitem [ref=e2030]:
+                  - generic [ref=e2031]:
+                    - img
+                    - text: 2026-01-04
+                - listitem [ref=e2032]:
+                  - generic [ref=e2033]:
+                    - img
+                    - text: 13 eps
+        - generic [ref=e2034]:
+          - generic [ref=e2035]:
+            - generic [ref=e2036]: 异国日记
+            - button [ref=e2037] [cursor=pointer]:
+              - img
+          - generic [ref=e2038]: 違国日記
+          - list [ref=e2039]:
+            - listitem [ref=e2040]:
+              - generic [ref=e2041]:
+                - text: 漫画改
+                - button [ref=e2042] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2043]:
+              - generic [ref=e2044]:
+                - text: 治愈
+                - button [ref=e2045] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2046]:
+              - generic [ref=e2047]:
+                - text: 日常
+                - button [ref=e2048] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2049]:
+              - generic [ref=e2050]:
+                - text: 牛尾憲輔
+                - button [ref=e2051] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2052]:
+              - generic [ref=e2053]:
+                - text: "2026"
+                - button [ref=e2054] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2055]:
+              - generic [ref=e2056]:
+                - text: 朱夏
+                - button [ref=e2057] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2058]:
+              - generic [ref=e2059]:
+                - text: 文艺
+                - button [ref=e2060] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2061]:
+              - generic [ref=e2062]:
+                - text: 漫改
+                - button [ref=e2063] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2064]:
+              - generic [ref=e2065]:
+                - text: 牛尾宪辅
+                - button [ref=e2066] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2067]:
+              - generic [ref=e2068]:
+                - text: 大城美幸
+                - button [ref=e2069] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2070]:
+              - generic [ref=e2071]:
+                - text: 泽城美雪
+                - button [ref=e2072] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2073]:
+              - generic [ref=e2074]:
+                - text: 喜安浩平
+                - button [ref=e2075] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2076]:
+              - generic [ref=e2077]:
+                - text: 亲情
+                - button [ref=e2078] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2079]:
+              - generic [ref=e2080]:
+                - text: 百合
+                - button [ref=e2081] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2082]:
+              - generic [ref=e2083]:
+                - text: 青春
+                - button [ref=e2084] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2085]:
+              - generic [ref=e2086]:
+                - text: 沢城みゆき
+                - button [ref=e2087] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2088]:
+              - generic [ref=e2089]:
+                - text: TVA
+                - button [ref=e2090] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2091]:
+              - generic [ref=e2092]:
+                - text: 神作
+                - button [ref=e2093] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2094]:
+              - generic [ref=e2095]:
+                - text: 催泪
+                - button [ref=e2096] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2097]:
+              - generic [ref=e2098]:
+                - text: 异国日记
+                - button [ref=e2099] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2100]:
+              - generic [ref=e2101]:
+                - text: 诸星堇
+                - button [ref=e2102] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2103]:
+              - generic [ref=e2104]:
+                - text: 女性向
+                - button [ref=e2105] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2106]:
+              - generic [ref=e2107]:
+                - text: 日本动画
+                - button [ref=e2108] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2109]:
+              - generic [ref=e2110]:
+                - text: 2026冬
+                - button [ref=e2111] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2112]:
+              - generic [ref=e2113]:
+                - text: 出合小都美
+                - button [ref=e2114] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2115]:
+              - generic [ref=e2116]:
+                - text: 校园
+                - button [ref=e2117] [cursor=pointer]:
+                  - img
+      - generic [ref=e2118]:
+        - figure [ref=e2120]:
+          - link "咒术回战 死灭回游 前篇" [ref=e2121] [cursor=pointer]:
+            - /url: https://bgm.tv/subject/472741
+            - img "咒术回战 死灭回游 前篇" [ref=e2122]
+          - list [ref=e2123]:
+            - listitem [ref=e2124]:
+              - generic [ref=e2125]: "# 377"
+            - listitem [ref=e2126]:
+              - generic [ref=e2127]:
+                - img
+                - text: "7.8"
+          - list [ref=e2128]:
+            - listitem [ref=e2129]:
+              - link "虎杖悠仁" [ref=e2130] [cursor=pointer]:
+                - /url: https://bgm.tv/character/73336
+                - img "虎杖悠仁" [ref=e2132]
+              - link "伏黑惠" [ref=e2133] [cursor=pointer]:
+                - /url: https://bgm.tv/character/73337
+                - img "伏黑惠" [ref=e2135]
+            - listitem [ref=e2136]:
+              - list [ref=e2137]:
+                - listitem [ref=e2138]:
+                  - generic [ref=e2139]:
+                    - img
+                    - text: 2026-01-08
+                - listitem [ref=e2140]:
+                  - generic [ref=e2141]:
+                    - img
+                    - text: 12 eps
+        - generic [ref=e2142]:
+          - generic [ref=e2143]:
+            - generic [ref=e2144]: 咒术回战 死灭回游 前篇
+            - button [ref=e2145] [cursor=pointer]:
+              - img
+          - generic [ref=e2146]: 呪術廻戦 死滅回游 前編
+          - list [ref=e2147]:
+            - listitem [ref=e2148]:
+              - generic [ref=e2149]:
+                - text: MAPPA
+                - button [ref=e2150] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2151]:
+              - generic [ref=e2152]:
+                - text: 战斗
+                - button [ref=e2153] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2154]:
+              - generic [ref=e2155]:
+                - text: 漫画改
+                - button [ref=e2156] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2157]:
+              - generic [ref=e2158]:
+                - text: 奇幻
+                - button [ref=e2159] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2160]:
+              - generic [ref=e2161]:
+                - text: 热血
+                - button [ref=e2162] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2163]:
+              - generic [ref=e2164]:
+                - text: "2026"
+                - button [ref=e2165] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2166]:
+              - generic [ref=e2167]:
+                - text: 咒术回战
+                - button [ref=e2168] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2169]:
+              - generic [ref=e2170]:
+                - text: 漫改
+                - button [ref=e2171] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2172]:
+              - generic [ref=e2173]:
+                - text: 御所园翔太
+                - button [ref=e2174] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2175]:
+              - generic [ref=e2176]:
+                - text: 续作
+                - button [ref=e2177] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2178]:
+              - generic [ref=e2179]:
+                - text: 咒術迴戰
+                - button [ref=e2180] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2181]:
+              - generic [ref=e2182]:
+                - text: 少年向
+                - button [ref=e2183] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2184]:
+              - generic [ref=e2185]:
+                - text: JUMP
+                - button [ref=e2186] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2187]:
+              - generic [ref=e2188]:
+                - text: 未定档
+                - button [ref=e2189] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2190]:
+              - generic [ref=e2191]:
+                - text: 御所園翔太
+                - button [ref=e2192] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2193]:
+              - generic [ref=e2194]:
+                - text: 日本动画
+                - button [ref=e2195] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2196]:
+              - generic [ref=e2197]:
+                - text: 日漫
+                - button [ref=e2198] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2199]:
+              - generic [ref=e2200]:
+                - text: 濑古浩司
+                - button [ref=e2201] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2202]:
+              - generic [ref=e2203]:
+                - text: 民工漫
+                - button [ref=e2204] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2205]:
+              - generic [ref=e2206]:
+                - text: 搞笑
+                - button [ref=e2207] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2208]:
+              - generic [ref=e2209]:
+                - text: 动画
+                - button [ref=e2210] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2211]:
+              - generic [ref=e2212]:
+                - text: 作画
+                - button [ref=e2213] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2214]:
+              - generic [ref=e2215]:
+                - text: 瀬古浩司
+                - button [ref=e2216] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2217]:
+              - generic [ref=e2218]:
+                - text: 季番
+                - button [ref=e2219] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2220]:
+              - generic [ref=e2221]:
+                - text: 呪術廻戦
+                - button [ref=e2222] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2223]:
+              - generic [ref=e2224]:
+                - text: 榎木淳弥
+                - button [ref=e2225] [cursor=pointer]:
+                  - img
+      - generic [ref=e2226]:
+        - figure [ref=e2228]:
+          - link "判处勇者刑 惩罚勇者9004队刑务纪录" [ref=e2229] [cursor=pointer]:
+            - /url: https://bgm.tv/subject/445905
+            - img "判处勇者刑 惩罚勇者9004队刑务纪录" [ref=e2230]
+          - list [ref=e2231]:
+            - listitem [ref=e2232]:
+              - generic [ref=e2233]: "# 4150"
+            - listitem [ref=e2234]:
+              - generic [ref=e2235]:
+                - img
+                - text: "6.7"
+          - list [ref=e2236]:
+            - listitem [ref=e2237]:
+              - link "赛罗·佛鲁巴兹" [ref=e2238] [cursor=pointer]:
+                - /url: https://bgm.tv/character/169682
+                - img "赛罗·佛鲁巴兹" [ref=e2240]
+              - link "泰奥莉塔" [ref=e2241] [cursor=pointer]:
+                - /url: https://bgm.tv/character/169683
+                - img "泰奥莉塔" [ref=e2243]
+            - listitem [ref=e2244]:
+              - list [ref=e2245]:
+                - listitem [ref=e2246]:
+                  - generic [ref=e2247]:
+                    - img
+                    - text: 2026-01-03
+                - listitem [ref=e2248]:
+                  - generic [ref=e2249]:
+                    - img
+                    - text: 12 eps
+        - generic [ref=e2250]:
+          - generic [ref=e2251]:
+            - generic [ref=e2252]: 判处勇者刑 惩罚勇者9004队刑务纪录
+            - button [ref=e2253] [cursor=pointer]:
+              - img
+          - generic [ref=e2254]: 勇者刑に処す 懲罰勇者9004隊刑務記録
+          - list [ref=e2255]:
+            - listitem [ref=e2256]:
+              - generic [ref=e2257]:
+                - text: 战斗
+                - button [ref=e2258] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2259]:
+              - generic [ref=e2260]:
+                - text: 奇幻
+                - button [ref=e2261] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2262]:
+              - generic [ref=e2263]:
+                - text: StudioKAI
+                - button [ref=e2264] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2265]:
+              - generic [ref=e2266]:
+                - text: 轻小说改
+                - button [ref=e2267] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2268]:
+              - generic [ref=e2269]:
+                - text: 异世界
+                - button [ref=e2270] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2271]:
+              - generic [ref=e2272]:
+                - text: 小说改
+                - button [ref=e2273] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2274]:
+              - generic [ref=e2275]:
+                - text: "2026"
+                - button [ref=e2276] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2277]:
+              - generic [ref=e2278]:
+                - text: 轻改
+                - button [ref=e2279] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2280]:
+              - generic [ref=e2281]:
+                - text: 高岛宏之
+                - button [ref=e2282] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2283]:
+              - generic [ref=e2284]:
+                - text: 萝莉
+                - button [ref=e2285] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2286]:
+              - generic [ref=e2287]:
+                - text: 热血
+                - button [ref=e2288] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2289]:
+              - generic [ref=e2290]:
+                - text: 高嶋宏之
+                - button [ref=e2291] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2292]:
+              - generic [ref=e2293]:
+                - text: スタジオKAI
+                - button [ref=e2294] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2295]:
+              - generic [ref=e2296]:
+                - text: 复仇
+                - button [ref=e2297] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2298]:
+              - generic [ref=e2299]:
+                - text: 猪原健太
+                - button [ref=e2300] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2301]:
+              - generic [ref=e2302]:
+                - text: 勇者
+                - button [ref=e2303] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2304]:
+              - generic [ref=e2305]:
+                - text: 2026冬
+                - button [ref=e2306] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2307]:
+              - generic [ref=e2308]:
+                - text: 动画
+                - button [ref=e2309] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2310]:
+              - generic [ref=e2311]:
+                - text: 判处勇者刑
+                - button [ref=e2312] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2313]:
+              - generic [ref=e2314]:
+                - text: 松冈祯丞
+                - button [ref=e2315] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2316]:
+              - generic [ref=e2317]:
+                - text: 1月
+                - button [ref=e2318] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2319]:
+              - generic [ref=e2320]:
+                - text: 野田猛
+                - button [ref=e2321] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2322]:
+              - generic [ref=e2323]:
+                - text: 动漫
+                - button [ref=e2324] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2325]:
+              - generic [ref=e2326]:
+                - text: 日本动画
+                - button [ref=e2327] [cursor=pointer]:
+                  - img
+      - generic [ref=e2328]:
+        - figure [ref=e2330]:
+          - link "靠死亡游戏混饭吃。" [ref=e2331] [cursor=pointer]:
+            - /url: https://bgm.tv/subject/510753
+            - img "靠死亡游戏混饭吃。" [ref=e2332]
+          - list [ref=e2333]:
+            - listitem [ref=e2334]:
+              - generic [ref=e2335]: "# 9187"
+            - listitem [ref=e2336]:
+              - generic [ref=e2337]:
+                - img
+                - text: "5.4"
+          - list [ref=e2338]:
+            - listitem [ref=e2339]:
+              - link "幽鬼" [ref=e2340] [cursor=pointer]:
+                - /url: https://bgm.tv/character/171451
+                - img "幽鬼" [ref=e2342]
+            - listitem [ref=e2343]:
+              - list [ref=e2344]:
+                - listitem [ref=e2345]:
+                  - generic [ref=e2346]:
+                    - img
+                    - text: 2026-01-07
+                - listitem [ref=e2347]:
+                  - generic [ref=e2348]:
+                    - img
+                    - text: 11 eps
+        - generic [ref=e2349]:
+          - generic [ref=e2350]:
+            - generic [ref=e2351]: 靠死亡游戏混饭吃。
+            - button [ref=e2352] [cursor=pointer]:
+              - img
+          - generic [ref=e2353]: 死亡遊戯で飯を食う。
+          - list [ref=e2354]:
+            - listitem [ref=e2355]:
+              - generic [ref=e2356]:
+                - text: 悬疑
+                - button [ref=e2357] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2358]:
+              - generic [ref=e2359]:
+                - text: 轻小说改
+                - button [ref=e2360] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2361]:
+              - generic [ref=e2362]:
+                - text: studiodeen
+                - button [ref=e2363] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2364]:
+              - generic [ref=e2365]:
+                - text: 大逃杀
+                - button [ref=e2366] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2367]:
+              - generic [ref=e2368]:
+                - text: 上野壮大
+                - button [ref=e2369] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2370]:
+              - generic [ref=e2371]:
+                - text: 战斗
+                - button [ref=e2372] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2373]:
+              - generic [ref=e2374]:
+                - text: 小说改
+                - button [ref=e2375] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2376]:
+              - generic [ref=e2377]:
+                - text: "2026"
+                - button [ref=e2378] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2379]:
+              - generic [ref=e2380]:
+                - text: 猎奇
+                - button [ref=e2381] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2382]:
+              - generic [ref=e2383]:
+                - text: 轻改
+                - button [ref=e2384] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2385]:
+              - generic [ref=e2386]:
+                - text: 百合
+                - button [ref=e2387] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2388]:
+              - generic [ref=e2389]:
+                - text: 三浦千幸
+                - button [ref=e2390] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2391]:
+              - generic [ref=e2392]:
+                - text: 意识流
+                - button [ref=e2393] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2394]:
+              - generic [ref=e2395]:
+                - text: TVA
+                - button [ref=e2396] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2397]:
+              - generic [ref=e2398]:
+                - text: 池田临太郎
+                - button [ref=e2399] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2400]:
+              - generic [ref=e2401]:
+                - text: 田村睦心
+                - button [ref=e2402] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2403]:
+              - generic [ref=e2404]:
+                - text: 智斗
+                - button [ref=e2405] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2406]:
+              - generic [ref=e2407]:
+                - text: 水濑祈
+                - button [ref=e2408] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2409]:
+              - generic [ref=e2410]:
+                - text: 奇幻
+                - button [ref=e2411] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2412]:
+              - generic [ref=e2413]:
+                - text: 1月
+                - button [ref=e2414] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2415]:
+              - generic [ref=e2416]:
+                - text: 池田臨太郎
+                - button [ref=e2417] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2418]:
+              - generic [ref=e2419]:
+                - text: 虐妹
+                - button [ref=e2420] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2421]:
+              - generic [ref=e2422]:
+                - text: スタジオディーン
+                - button [ref=e2423] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2424]:
+              - generic [ref=e2425]:
+                - text: 美少女
+                - button [ref=e2426] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2427]:
+              - generic [ref=e2428]:
+                - text: 动画
+                - button [ref=e2429] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2430]:
+              - generic [ref=e2431]:
+                - text: 水瀬いのり
+                - button [ref=e2432] [cursor=pointer]:
+                  - img
+      - generic [ref=e2433]:
+        - figure [ref=e2435]:
+          - link "魔都精兵的奴隶 第二季" [ref=e2436] [cursor=pointer]:
+            - /url: https://bgm.tv/subject/486054
+            - img "魔都精兵的奴隶 第二季" [ref=e2437]
+          - list [ref=e2438]:
+            - listitem [ref=e2439]:
+              - generic [ref=e2440]: "# 5174"
+            - listitem [ref=e2441]:
+              - generic [ref=e2442]:
+                - img
+                - text: "6.5"
+          - list [ref=e2443]:
+            - listitem [ref=e2444]:
+              - link "和仓优希" [ref=e2445] [cursor=pointer]:
+                - /url: https://bgm.tv/character/95428
+                - img "和仓优希" [ref=e2447]
+              - link "羽前京香" [ref=e2448] [cursor=pointer]:
+                - /url: https://bgm.tv/character/87821
+                - img "羽前京香" [ref=e2450]
+              - link "东日万凛" [ref=e2451] [cursor=pointer]:
+                - /url: https://bgm.tv/character/87824
+                - img "东日万凛" [ref=e2453]
+              - link "骏河朱朱" [ref=e2454] [cursor=pointer]:
+                - /url: https://bgm.tv/character/87822
+                - img "骏河朱朱" [ref=e2456]
+              - link "大川村宁" [ref=e2457] [cursor=pointer]:
+                - /url: https://bgm.tv/character/87823
+                - img "大川村宁" [ref=e2459]
+            - listitem [ref=e2460]:
+              - list [ref=e2461]:
+                - listitem [ref=e2462]:
+                  - generic [ref=e2463]:
+                    - img
+                    - text: 2026-01-08
+                - listitem [ref=e2464]:
+                  - generic [ref=e2465]:
+                    - img
+                    - text: 12 eps
+        - generic [ref=e2466]:
+          - generic [ref=e2467]:
+            - generic [ref=e2468]: 魔都精兵的奴隶 第二季
+            - button [ref=e2469] [cursor=pointer]:
+              - img
+          - generic [ref=e2470]: 魔都精兵のスレイブ2
+          - list [ref=e2471]:
+            - listitem [ref=e2472]:
+              - generic [ref=e2473]:
+                - text: 后宫
+                - button [ref=e2474] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2475]:
+              - generic [ref=e2476]:
+                - text: 漫画改
+                - button [ref=e2477] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2478]:
+              - generic [ref=e2479]:
+                - text: 战斗
+                - button [ref=e2480] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2481]:
+              - generic [ref=e2482]:
+                - text: 肉番
+                - button [ref=e2483] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2484]:
+              - generic [ref=e2485]:
+                - text: 卖肉
+                - button [ref=e2486] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2487]:
+              - generic [ref=e2488]:
+                - text: 奇幻
+                - button [ref=e2489] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2490]:
+              - generic [ref=e2491]:
+                - text: Passione
+                - button [ref=e2492] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2493]:
+              - generic [ref=e2494]:
+                - text: 漫改
+                - button [ref=e2495] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2496]:
+              - generic [ref=e2497]:
+                - text: "2026"
+                - button [ref=e2498] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2499]:
+              - generic [ref=e2500]:
+                - text: 魔都精兵的奴隸
+                - button [ref=e2501] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2502]:
+              - generic [ref=e2503]:
+                - text: SevenArcs
+                - button [ref=e2504] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2505]:
+              - generic [ref=e2506]:
+                - text: 田村正文
+                - button [ref=e2507] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2508]:
+              - generic [ref=e2509]:
+                - text: HayabusaFilm
+                - button [ref=e2510] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2511]:
+              - generic [ref=e2512]:
+                - text: 续作
+                - button [ref=e2513] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2514]:
+              - generic [ref=e2515]:
+                - text: 山城恋
+                - button [ref=e2516] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2517]:
+              - generic [ref=e2518]:
+                - text: 肉
+                - button [ref=e2519] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2520]:
+              - generic [ref=e2521]:
+                - text: 福利
+                - button [ref=e2522] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2523]:
+              - generic [ref=e2524]:
+                - text: 搞笑
+                - button [ref=e2525] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2526]:
+              - generic [ref=e2527]:
+                - text: 动画
+                - button [ref=e2528] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2529]:
+              - generic [ref=e2530]:
+                - text: 内田真礼
+                - button [ref=e2531] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2532]:
+              - generic [ref=e2533]:
+                - text: 未定档
+                - button [ref=e2534] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2535]:
+              - generic [ref=e2536]:
+                - text: 魔都精兵的奴隶
+                - button [ref=e2537] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2538]:
+              - generic [ref=e2539]:
+                - text: 鬼頭明里
+                - button [ref=e2540] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2541]:
+              - generic [ref=e2542]:
+                - text: 异世界
+                - button [ref=e2543] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2544]:
+              - generic [ref=e2545]:
+                - text: ハヤブサフィルム
+                - button [ref=e2546] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2547]:
+              - generic [ref=e2548]:
+                - text: 中西やすひろ
+                - button [ref=e2549] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2550]:
+              - generic [ref=e2551]:
+                - text: 恋爱
+                - button [ref=e2552] [cursor=pointer]:
+                  - img
+      - generic [ref=e2553]:
+        - figure [ref=e2555]:
+          - link "剧场版 魔法少女小圆 〈魔女之夜的回天〉" [ref=e2556] [cursor=pointer]:
+            - /url: https://bgm.tv/subject/334105
+            - img "剧场版 魔法少女小圆 〈魔女之夜的回天〉" [ref=e2557]
+          - list [ref=e2558]:
+            - listitem
+            - listitem [ref=e2559]:
+              - generic [ref=e2560]:
+                - img
+                - text: "8.2"
+          - list [ref=e2561]:
+            - listitem [ref=e2562]:
+              - link "鹿目圆" [ref=e2563] [cursor=pointer]:
+                - /url: https://bgm.tv/character/10439
+                - img "鹿目圆" [ref=e2565]
+              - link "晓美焰" [ref=e2566] [cursor=pointer]:
+                - /url: https://bgm.tv/character/10440
+                - img "晓美焰" [ref=e2568]
+              - link "巴麻美" [ref=e2569] [cursor=pointer]:
+                - /url: https://bgm.tv/character/10441
+                - img "巴麻美" [ref=e2571]
+              - link "美树沙耶香" [ref=e2572] [cursor=pointer]:
+                - /url: https://bgm.tv/character/10445
+                - img "美树沙耶香" [ref=e2574]
+              - link "佐仓杏子" [ref=e2575] [cursor=pointer]:
+                - /url: https://bgm.tv/character/10672
+                - img "佐仓杏子" [ref=e2577]
+              - link "丘比" [ref=e2578] [cursor=pointer]:
+                - /url: https://bgm.tv/character/10446
+                - img "丘比" [ref=e2580]
+            - listitem [ref=e2581]:
+              - list [ref=e2582]:
+                - listitem [ref=e2583]:
+                  - generic [ref=e2584]:
+                    - img
+                    - text: 2026-08-28
+        - generic [ref=e2585]:
+          - generic [ref=e2586]:
+            - generic [ref=e2587]: 剧场版 魔法少女小圆 〈魔女之夜的回天〉
+            - button [ref=e2588] [cursor=pointer]:
+              - img
+          - generic [ref=e2589]: 劇場版 魔法少女まどか☆マギカ〈ワルプルギスの廻天〉
+          - list [ref=e2590]:
+            - listitem [ref=e2591]:
+              - generic [ref=e2592]:
+                - text: 剧场版
+                - button [ref=e2593] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2594]:
+              - generic [ref=e2595]:
+                - text: 新房昭之
+                - button [ref=e2596] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2597]:
+              - generic [ref=e2598]:
+                - text: SHAFT
+                - button [ref=e2599] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2600]:
+              - generic [ref=e2601]:
+                - text: 虚渊玄
+                - button [ref=e2602] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2603]:
+              - generic [ref=e2604]:
+                - text: 魔法少女小圆
+                - button [ref=e2605] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2606]:
+              - generic [ref=e2607]:
+                - text: 原创
+                - button [ref=e2608] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2609]:
+              - generic [ref=e2610]:
+                - text: 百合
+                - button [ref=e2611] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2612]:
+              - generic [ref=e2613]:
+                - text: 魔法少女
+                - button [ref=e2614] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2615]:
+              - generic [ref=e2616]:
+                - text: 梶浦由記
+                - button [ref=e2617] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2618]:
+              - generic [ref=e2619]:
+                - text: "2026"
+                - button [ref=e2620] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2621]:
+              - generic [ref=e2622]:
+                - text: 梶浦由记
+                - button [ref=e2623] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2624]:
+              - generic [ref=e2625]:
+                - text: 未定档
+                - button [ref=e2626] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2627]:
+              - generic [ref=e2628]:
+                - text: 剧团狗咖喱
+                - button [ref=e2629] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2630]:
+              - generic [ref=e2631]:
+                - text: 奇幻
+                - button [ref=e2632] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2633]:
+              - generic [ref=e2634]:
+                - text: 苍树梅
+                - button [ref=e2635] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2636]:
+              - generic [ref=e2637]:
+                - text: 战斗
+                - button [ref=e2638] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2639]:
+              - generic [ref=e2640]:
+                - text: 宫本幸裕
+                - button [ref=e2641] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2642]:
+              - generic [ref=e2643]:
+                - text: 治愈
+                - button [ref=e2644] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2645]:
+              - generic [ref=e2646]:
+                - text: 致郁
+                - button [ref=e2647] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2648]:
+              - generic [ref=e2649]:
+                - text: 虚淵玄
+                - button [ref=e2650] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2651]:
+              - generic [ref=e2652]:
+                - text: 斋藤千和
+                - button [ref=e2653] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2654]:
+              - generic [ref=e2655]:
+                - text: 晓美焰
+                - button [ref=e2656] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2657]:
+              - generic [ref=e2658]:
+                - text: 续作
+                - button [ref=e2659] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2660]:
+              - generic [ref=e2661]:
+                - text: 悠木碧
+                - button [ref=e2662] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2663]:
+              - generic [ref=e2664]:
+                - text: 谷口淳一郎
+                - button [ref=e2665] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2666]:
+              - generic [ref=e2667]:
+                - text: 芳文社
+                - button [ref=e2668] [cursor=pointer]:
+                  - img
+      - generic [ref=e2669]:
+        - figure [ref=e2671]:
+          - link "午夜的倾心旋律" [ref=e2672] [cursor=pointer]:
+            - /url: https://bgm.tv/subject/544109
+            - img "午夜的倾心旋律" [ref=e2673]
+          - list [ref=e2674]:
+            - listitem [ref=e2675]:
+              - generic [ref=e2676]: "# 8294"
+            - listitem [ref=e2677]:
+              - generic [ref=e2678]:
+                - img
+                - text: "5.8"
+          - list [ref=e2679]:
+            - listitem [ref=e2680]:
+              - link "山吹有栖" [ref=e2681] [cursor=pointer]:
+                - /url: https://bgm.tv/character/154972
+                - img "山吹有栖" [ref=e2683]
+              - link "井之华六花" [ref=e2684] [cursor=pointer]:
+                - /url: https://bgm.tv/character/154976
+                - img "井之华六花" [ref=e2686]
+              - link "日芽川宁宁" [ref=e2687] [cursor=pointer]:
+                - /url: https://bgm.tv/character/154974
+                - img "日芽川宁宁" [ref=e2689]
+              - link "雾乃依子" [ref=e2690] [cursor=pointer]:
+                - /url: https://bgm.tv/character/154975
+                - img "雾乃依子" [ref=e2692]
+              - link "雨月忍" [ref=e2693] [cursor=pointer]:
+                - /url: https://bgm.tv/character/154973
+                - img "雨月忍" [ref=e2695]
+            - listitem [ref=e2696]:
+              - list [ref=e2697]:
+                - listitem [ref=e2698]:
+                  - generic [ref=e2699]:
+                    - img
+                    - text: 2026-01-06
+                - listitem [ref=e2700]:
+                  - generic [ref=e2701]:
+                    - img
+                    - text: 12 eps
+        - generic [ref=e2702]:
+          - generic [ref=e2703]:
+            - generic [ref=e2704]: 午夜的倾心旋律
+            - button [ref=e2705] [cursor=pointer]:
+              - img
+          - generic [ref=e2706]: 真夜中ハートチューン
+          - list [ref=e2707]:
+            - listitem [ref=e2708]:
+              - generic [ref=e2709]:
+                - text: 恋爱
+                - button [ref=e2710] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2711]:
+              - generic [ref=e2712]:
+                - text: 漫画改
+                - button [ref=e2713] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2714]:
+              - generic [ref=e2715]:
+                - text: 校园
+                - button [ref=e2716] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2717]:
+              - generic [ref=e2718]:
+                - text: 党争
+                - button [ref=e2719] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2720]:
+              - generic [ref=e2721]:
+                - text: 月虹
+                - button [ref=e2722] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2723]:
+              - generic [ref=e2724]:
+                - text: "2026"
+                - button [ref=e2725] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2726]:
+              - generic [ref=e2727]:
+                - text: 后宫
+                - button [ref=e2728] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2729]:
+              - generic [ref=e2730]:
+                - text: 漫改
+                - button [ref=e2731] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2732]:
+              - generic [ref=e2733]:
+                - text: 搞笑
+                - button [ref=e2734] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2735]:
+              - generic [ref=e2736]:
+                - text: 日常
+                - button [ref=e2737] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2738]:
+              - generic [ref=e2739]:
+                - text: 高桥雅之
+                - button [ref=e2740] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2741]:
+              - generic [ref=e2742]:
+                - text: 伊藤美来
+                - button [ref=e2743] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2744]:
+              - generic [ref=e2745]:
+                - text: 1月
+                - button [ref=e2746] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2747]:
+              - generic [ref=e2748]:
+                - text: 高橋雅之
+                - button [ref=e2749] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2750]:
+              - generic [ref=e2751]:
+                - text: 青春
+                - button [ref=e2752] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2753]:
+              - generic [ref=e2754]:
+                - text: 喜剧
+                - button [ref=e2755] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2756]:
+              - generic [ref=e2757]:
+                - text: 强男主
+                - button [ref=e2758] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2759]:
+              - generic [ref=e2760]:
+                - text: 动画
+                - button [ref=e2761] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2762]:
+              - generic [ref=e2763]:
+                - text: 未定档
+                - button [ref=e2764] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2765]:
+              - generic [ref=e2766]:
+                - text: 大久保瑠美
+                - button [ref=e2767] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2768]:
+              - generic [ref=e2769]:
+                - text: TVA
+                - button [ref=e2770] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2771]:
+              - generic [ref=e2772]:
+                - text: 崩坏
+                - button [ref=e2773] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2774]:
+              - generic [ref=e2775]:
+                - text: 菅原雪絵
+                - button [ref=e2776] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2777]:
+              - generic [ref=e2778]:
+                - text: 铃代纱弓
+                - button [ref=e2779] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2780]:
+              - generic [ref=e2781]:
+                - text: 2026冬
+                - button [ref=e2782] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2783]:
+              - generic [ref=e2784]:
+                - text: 鈴代紗弓
+                - button [ref=e2785] [cursor=pointer]:
+                  - img
+      - generic [ref=e2786]:
+        - figure [ref=e2788]:
+          - link "飙马野郎 JOJO的奇妙冒险" [ref=e2789] [cursor=pointer]:
+            - /url: https://bgm.tv/subject/551918
+            - img "飙马野郎 JOJO的奇妙冒险" [ref=e2790]
+          - list [ref=e2791]:
+            - listitem [ref=e2792]:
+              - generic [ref=e2793]: "# 692"
+            - listitem [ref=e2794]:
+              - generic [ref=e2795]:
+                - img
+                - text: "7.6"
+          - list [ref=e2796]:
+            - listitem [ref=e2797]:
+              - link "乔尼·乔斯达" [ref=e2798] [cursor=pointer]:
+                - /url: https://bgm.tv/character/18574
+                - img "乔尼·乔斯达" [ref=e2800]
+              - link "杰洛·齐贝林" [ref=e2801] [cursor=pointer]:
+                - /url: https://bgm.tv/character/18573
+                - img "杰洛·齐贝林" [ref=e2803]
+            - listitem [ref=e2804]:
+              - list [ref=e2805]:
+                - listitem [ref=e2806]:
+                  - generic [ref=e2807]:
+                    - img
+                    - text: 2026-03-19
+        - generic [ref=e2808]:
+          - generic [ref=e2809]:
+            - generic [ref=e2810]: 飙马野郎 JOJO的奇妙冒险
+            - button [ref=e2811] [cursor=pointer]:
+              - img
+          - generic [ref=e2812]: スティール・ボール・ラン ジョジョの奇妙な冒険
+          - list [ref=e2813]:
+            - listitem [ref=e2814]:
+              - generic [ref=e2815]:
+                - text: 漫画改
+                - button [ref=e2816] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2817]:
+              - generic [ref=e2818]:
+                - text: JOJO
+                - button [ref=e2819] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2820]:
+              - generic [ref=e2821]:
+                - text: 战斗
+                - button [ref=e2822] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2823]:
+              - generic [ref=e2824]:
+                - text: 荒木飞吕彦
+                - button [ref=e2825] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2826]:
+              - generic [ref=e2827]:
+                - text: 冒险
+                - button [ref=e2828] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2829]:
+              - generic [ref=e2830]:
+                - text: "2026"
+                - button [ref=e2831] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2832]:
+              - generic [ref=e2833]:
+                - text: 热血
+                - button [ref=e2834] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2835]:
+              - generic [ref=e2836]:
+                - text: davidproduction
+                - button [ref=e2837] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2838]:
+              - generic [ref=e2839]:
+                - text: WEB
+                - button [ref=e2840] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2841]:
+              - generic [ref=e2842]:
+                - text: 智斗
+                - button [ref=e2843] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2844]:
+              - generic [ref=e2845]:
+                - text: 青年向
+                - button [ref=e2846] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2847]:
+              - generic [ref=e2848]:
+                - text: 漫改
+                - button [ref=e2849] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2850]:
+              - generic [ref=e2851]:
+                - text: 奇幻
+                - button [ref=e2852] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2853]:
+              - generic [ref=e2854]:
+                - text: JOJO的奇妙冒险
+                - button [ref=e2855] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2856]:
+              - generic [ref=e2857]:
+                - text: 木村泰大
+                - button [ref=e2858] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2859]:
+              - generic [ref=e2860]:
+                - text: 未定档
+                - button [ref=e2861] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2862]:
+              - generic [ref=e2863]:
+                - text: 高桥秀弥
+                - button [ref=e2864] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2865]:
+              - generic [ref=e2866]:
+                - text: 续作
+                - button [ref=e2867] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2868]:
+              - generic [ref=e2869]:
+                - text: 髙橋秀弥
+                - button [ref=e2870] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2871]:
+              - generic [ref=e2872]:
+                - text: 小林靖子
+                - button [ref=e2873] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2874]:
+              - generic [ref=e2875]:
+                - text: 大卫社
+                - button [ref=e2876] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2877]:
+              - generic [ref=e2878]:
+                - text: 坂田将吾
+                - button [ref=e2879] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2880]:
+              - generic [ref=e2881]:
+                - text: JUMP
+                - button [ref=e2882] [cursor=pointer]:
+                  - img
+      - generic [ref=e2883]:
+        - figure [ref=e2885]:
+          - link "和机器人啪啪啪能算在经验次数里吗？？" [ref=e2886] [cursor=pointer]:
+            - /url: https://bgm.tv/subject/558296
+            - img "和机器人啪啪啪能算在经验次数里吗？？" [ref=e2887]
+          - list [ref=e2888]:
+            - listitem [ref=e2889]:
+              - generic [ref=e2890]: "# 7961"
+            - listitem [ref=e2891]:
+              - generic [ref=e2892]:
+                - img
+                - text: "5.9"
+          - list [ref=e2893]:
+            - listitem [ref=e2894]:
+              - link "津田茜" [ref=e2895] [cursor=pointer]:
+                - /url: https://bgm.tv/character/184581
+                - img "津田茜" [ref=e2897]
+              - link "抚子" [ref=e2898] [cursor=pointer]:
+                - /url: https://bgm.tv/character/184582
+                - img "抚子" [ref=e2900]
+            - listitem [ref=e2901]:
+              - list [ref=e2902]:
+                - listitem [ref=e2903]:
+                  - generic [ref=e2904]:
+                    - img
+                    - text: 2026-01-09
+                - listitem [ref=e2905]:
+                  - generic [ref=e2906]:
+                    - img
+                    - text: 8 eps
+        - generic [ref=e2907]:
+          - generic [ref=e2908]:
+            - generic [ref=e2909]: 和机器人啪啪啪能算在经验次数里吗？？
+            - button [ref=e2910] [cursor=pointer]:
+              - img
+          - generic [ref=e2911]: アンドロイドは経験人数に入りますか？？
+          - list [ref=e2912]:
+            - listitem [ref=e2913]:
+              - generic [ref=e2914]:
+                - text: 百合
+                - button [ref=e2915] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2916]:
+              - generic [ref=e2917]:
+                - text: 泡面番
+                - button [ref=e2918] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2919]:
+              - generic [ref=e2920]:
+                - text: 漫画改
+                - button [ref=e2921] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2922]:
+              - generic [ref=e2923]:
+                - text: 里番
+                - button [ref=e2924] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2925]:
+              - generic [ref=e2926]:
+                - text: "2026"
+                - button [ref=e2927] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2928]:
+              - generic [ref=e2929]:
+                - text: 卖肉
+                - button [ref=e2930] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2931]:
+              - generic [ref=e2932]:
+                - text: 漫改
+                - button [ref=e2933] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2934]:
+              - generic [ref=e2935]:
+                - text: 科幻
+                - button [ref=e2936] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2937]:
+              - generic [ref=e2938]:
+                - text: R18
+                - button [ref=e2939] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2940]:
+              - generic [ref=e2941]:
+                - text: 泡面里番
+                - button [ref=e2942] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2943]:
+              - generic [ref=e2944]:
+                - text: 僧侣档
+                - button [ref=e2945] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2946]:
+              - generic [ref=e2947]:
+                - text: 肉番
+                - button [ref=e2948] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2949]:
+              - generic [ref=e2950]:
+                - text: ネコB
+                - button [ref=e2951] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2952]:
+              - generic [ref=e2953]:
+                - text: 日常
+                - button [ref=e2954] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2955]:
+              - generic [ref=e2956]:
+                - text: 未定档
+                - button [ref=e2957] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2958]:
+              - generic [ref=e2959]:
+                - text: 恋爱
+                - button [ref=e2960] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2961]:
+              - generic [ref=e2962]:
+                - text: 机娘
+                - button [ref=e2963] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2964]:
+              - generic [ref=e2965]:
+                - text: 泡面
+                - button [ref=e2966] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2967]:
+              - generic [ref=e2968]:
+                - text: 肉
+                - button [ref=e2969] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2970]:
+              - generic [ref=e2971]:
+                - text: 治愈
+                - button [ref=e2972] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2973]:
+              - generic [ref=e2974]:
+                - text: Nyan
+                - button [ref=e2975] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2976]:
+              - generic [ref=e2977]:
+                - text: 真百
+                - button [ref=e2978] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2979]:
+              - generic [ref=e2980]:
+                - text: 搞笑
+                - button [ref=e2981] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2982]:
+              - generic [ref=e2983]:
+                - text: 露点
+                - button [ref=e2984] [cursor=pointer]:
+                  - img
+            - listitem [ref=e2985]:
+              - generic [ref=e2986]:
+                - text: Pollution-ω-
+                - button [ref=e2987] [cursor=pointer]:
+                  - img
+      - generic [ref=e2988]:
+        - figure [ref=e2990]:
+          - link "地狱乐 第二季" [ref=e2991] [cursor=pointer]:
+            - /url: https://bgm.tv/subject/443446
+            - img "地狱乐 第二季" [ref=e2992]
+          - list [ref=e2993]:
+            - listitem [ref=e2994]:
+              - generic [ref=e2995]: "# 4198"
+            - listitem [ref=e2996]:
+              - generic [ref=e2997]:
+                - img
+                - text: "6.7"
+          - list [ref=e2998]:
+            - listitem [ref=e2999]:
+              - link "画眉丸" [ref=e3000] [cursor=pointer]:
+                - /url: https://bgm.tv/character/121900
+                - img "画眉丸" [ref=e3002]
+              - link "山田浅卫门佐切" [ref=e3003] [cursor=pointer]:
+                - /url: https://bgm.tv/character/86630
+                - img "山田浅卫门佐切" [ref=e3005]
+            - listitem [ref=e3006]:
+              - list [ref=e3007]:
+                - listitem [ref=e3008]:
+                  - generic [ref=e3009]:
+                    - img
+                    - text: 2026-01-11
+                - listitem [ref=e3010]:
+                  - generic [ref=e3011]:
+                    - img
+                    - text: 12 eps
+        - generic [ref=e3012]:
+          - generic [ref=e3013]:
+            - generic [ref=e3014]: 地狱乐 第二季
+            - button [ref=e3015] [cursor=pointer]:
+              - img
+          - generic [ref=e3016]: 地獄楽 第二期
+          - list [ref=e3017]:
+            - listitem [ref=e3018]:
+              - generic [ref=e3019]:
+                - text: MAPPA
+                - button [ref=e3020] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3021]:
+              - generic [ref=e3022]:
+                - text: 战斗
+                - button [ref=e3023] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3024]:
+              - generic [ref=e3025]:
+                - text: 漫画改
+                - button [ref=e3026] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3027]:
+              - generic [ref=e3028]:
+                - text: 奇幻
+                - button [ref=e3029] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3030]:
+              - generic [ref=e3031]:
+                - text: "2026"
+                - button [ref=e3032] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3033]:
+              - generic [ref=e3034]:
+                - text: 漫改
+                - button [ref=e3035] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3036]:
+              - generic [ref=e3037]:
+                - text: 续集
+                - button [ref=e3038] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3039]:
+              - generic [ref=e3040]:
+                - text: 热血
+                - button [ref=e3041] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3042]:
+              - generic [ref=e3043]:
+                - text: 地狱乐
+                - button [ref=e3044] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3045]:
+              - generic [ref=e3046]:
+                - text: 牧田佳织
+                - button [ref=e3047] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3048]:
+              - generic [ref=e3049]:
+                - text: 牧田佳織
+                - button [ref=e3050] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3051]:
+              - generic [ref=e3052]:
+                - text: 地獄樂
+                - button [ref=e3053] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3054]:
+              - generic [ref=e3055]:
+                - text: 冒险
+                - button [ref=e3056] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3057]:
+              - generic [ref=e3058]:
+                - text: 续作
+                - button [ref=e3059] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3060]:
+              - generic [ref=e3061]:
+                - text: 猎奇
+                - button [ref=e3062] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3063]:
+              - generic [ref=e3064]:
+                - text: 第二季
+                - button [ref=e3065] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3066]:
+              - generic [ref=e3067]:
+                - text: 金田一明
+                - button [ref=e3068] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3069]:
+              - generic [ref=e3070]:
+                - text: 出羽良彰
+                - button [ref=e3071] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3072]:
+              - generic [ref=e3073]:
+                - text: 日漫
+                - button [ref=e3074] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3075]:
+              - generic [ref=e3076]:
+                - text: 忍者
+                - button [ref=e3077] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3078]:
+              - generic [ref=e3079]:
+                - text: TVA
+                - button [ref=e3080] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3081]:
+              - generic [ref=e3082]:
+                - text: JUMP
+                - button [ref=e3083] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3084]:
+              - generic [ref=e3085]:
+                - text: 推荐
+                - button [ref=e3086] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3087]:
+              - generic [ref=e3088]:
+                - text: 1月
+                - button [ref=e3089] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3090]:
+              - generic [ref=e3091]:
+                - text: 未定档
+                - button [ref=e3092] [cursor=pointer]:
+                  - img
+      - generic [ref=e3093]:
+        - figure [ref=e3095]:
+          - link "和青梅竹马之间不会有恋爱喜剧" [ref=e3096] [cursor=pointer]:
+            - /url: https://bgm.tv/subject/549654
+            - img "和青梅竹马之间不会有恋爱喜剧" [ref=e3097]
+          - list [ref=e3098]:
+            - listitem [ref=e3099]:
+              - generic [ref=e3100]: "# 7321"
+            - listitem [ref=e3101]:
+              - generic [ref=e3102]:
+                - img
+                - text: "6.1"
+          - list [ref=e3103]:
+            - listitem [ref=e3104]:
+              - link "界世之介" [ref=e3105] [cursor=pointer]:
+                - /url: https://bgm.tv/character/173544
+                - img "界世之介" [ref=e3107]
+              - link "水萌汐" [ref=e3108] [cursor=pointer]:
+                - /url: https://bgm.tv/character/173545
+                - img "水萌汐" [ref=e3110]
+              - link "火威灯" [ref=e3111] [cursor=pointer]:
+                - /url: https://bgm.tv/character/173546
+                - img "火威灯" [ref=e3113]
+              - link "月见瑠奈" [ref=e3114] [cursor=pointer]:
+                - /url: https://bgm.tv/character/173547
+                - img "月见瑠奈" [ref=e3116]
+              - link "日向春" [ref=e3117] [cursor=pointer]:
+                - /url: https://bgm.tv/character/173548
+                - img "日向春" [ref=e3119]
+            - listitem [ref=e3120]:
+              - list [ref=e3121]:
+                - listitem [ref=e3122]:
+                  - generic [ref=e3123]:
+                    - img
+                    - text: 2026-01-05
+                - listitem [ref=e3124]:
+                  - generic [ref=e3125]:
+                    - img
+                    - text: 12 eps
+        - generic [ref=e3126]:
+          - generic [ref=e3127]:
+            - generic [ref=e3128]: 和青梅竹马之间不会有恋爱喜剧
+            - button [ref=e3129] [cursor=pointer]:
+              - img
+          - generic [ref=e3130]: 幼馴染とはラブコメにならない
+          - list [ref=e3131]:
+            - listitem [ref=e3132]:
+              - generic [ref=e3133]:
+                - text: 恋爱
+                - button [ref=e3134] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3135]:
+              - generic [ref=e3136]:
+                - text: 校园
+                - button [ref=e3137] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3138]:
+              - generic [ref=e3139]:
+                - text: 后宫
+                - button [ref=e3140] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3141]:
+              - generic [ref=e3142]:
+                - text: 漫画改
+                - button [ref=e3143] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3144]:
+              - generic [ref=e3145]:
+                - text: 手塚PRODUCTION
+                - button [ref=e3146] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3147]:
+              - generic [ref=e3148]:
+                - text: 搞笑
+                - button [ref=e3149] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3150]:
+              - generic [ref=e3151]:
+                - text: "2026"
+                - button [ref=e3152] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3153]:
+              - generic [ref=e3154]:
+                - text: 漫改
+                - button [ref=e3155] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3156]:
+              - generic [ref=e3157]:
+                - text: 幼驯染
+                - button [ref=e3158] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3159]:
+              - generic [ref=e3160]:
+                - text: 桑原智
+                - button [ref=e3161] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3162]:
+              - generic [ref=e3163]:
+                - text: 1月
+                - button [ref=e3164] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3165]:
+              - generic [ref=e3166]:
+                - text: 日常
+                - button [ref=e3167] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3168]:
+              - generic [ref=e3169]:
+                - text: 喜剧
+                - button [ref=e3170] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3171]:
+              - generic [ref=e3172]:
+                - text: 党争
+                - button [ref=e3173] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3174]:
+              - generic [ref=e3175]:
+                - text: 手塚プロダクション
+                - button [ref=e3176] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3177]:
+              - generic [ref=e3178]:
+                - text: 手冢Production
+                - button [ref=e3179] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3180]:
+              - generic [ref=e3181]:
+                - text: 广田光毅
+                - button [ref=e3182] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3183]:
+              - generic [ref=e3184]:
+                - text: 芹泽优
+                - button [ref=e3185] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3186]:
+              - generic [ref=e3187]:
+                - text: 动画
+                - button [ref=e3188] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3189]:
+              - generic [ref=e3190]:
+                - text: 恋爱喜剧
+                - button [ref=e3191] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3192]:
+              - generic [ref=e3193]:
+                - text: 福利
+                - button [ref=e3194] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3195]:
+              - generic [ref=e3196]:
+                - text: 2026冬
+                - button [ref=e3197] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3198]:
+              - generic [ref=e3199]:
+                - text: 典中典
+                - button [ref=e3200] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3201]:
+              - generic [ref=e3202]:
+                - text: 浦尾岳大
+                - button [ref=e3203] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3204]:
+              - generic [ref=e3205]:
+                - text: 制作中
+                - button [ref=e3206] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3207]:
+              - generic [ref=e3208]:
+                - text: 青梅
+                - button [ref=e3209] [cursor=pointer]:
+                  - img
+      - generic [ref=e3210]:
+        - figure [ref=e3212]:
+          - link "公主大人“拷问”的时间到了 第二季" [ref=e3213] [cursor=pointer]:
+            - /url: https://bgm.tv/subject/486763
+            - img "公主大人“拷问”的时间到了 第二季" [ref=e3214]
+          - list [ref=e3215]:
+            - listitem [ref=e3216]:
+              - generic [ref=e3217]: "# 1603"
+            - listitem [ref=e3218]:
+              - generic [ref=e3219]:
+                - img
+                - text: "7.3"
+          - list [ref=e3220]:
+            - listitem [ref=e3221]:
+              - link "公主" [ref=e3222] [cursor=pointer]:
+                - /url: https://bgm.tv/character/132319
+                - img "公主" [ref=e3224]
+              - link "艾克斯" [ref=e3225] [cursor=pointer]:
+                - /url: https://bgm.tv/character/132320
+                - img "艾克斯" [ref=e3227]
+            - listitem [ref=e3228]:
+              - list [ref=e3229]:
+                - listitem [ref=e3230]:
+                  - generic [ref=e3231]:
+                    - img
+                    - text: 2026-01-12
+                - listitem [ref=e3232]:
+                  - generic [ref=e3233]:
+                    - img
+                    - text: 12 eps
+        - generic [ref=e3234]:
+          - generic [ref=e3235]:
+            - generic [ref=e3236]: 公主大人“拷问”的时间到了 第二季
+            - button [ref=e3237] [cursor=pointer]:
+              - img
+          - generic [ref=e3238]: 姫様“拷問”の時間です 第2期
+          - list [ref=e3239]:
+            - listitem [ref=e3240]:
+              - generic [ref=e3241]:
+                - text: 搞笑
+                - button [ref=e3242] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3243]:
+              - generic [ref=e3244]:
+                - text: 漫画改
+                - button [ref=e3245] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3246]:
+              - generic [ref=e3247]:
+                - text: 日常
+                - button [ref=e3248] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3249]:
+              - generic [ref=e3250]:
+                - text: 美食
+                - button [ref=e3251] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3252]:
+              - generic [ref=e3253]:
+                - text: PINEJAM
+                - button [ref=e3254] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3255]:
+              - generic [ref=e3256]:
+                - text: 奇幻
+                - button [ref=e3257] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3258]:
+              - generic [ref=e3259]:
+                - text: "2026"
+                - button [ref=e3260] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3261]:
+              - generic [ref=e3262]:
+                - text: 漫改
+                - button [ref=e3263] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3264]:
+              - generic [ref=e3265]:
+                - text: 萌
+                - button [ref=e3266] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3267]:
+              - generic [ref=e3268]:
+                - text: 百合
+                - button [ref=e3269] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3270]:
+              - generic [ref=e3271]:
+                - text: 金森阳子
+                - button [ref=e3272] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3273]:
+              - generic [ref=e3274]:
+                - text: 日本动画
+                - button [ref=e3275] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3276]:
+              - generic [ref=e3277]:
+                - text: 治愈
+                - button [ref=e3278] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3279]:
+              - generic [ref=e3280]:
+                - text: 续作
+                - button [ref=e3281] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3282]:
+              - generic [ref=e3283]:
+                - text: 未定档
+                - button [ref=e3284] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3285]:
+              - generic [ref=e3286]:
+                - text: 横山克
+                - button [ref=e3287] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3288]:
+              - generic [ref=e3289]:
+                - text: 异世界
+                - button [ref=e3290] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3291]:
+              - generic [ref=e3292]:
+                - text: 1月
+                - button [ref=e3293] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3294]:
+              - generic [ref=e3295]:
+                - text: 白石晴香
+                - button [ref=e3296] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3297]:
+              - generic [ref=e3298]:
+                - text: TVA
+                - button [ref=e3299] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3300]:
+              - generic [ref=e3301]:
+                - text: 金森陽子
+                - button [ref=e3302] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3303]:
+              - generic [ref=e3304]:
+                - text: 公主大人“拷问”的时间到了
+                - button [ref=e3305] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3306]:
+              - generic [ref=e3307]:
+                - text: 喜剧
+                - button [ref=e3308] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3309]:
+              - generic [ref=e3310]:
+                - text: 小林親弘
+                - button [ref=e3311] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3312]:
+              - generic [ref=e3313]:
+                - text: ふでやすかずゆき
+                - button [ref=e3314] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3315]:
+              - generic [ref=e3316]:
+                - text: 星期一
+                - button [ref=e3317] [cursor=pointer]:
+                  - img
+      - generic [ref=e3318]:
+        - figure [ref=e3320]:
+          - link "能帮我弄干净吗？" [ref=e3321] [cursor=pointer]:
+            - /url: https://bgm.tv/subject/562430
+            - img "能帮我弄干净吗？" [ref=e3322]
+          - list [ref=e3323]:
+            - listitem [ref=e3324]:
+              - generic [ref=e3325]: "# 7278"
+            - listitem [ref=e3326]:
+              - generic [ref=e3327]:
+                - img
+                - text: "6.1"
+          - list [ref=e3328]:
+            - listitem [ref=e3329]:
+              - link "金目绵花奈" [ref=e3330] [cursor=pointer]:
+                - /url: https://bgm.tv/character/168375
+                - img "金目绵花奈" [ref=e3332]
+            - listitem [ref=e3333]:
+              - list [ref=e3334]:
+                - listitem [ref=e3335]:
+                  - generic [ref=e3336]:
+                    - img
+                    - text: 2026-01-05
+                - listitem [ref=e3337]:
+                  - generic [ref=e3338]:
+                    - img
+                    - text: 12 eps
+        - generic [ref=e3339]:
+          - generic [ref=e3340]:
+            - generic [ref=e3341]: 能帮我弄干净吗？
+            - button [ref=e3342] [cursor=pointer]:
+              - img
+          - generic [ref=e3343]: 綺麗にしてもらえますか。
+          - list [ref=e3344]:
+            - listitem [ref=e3345]:
+              - generic [ref=e3346]:
+                - text: 日常
+                - button [ref=e3347] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3348]:
+              - generic [ref=e3349]:
+                - text: 漫画改
+                - button [ref=e3350] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3351]:
+              - generic [ref=e3352]:
+                - text: OkurutoNoboru
+                - button [ref=e3353] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3354]:
+              - generic [ref=e3355]:
+                - text: "2026"
+                - button [ref=e3356] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3357]:
+              - generic [ref=e3358]:
+                - text: 漫改
+                - button [ref=e3359] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3360]:
+              - generic [ref=e3361]:
+                - text: 治愈
+                - button [ref=e3362] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3363]:
+              - generic [ref=e3364]:
+                - text: 洗衣服
+                - button [ref=e3365] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3366]:
+              - generic [ref=e3367]:
+                - text: 铃代纱弓
+                - button [ref=e3368] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3369]:
+              - generic [ref=e3370]:
+                - text: 大西健太
+                - button [ref=e3371] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3372]:
+              - generic [ref=e3373]:
+                - text: 待田堂子
+                - button [ref=e3374] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3375]:
+              - generic [ref=e3376]:
+                - text: 2026冬
+                - button [ref=e3377] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3378]:
+              - generic [ref=e3379]:
+                - text: 职场
+                - button [ref=e3380] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3381]:
+              - generic [ref=e3382]:
+                - text: 空气系
+                - button [ref=e3383] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3384]:
+              - generic [ref=e3385]:
+                - text: 青山吉能
+                - button [ref=e3386] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3387]:
+              - generic [ref=e3388]:
+                - text: 恋爱
+                - button [ref=e3389] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3390]:
+              - generic [ref=e3391]:
+                - text: 梅田修一朗
+                - button [ref=e3392] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3393]:
+              - generic [ref=e3394]:
+                - text: 职业
+                - button [ref=e3395] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3396]:
+              - generic [ref=e3397]:
+                - text: 科普
+                - button [ref=e3398] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3399]:
+              - generic [ref=e3400]:
+                - text: 新作
+                - button [ref=e3401] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3402]:
+              - generic [ref=e3403]:
+                - text: 动画
+                - button [ref=e3404] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3405]:
+              - generic [ref=e3406]:
+                - text: 稻垣好
+                - button [ref=e3407] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3408]:
+              - generic [ref=e3409]:
+                - text: 色气
+                - button [ref=e3410] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3411]:
+              - generic [ref=e3412]:
+                - text: 卖肉
+                - button [ref=e3413] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3414]:
+              - generic [ref=e3415]:
+                - text: 鈴代紗弓
+                - button [ref=e3416] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3417]:
+              - generic [ref=e3418]:
+                - text: 日本动画
+                - button [ref=e3419] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3420]:
+              - generic [ref=e3421]:
+                - text: 1月
+                - button [ref=e3422] [cursor=pointer]:
+                  - img
+      - generic [ref=e3423]:
+        - figure [ref=e3425]:
+          - link "现在多闻君是哪一面!?" [ref=e3426] [cursor=pointer]:
+            - /url: https://bgm.tv/subject/498791
+            - img "现在多闻君是哪一面!?" [ref=e3427]
+          - list [ref=e3428]:
+            - listitem [ref=e3429]:
+              - generic [ref=e3430]: "# 2370"
+            - listitem [ref=e3431]:
+              - generic [ref=e3432]:
+                - img
+                - text: "7.1"
+          - list [ref=e3433]:
+            - listitem [ref=e3434]:
+              - link "木下歌夏" [ref=e3435] [cursor=pointer]:
+                - /url: https://bgm.tv/character/160606
+                - img "木下歌夏" [ref=e3437]
+              - link "福原多闻" [ref=e3438] [cursor=pointer]:
+                - /url: https://bgm.tv/character/160607
+                - img "福原多闻" [ref=e3440]
+            - listitem [ref=e3441]:
+              - list [ref=e3442]:
+                - listitem [ref=e3443]:
+                  - generic [ref=e3444]:
+                    - img
+                    - text: 2026-01-03
+                - listitem [ref=e3445]:
+                  - generic [ref=e3446]:
+                    - img
+                    - text: 13 eps
+        - generic [ref=e3447]:
+          - generic [ref=e3448]:
+            - generic [ref=e3449]: 现在多闻君是哪一面!?
+            - button [ref=e3450] [cursor=pointer]:
+              - img
+          - generic [ref=e3451]: 多聞くん今どっち!?
+          - list [ref=e3452]:
+            - listitem [ref=e3453]:
+              - generic [ref=e3454]:
+                - text: 恋爱
+                - button [ref=e3455] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3456]:
+              - generic [ref=e3457]:
+                - text: J.C.STAFF
+                - button [ref=e3458] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3459]:
+              - generic [ref=e3460]:
+                - text: 漫画改
+                - button [ref=e3461] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3462]:
+              - generic [ref=e3463]:
+                - text: 偶像
+                - button [ref=e3464] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3465]:
+              - generic [ref=e3466]:
+                - text: 女性向
+                - button [ref=e3467] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3468]:
+              - generic [ref=e3469]:
+                - text: "2026"
+                - button [ref=e3470] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3471]:
+              - generic [ref=e3472]:
+                - text: 早見沙織
+                - button [ref=e3473] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3474]:
+              - generic [ref=e3475]:
+                - text: 搞笑
+                - button [ref=e3476] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3477]:
+              - generic [ref=e3478]:
+                - text: 少女
+                - button [ref=e3479] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3480]:
+              - generic [ref=e3481]:
+                - text: 漫改
+                - button [ref=e3482] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3483]:
+              - generic [ref=e3484]:
+                - text: 永冈智佳
+                - button [ref=e3485] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3486]:
+              - generic [ref=e3487]:
+                - text: 日常
+                - button [ref=e3488] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3489]:
+              - generic [ref=e3490]:
+                - text: 永岡智佳
+                - button [ref=e3491] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3492]:
+              - generic [ref=e3493]:
+                - text: 喜剧
+                - button [ref=e3494] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3495]:
+              - generic [ref=e3496]:
+                - text: 乙女向
+                - button [ref=e3497] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3498]:
+              - generic [ref=e3499]:
+                - text: 永井千晶
+                - button [ref=e3500] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3501]:
+              - generic [ref=e3502]:
+                - text: 少女漫
+                - button [ref=e3503] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3504]:
+              - generic [ref=e3505]:
+                - text: 乙女
+                - button [ref=e3506] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3507]:
+              - generic [ref=e3508]:
+                - text: 早见沙织
+                - button [ref=e3509] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3510]:
+              - generic [ref=e3511]:
+                - text: 2026冬
+                - button [ref=e3512] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3513]:
+              - generic [ref=e3514]:
+                - text: 少女向
+                - button [ref=e3515] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3516]:
+              - generic [ref=e3517]:
+                - text: 波多野翔
+                - button [ref=e3518] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3519]:
+              - generic [ref=e3520]:
+                - text: 日本动画
+                - button [ref=e3521] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3522]:
+              - generic [ref=e3523]:
+                - text: 天崎滉平
+                - button [ref=e3524] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3525]:
+              - generic [ref=e3526]:
+                - text: 千叶翔也
+                - button [ref=e3527] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3528]:
+              - generic [ref=e3529]:
+                - text: 師走ゆき
+                - button [ref=e3530] [cursor=pointer]:
+                  - img
+      - generic [ref=e3531]:
+        - figure [ref=e3533]:
+          - link "名侦探光之美少女！" [ref=e3534] [cursor=pointer]:
+            - /url: https://bgm.tv/subject/611077
+            - img "名侦探光之美少女！" [ref=e3535]
+          - list [ref=e3536]:
+            - listitem [ref=e3537]:
+              - generic [ref=e3538]: "# 4251"
+            - listitem [ref=e3539]:
+              - generic [ref=e3540]:
+                - img
+                - text: "6.6"
+          - list [ref=e3541]:
+            - listitem [ref=e3542]:
+              - link "明智安娜/解谜天使" [ref=e3543] [cursor=pointer]:
+                - /url: https://bgm.tv/character/198020
+                - img "明智安娜/解谜天使" [ref=e3545]
+              - link "小林未来/神秘天使" [ref=e3546] [cursor=pointer]:
+                - /url: https://bgm.tv/character/198021
+                - img "小林未来/神秘天使" [ref=e3548]
+              - link "闪耀天使" [ref=e3549] [cursor=pointer]:
+                - /url: https://bgm.tv/character/198023
+                - img "闪耀天使" [ref=e3551]
+              - link "森亚露露卡/奥秘·暗影天使" [ref=e3552] [cursor=pointer]:
+                - /url: https://bgm.tv/character/198022
+                - img "森亚露露卡/奥秘·暗影天使" [ref=e3554]
+            - listitem [ref=e3555]:
+              - list [ref=e3556]:
+                - listitem [ref=e3557]:
+                  - generic [ref=e3558]:
+                    - img
+                    - text: 2026-02-01
+                - listitem [ref=e3559]:
+                  - generic [ref=e3560]:
+                    - img
+                    - text: 51 eps
+        - generic [ref=e3561]:
+          - generic [ref=e3562]:
+            - generic [ref=e3563]: 名侦探光之美少女！
+            - button [ref=e3564] [cursor=pointer]:
+              - img
+          - generic [ref=e3565]: 名探偵プリキュア！
+          - list [ref=e3566]:
+            - listitem [ref=e3567]:
+              - generic [ref=e3568]:
+                - text: 原创
+                - button [ref=e3569] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3570]:
+              - generic [ref=e3571]:
+                - text: 光之美少女
+                - button [ref=e3572] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3573]:
+              - generic [ref=e3574]:
+                - text: 子供向
+                - button [ref=e3575] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3576]:
+              - generic [ref=e3577]:
+                - text: "2026"
+                - button [ref=e3578] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3579]:
+              - generic [ref=e3580]:
+                - text: 東映アニメーション
+                - button [ref=e3581] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3582]:
+              - generic [ref=e3583]:
+                - text: 东映动画
+                - button [ref=e3584] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3585]:
+              - generic [ref=e3586]:
+                - text: 魔法少女
+                - button [ref=e3587] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3588]:
+              - generic [ref=e3589]:
+                - text: 东映
+                - button [ref=e3590] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3591]:
+              - generic [ref=e3592]:
+                - text: プリキュア
+                - button [ref=e3593] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3594]:
+              - generic [ref=e3595]:
+                - text: 川崎弘二
+                - button [ref=e3596] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3597]:
+              - generic [ref=e3598]:
+                - text: 奇幻
+                - button [ref=e3599] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3600]:
+              - generic [ref=e3601]:
+                - text: 村山功
+                - button [ref=e3602] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3603]:
+              - generic [ref=e3604]:
+                - text: 百合
+                - button [ref=e3605] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3606]:
+              - generic [ref=e3607]:
+                - text: 战斗
+                - button [ref=e3608] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3609]:
+              - generic [ref=e3610]:
+                - text: 萝莉
+                - button [ref=e3611] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3612]:
+              - generic [ref=e3613]:
+                - text: 动画
+                - button [ref=e3614] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3615]:
+              - generic [ref=e3616]:
+                - text: 年番
+                - button [ref=e3617] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3618]:
+              - generic [ref=e3619]:
+                - text: precure
+                - button [ref=e3620] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3621]:
+              - generic [ref=e3622]:
+                - text: TV动画
+                - button [ref=e3623] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3624]:
+              - generic [ref=e3625]:
+                - text: 日本动画
+                - button [ref=e3626] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3627]:
+              - generic [ref=e3628]:
+                - text: 续作
+                - button [ref=e3629] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3630]:
+              - generic [ref=e3631]:
+                - text: 2020s
+                - button [ref=e3632] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3633]:
+              - generic [ref=e3634]:
+                - text: 矢野茜
+                - button [ref=e3635] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3636]:
+              - generic [ref=e3637]:
+                - text: 日常
+                - button [ref=e3638] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3639]:
+              - generic [ref=e3640]:
+                - text: "20"
+                - button [ref=e3641] [cursor=pointer]:
+                  - img
+      - generic [ref=e3642]:
+        - figure [ref=e3644]:
+          - link "魔术师库诺看得见一切" [ref=e3645] [cursor=pointer]:
+            - /url: https://bgm.tv/subject/534674
+            - img "魔术师库诺看得见一切" [ref=e3646]
+          - list [ref=e3647]:
+            - listitem [ref=e3648]:
+              - generic [ref=e3649]: "# 8126"
+            - listitem [ref=e3650]:
+              - generic [ref=e3651]:
+                - img
+                - text: "5.8"
+          - list [ref=e3652]:
+            - listitem [ref=e3653]:
+              - link "库诺·格里翁" [ref=e3654] [cursor=pointer]:
+                - /url: https://bgm.tv/character/172597
+                - img "库诺·格里翁" [ref=e3656]
+              - link "伊可·朗德" [ref=e3657] [cursor=pointer]:
+                - /url: https://bgm.tv/character/172598
+                - img "伊可·朗德" [ref=e3659]
+              - link "蜜莉卡·修古利亚" [ref=e3660] [cursor=pointer]:
+                - /url: https://bgm.tv/character/186696
+                - img "蜜莉卡·修古利亚" [ref=e3662]
+            - listitem [ref=e3663]:
+              - list [ref=e3664]:
+                - listitem [ref=e3665]:
+                  - generic [ref=e3666]:
+                    - img
+                    - text: 2026-01-04
+                - listitem [ref=e3667]:
+                  - generic [ref=e3668]:
+                    - img
+                    - text: 13 eps
+        - generic [ref=e3669]:
+          - generic [ref=e3670]:
+            - generic [ref=e3671]: 魔术师库诺看得见一切
+            - button [ref=e3672] [cursor=pointer]:
+              - img
+          - generic [ref=e3673]: 魔術師クノンは見えている
+          - list [ref=e3674]:
+            - listitem [ref=e3675]:
+              - generic [ref=e3676]:
+                - text: 奇幻
+                - button [ref=e3677] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3678]:
+              - generic [ref=e3679]:
+                - text: 异世界
+                - button [ref=e3680] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3681]:
+              - generic [ref=e3682]:
+                - text: 轻小说改
+                - button [ref=e3683] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3684]:
+              - generic [ref=e3685]:
+                - text: 战斗
+                - button [ref=e3686] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3687]:
+              - generic [ref=e3688]:
+                - text: 搞笑
+                - button [ref=e3689] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3690]:
+              - generic [ref=e3691]:
+                - text: PlatinumVision
+                - button [ref=e3692] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3693]:
+              - generic [ref=e3694]:
+                - text: 小说改
+                - button [ref=e3695] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3696]:
+              - generic [ref=e3697]:
+                - text: "2026"
+                - button [ref=e3698] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3699]:
+              - generic [ref=e3700]:
+                - text: 早見沙織
+                - button [ref=e3701] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3702]:
+              - generic [ref=e3703]:
+                - text: 轻改
+                - button [ref=e3704] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3705]:
+              - generic [ref=e3706]:
+                - text: 校园
+                - button [ref=e3707] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3708]:
+              - generic [ref=e3709]:
+                - text: 魔法
+                - button [ref=e3710] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3711]:
+              - generic [ref=e3712]:
+                - text: 大庭秀昭
+                - button [ref=e3713] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3714]:
+              - generic [ref=e3715]:
+                - text: 正太
+                - button [ref=e3716] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3717]:
+              - generic [ref=e3718]:
+                - text: 厕纸
+                - button [ref=e3719] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3720]:
+              - generic [ref=e3721]:
+                - text: 喜剧
+                - button [ref=e3722] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3723]:
+              - generic [ref=e3724]:
+                - text: 恋爱
+                - button [ref=e3725] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3726]:
+              - generic [ref=e3727]:
+                - text: 龙傲天
+                - button [ref=e3728] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3729]:
+              - generic [ref=e3730]:
+                - text: 日本动画
+                - button [ref=e3731] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3732]:
+              - generic [ref=e3733]:
+                - text: 早见沙织
+                - button [ref=e3734] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3735]:
+              - generic [ref=e3736]:
+                - text: 后宫
+                - button [ref=e3737] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3738]:
+              - generic [ref=e3739]:
+                - text: 架空
+                - button [ref=e3740] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3741]:
+              - generic [ref=e3742]:
+                - text: 内田真礼
+                - button [ref=e3743] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3744]:
+              - generic [ref=e3745]:
+                - text: 日常
+                - button [ref=e3746] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3747]:
+              - generic [ref=e3748]:
+                - text: 2026冬
+                - button [ref=e3749] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3750]:
+              - generic [ref=e3751]:
+                - text: 推荐
+                - button [ref=e3752] [cursor=pointer]:
+                  - img
+      - generic [ref=e3753]:
+        - figure [ref=e3755]:
+          - link "泛而不精的我被逐出了勇者队伍" [ref=e3756] [cursor=pointer]:
+            - /url: https://bgm.tv/subject/541336
+            - img "泛而不精的我被逐出了勇者队伍" [ref=e3757]
+          - list [ref=e3758]:
+            - listitem [ref=e3759]:
+              - generic [ref=e3760]: "# 9583"
+            - listitem [ref=e3761]:
+              - generic [ref=e3762]:
+                - img
+                - text: "5.0"
+          - list [ref=e3763]:
+            - listitem [ref=e3764]:
+              - link "奥伦·图拉" [ref=e3765] [cursor=pointer]:
+                - /url: https://bgm.tv/character/172264
+                - img "奥伦·图拉" [ref=e3767]
+              - link "索菲亚·克洛黛尔" [ref=e3768] [cursor=pointer]:
+                - /url: https://bgm.tv/character/172265
+                - img "索菲亚·克洛黛尔" [ref=e3770]
+              - link "赛尔玛·克洛黛尔" [ref=e3771] [cursor=pointer]:
+                - /url: https://bgm.tv/character/172266
+                - img "赛尔玛·克洛黛尔" [ref=e3773]
+            - listitem [ref=e3774]:
+              - list [ref=e3775]:
+                - listitem [ref=e3776]:
+                  - generic [ref=e3777]:
+                    - img
+                    - text: 2026-01-04
+                - listitem [ref=e3778]:
+                  - generic [ref=e3779]:
+                    - img
+                    - text: 12 eps
+        - generic [ref=e3780]:
+          - generic [ref=e3781]:
+            - generic [ref=e3782]: 泛而不精的我被逐出了勇者队伍
+            - button [ref=e3783] [cursor=pointer]:
+              - img
+          - generic [ref=e3784]: 勇者パーティを追い出された器用貧乏
+          - list [ref=e3785]:
+            - listitem [ref=e3786]:
+              - generic [ref=e3787]:
+                - text: 战斗
+                - button [ref=e3788] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3789]:
+              - generic [ref=e3790]:
+                - text: 异世界
+                - button [ref=e3791] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3792]:
+              - generic [ref=e3793]:
+                - text: 奇幻
+                - button [ref=e3794] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3795]:
+              - generic [ref=e3796]:
+                - text: 轻小说改
+                - button [ref=e3797] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3798]:
+              - generic [ref=e3799]:
+                - text: 厕纸
+                - button [ref=e3800] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3801]:
+              - generic [ref=e3802]:
+                - text: 退队流
+                - button [ref=e3803] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3804]:
+              - generic [ref=e3805]:
+                - text: 小说改
+                - button [ref=e3806] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3807]:
+              - generic [ref=e3808]:
+                - text: "2026"
+                - button [ref=e3809] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3810]:
+              - generic [ref=e3811]:
+                - text: 轻改
+                - button [ref=e3812] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3813]:
+              - generic [ref=e3814]:
+                - text: 后宫
+                - button [ref=e3815] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3816]:
+              - generic [ref=e3817]:
+                - text: 大西沙織
+                - button [ref=e3818] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3819]:
+              - generic [ref=e3820]:
+                - text: 龙傲天
+                - button [ref=e3821] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3822]:
+              - generic [ref=e3823]:
+                - text: 日本动画
+                - button [ref=e3824] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3825]:
+              - generic [ref=e3826]:
+                - text: 神户洋行
+                - button [ref=e3827] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3828]:
+              - generic [ref=e3829]:
+                - text: 萝莉
+                - button [ref=e3830] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3831]:
+              - generic [ref=e3832]:
+                - text: 魔法
+                - button [ref=e3833] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3834]:
+              - generic [ref=e3835]:
+                - text: 动画
+                - button [ref=e3836] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3837]:
+              - generic [ref=e3838]:
+                - text: 冒险
+                - button [ref=e3839] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3840]:
+              - generic [ref=e3841]:
+                - text: 正太
+                - button [ref=e3842] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3843]:
+              - generic [ref=e3844]:
+                - text: 2026冬
+                - button [ref=e3845] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3846]:
+              - generic [ref=e3847]:
+                - text: 大久保瑠美
+                - button [ref=e3848] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3849]:
+              - generic [ref=e3850]:
+                - text: 神戸洋行
+                - button [ref=e3851] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3852]:
+              - generic [ref=e3853]:
+                - text: 动漫
+                - button [ref=e3854] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3855]:
+              - generic [ref=e3856]:
+                - text: 大塚剛央
+                - button [ref=e3857] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3858]:
+              - generic [ref=e3859]:
+                - text: 立花日菜
+                - button [ref=e3860] [cursor=pointer]:
+                  - img
+      - generic [ref=e3861]:
+        - figure [ref=e3863]:
+          - link "达尔文事变" [ref=e3865] [cursor=pointer]:
+            - /url: https://bgm.tv/subject/495531
+            - img "达尔文事变" [ref=e3866]
+          - list [ref=e3867]:
+            - listitem [ref=e3868]:
+              - generic [ref=e3869]: "# 9968"
+            - listitem [ref=e3870]:
+              - generic [ref=e3871]:
+                - img
+                - text: "2.4"
+          - list [ref=e3872]:
+            - listitem [ref=e3873]:
+              - link "查理" [ref=e3874] [cursor=pointer]:
+                - /url: https://bgm.tv/character/169203
+                - img "查理" [ref=e3876]
+              - link "露西·艾尔德里德" [ref=e3877] [cursor=pointer]:
+                - /url: https://bgm.tv/character/169204
+                - img "露西·艾尔德里德" [ref=e3879]
+            - listitem [ref=e3880]:
+              - list [ref=e3881]:
+                - listitem [ref=e3882]:
+                  - generic [ref=e3883]:
+                    - img
+                    - text: 2026-01-06
+                - listitem [ref=e3884]:
+                  - generic [ref=e3885]:
+                    - img
+                    - text: 13 eps
+        - generic [ref=e3886]:
+          - generic [ref=e3887]:
+            - generic [ref=e3888]: 达尔文事变
+            - button [ref=e3889] [cursor=pointer]:
+              - img
+          - generic [ref=e3890]: ダーウィン事変
+          - list [ref=e3891]:
+            - listitem [ref=e3892]:
+              - generic [ref=e3893]:
+                - text: 漫画改
+                - button [ref=e3894] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3895]:
+              - generic [ref=e3896]:
+                - text: BELLNOXFILMS
+                - button [ref=e3897] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3898]:
+              - generic [ref=e3899]:
+                - text: 伦理
+                - button [ref=e3900] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3901]:
+              - generic [ref=e3902]:
+                - text: "2026"
+                - button [ref=e3903] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3904]:
+              - generic [ref=e3905]:
+                - text: 剧情
+                - button [ref=e3906] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3907]:
+              - generic [ref=e3908]:
+                - text: 津田尚克
+                - button [ref=e3909] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3910]:
+              - generic [ref=e3911]:
+                - text: 猎奇
+                - button [ref=e3912] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3913]:
+              - generic [ref=e3914]:
+                - text: 漫改
+                - button [ref=e3915] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3916]:
+              - generic [ref=e3917]:
+                - text: 科幻
+                - button [ref=e3918] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3919]:
+              - generic [ref=e3920]:
+                - text: 奇幻
+                - button [ref=e3921] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3922]:
+              - generic [ref=e3923]:
+                - text: SF
+                - button [ref=e3924] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3925]:
+              - generic [ref=e3926]:
+                - text: 日本动画
+                - button [ref=e3927] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3928]:
+              - generic [ref=e3929]:
+                - text: TVA
+                - button [ref=e3930] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3931]:
+              - generic [ref=e3932]:
+                - text: 反人类
+                - button [ref=e3933] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3934]:
+              - generic [ref=e3935]:
+                - text: 史
+                - button [ref=e3936] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3937]:
+              - generic [ref=e3938]:
+                - text: 垃圾
+                - button [ref=e3939] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3940]:
+              - generic [ref=e3941]:
+                - text: 校园
+                - button [ref=e3942] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3943]:
+              - generic [ref=e3944]:
+                - text: BELLNOX
+                - button [ref=e3945] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3946]:
+              - generic [ref=e3947]:
+                - text: 屎
+                - button [ref=e3948] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3949]:
+              - generic [ref=e3950]:
+                - text: 猪爪慎一
+                - button [ref=e3951] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3952]:
+              - generic [ref=e3953]:
+                - text: Films
+                - button [ref=e3954] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3955]:
+              - generic [ref=e3956]:
+                - text: 猩猩
+                - button [ref=e3957] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3958]:
+              - generic [ref=e3959]:
+                - text: TOHO
+                - button [ref=e3960] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3961]:
+              - generic [ref=e3962]:
+                - text: 2D
+                - button [ref=e3963] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3964]:
+              - generic [ref=e3965]:
+                - text: 上田耀司
+                - button [ref=e3966] [cursor=pointer]:
+                  - img
+            - listitem [ref=e3967]:
+              - generic [ref=e3968]:
+                - text: 森川智之
+                - button [ref=e3969] [cursor=pointer]:
+                  - img
+      - generic [ref=e3970]:
+        - figure [ref=e3972]:
+          - link "安逸领主的愉快领地防卫～以生产系魔术将无名小村打造成最强要塞都市～" [ref=e3974] [cursor=pointer]:
+            - /url: https://bgm.tv/subject/554013
+            - img "安逸领主的愉快领地防卫～以生产系魔术将无名小村打造成最强要塞都市～" [ref=e3975]
+          - list [ref=e3976]:
+            - listitem [ref=e3977]:
+              - generic [ref=e3978]: "# 9116"
+            - listitem [ref=e3979]:
+              - generic [ref=e3980]:
+                - img
+                - text: "5.4"
+          - list [ref=e3981]:
+            - listitem [ref=e3982]:
+              - link "范恩·奈伊·菲尔提欧" [ref=e3983] [cursor=pointer]:
+                - /url: https://bgm.tv/character/182563
+                - img "范恩·奈伊·菲尔提欧" [ref=e3985]
+              - link "蒂儿" [ref=e3986] [cursor=pointer]:
+                - /url: https://bgm.tv/character/182564
+                - img "蒂儿" [ref=e3988]
+              - link "卡姆辛" [ref=e3989] [cursor=pointer]:
+                - /url: https://bgm.tv/character/182565
+                - img "卡姆辛" [ref=e3991]
+              - link "阿尔蒂·欧恩·斐迪奈" [ref=e3992] [cursor=pointer]:
+                - /url: https://bgm.tv/character/184110
+                - img "阿尔蒂·欧恩·斐迪奈" [ref=e3994]
+              - link "艾斯帕达" [ref=e3995] [cursor=pointer]:
+                - /url: https://bgm.tv/character/184112
+                - img "艾斯帕达" [ref=e3997]
+              - link "戴伊" [ref=e3998] [cursor=pointer]:
+                - /url: https://bgm.tv/character/184113
+                - img "戴伊" [ref=e4000]
+            - listitem [ref=e4001]:
+              - list [ref=e4002]:
+                - listitem [ref=e4003]:
+                  - generic [ref=e4004]:
+                    - img
+                    - text: 2026-01-10
+                - listitem [ref=e4005]:
+                  - generic [ref=e4006]:
+                    - img
+                    - text: 12 eps
+        - generic [ref=e4007]:
+          - generic [ref=e4008]:
+            - generic [ref=e4009]: 安逸领主的愉快领地防卫～以生产系魔术将无名小村打造成最强要塞都市～
+            - button [ref=e4010] [cursor=pointer]:
+              - img
+          - generic [ref=e4011]: お気楽領主の楽しい領地防衛～生産系魔術で名もなき村を最強の城塞都市に～
+          - list [ref=e4012]:
+            - listitem [ref=e4013]:
+              - generic [ref=e4014]:
+                - text: 异世界
+                - button [ref=e4015] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4016]:
+              - generic [ref=e4017]:
+                - text: 轻小说改
+                - button [ref=e4018] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4019]:
+              - generic [ref=e4020]:
+                - text: 种田
+                - button [ref=e4021] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4022]:
+              - generic [ref=e4023]:
+                - text: 奇幻
+                - button [ref=e4024] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4025]:
+              - generic [ref=e4026]:
+                - text: 小说改
+                - button [ref=e4027] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4028]:
+              - generic [ref=e4029]:
+                - text: "2026"
+                - button [ref=e4030] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4031]:
+              - generic [ref=e4032]:
+                - text: NAZ
+                - button [ref=e4033] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4034]:
+              - generic [ref=e4035]:
+                - text: 后宫
+                - button [ref=e4036] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4037]:
+              - generic [ref=e4038]:
+                - text: 轻改
+                - button [ref=e4039] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4040]:
+              - generic [ref=e4041]:
+                - text: M・A・O
+                - button [ref=e4042] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4043]:
+              - generic [ref=e4044]:
+                - text: 日本动画
+                - button [ref=e4045] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4046]:
+              - generic [ref=e4047]:
+                - text: 伊瀬茉莉也
+                - button [ref=e4048] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4049]:
+              - generic [ref=e4050]:
+                - text: 厕纸
+                - button [ref=e4051] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4052]:
+              - generic [ref=e4053]:
+                - text: 穿越
+                - button [ref=e4054] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4055]:
+              - generic [ref=e4056]:
+                - text: 正太
+                - button [ref=e4057] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4058]:
+              - generic [ref=e4059]:
+                - text: 魔法
+                - button [ref=e4060] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4061]:
+              - generic [ref=e4062]:
+                - text: 恋爱
+                - button [ref=e4063] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4064]:
+              - generic [ref=e4065]:
+                - text: 战斗
+                - button [ref=e4066] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4067]:
+              - generic [ref=e4068]:
+                - text: 转生
+                - button [ref=e4069] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4070]:
+              - generic [ref=e4071]:
+                - text: 日常
+                - button [ref=e4072] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4073]:
+              - generic [ref=e4074]:
+                - text: 叠谷哲也
+                - button [ref=e4075] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4076]:
+              - generic [ref=e4077]:
+                - text: 龙傲天
+                - button [ref=e4078] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4079]:
+              - generic [ref=e4080]:
+                - text: 内山夕実
+                - button [ref=e4081] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4082]:
+              - generic [ref=e4083]:
+                - text: 堀内賢雄
+                - button [ref=e4084] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4085]:
+              - generic [ref=e4086]:
+                - text: 畳谷哲也
+                - button [ref=e4087] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4088]:
+              - generic [ref=e4089]:
+                - text: 若山詩音
+                - button [ref=e4090] [cursor=pointer]:
+                  - img
+      - generic [ref=e4091]:
+        - figure [ref=e4093]:
+          - link "「凭你也想讨伐魔王？」被勇者小队逐出队伍，只好在王都自在过活" [ref=e4095] [cursor=pointer]:
+            - /url: https://bgm.tv/subject/555445
+            - img "「凭你也想讨伐魔王？」被勇者小队逐出队伍，只好在王都自在过活" [ref=e4096]
+          - list [ref=e4097]:
+            - listitem [ref=e4098]:
+              - generic [ref=e4099]: "# 9687"
+            - listitem [ref=e4100]:
+              - generic [ref=e4101]:
+                - img
+                - text: "4.7"
+          - list [ref=e4102]:
+            - listitem [ref=e4103]:
+              - link "芙兰姆·艾布利科德" [ref=e4104] [cursor=pointer]:
+                - /url: https://bgm.tv/character/95784
+                - img "芙兰姆·艾布利科德" [ref=e4106]
+              - link "米露吉特" [ref=e4107] [cursor=pointer]:
+                - /url: https://bgm.tv/character/95785
+                - img "米露吉特" [ref=e4109]
+            - listitem [ref=e4110]:
+              - list [ref=e4111]:
+                - listitem [ref=e4112]:
+                  - generic [ref=e4113]:
+                    - img
+                    - text: 2026-01-08
+                - listitem [ref=e4114]:
+                  - generic [ref=e4115]:
+                    - img
+                    - text: 12 eps
+        - generic [ref=e4116]:
+          - generic [ref=e4117]:
+            - generic [ref=e4118]: 「凭你也想讨伐魔王？」被勇者小队逐出队伍，只好在王都自在过活
+            - button [ref=e4119] [cursor=pointer]:
+              - img
+          - generic [ref=e4120]: 「お前ごときが魔王に勝てると思うな」と勇者パーティを追放されたので、王都で気ままに暮らしたい
+          - list [ref=e4121]:
+            - listitem [ref=e4122]:
+              - generic [ref=e4123]:
+                - text: 百合
+                - button [ref=e4124] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4125]:
+              - generic [ref=e4126]:
+                - text: 战斗
+                - button [ref=e4127] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4128]:
+              - generic [ref=e4129]:
+                - text: 轻小说改
+                - button [ref=e4130] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4131]:
+              - generic [ref=e4132]:
+                - text: 猎奇
+                - button [ref=e4133] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4134]:
+              - generic [ref=e4135]:
+                - text: "2026"
+                - button [ref=e4136] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4137]:
+              - generic [ref=e4138]:
+                - text: 小说改
+                - button [ref=e4139] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4140]:
+              - generic [ref=e4141]:
+                - text: 奇幻
+                - button [ref=e4142] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4143]:
+              - generic [ref=e4144]:
+                - text: A・C・G・T
+                - button [ref=e4145] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4146]:
+              - generic [ref=e4147]:
+                - text: 异世界
+                - button [ref=e4148] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4149]:
+              - generic [ref=e4150]:
+                - text: 轻改
+                - button [ref=e4151] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4152]:
+              - generic [ref=e4153]:
+                - text: 黑暗
+                - button [ref=e4154] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4155]:
+              - generic [ref=e4156]:
+                - text: 镰仲史阳
+                - button [ref=e4157] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4158]:
+              - generic [ref=e4159]:
+                - text: 厕纸
+                - button [ref=e4160] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4161]:
+              - generic [ref=e4162]:
+                - text: 退队流
+                - button [ref=e4163] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4164]:
+              - generic [ref=e4165]:
+                - text: 伊藤美来
+                - button [ref=e4166] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4167]:
+              - generic [ref=e4168]:
+                - text: GL
+                - button [ref=e4169] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4170]:
+              - generic [ref=e4171]:
+                - text: 鎌仲史陽
+                - button [ref=e4172] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4173]:
+              - generic [ref=e4174]:
+                - text: 日本动画
+                - button [ref=e4175] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4176]:
+              - generic [ref=e4177]:
+                - text: A.C.G.T
+                - button [ref=e4178] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4179]:
+              - generic [ref=e4180]:
+                - text: 冒险
+                - button [ref=e4181] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4182]:
+              - generic [ref=e4183]:
+                - text: 凤傲天
+                - button [ref=e4184] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4185]:
+              - generic [ref=e4186]:
+                - text: 2026冬
+                - button [ref=e4187] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4188]:
+              - generic [ref=e4189]:
+                - text: kiki
+                - button [ref=e4190] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4191]:
+              - generic [ref=e4192]:
+                - text: 真百
+                - button [ref=e4193] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4194]:
+              - generic [ref=e4195]:
+                - text: TOP
+                - button [ref=e4196] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4197]:
+              - generic [ref=e4198]:
+                - text: 动画
+                - button [ref=e4199] [cursor=pointer]:
+                  - img
+      - generic [ref=e4200]:
+        - figure [ref=e4202]:
+          - link "身为魔族的我想向勇者小队的可爱女孩告白。" [ref=e4204] [cursor=pointer]:
+            - /url: https://bgm.tv/subject/525816
+            - img "身为魔族的我想向勇者小队的可爱女孩告白。" [ref=e4205]
+          - list [ref=e4206]:
+            - listitem [ref=e4207]:
+              - generic [ref=e4208]: "# 9605"
+            - listitem [ref=e4209]:
+              - generic [ref=e4210]:
+                - img
+                - text: "4.9"
+          - list [ref=e4211]:
+            - listitem [ref=e4212]:
+              - link "阳树" [ref=e4213] [cursor=pointer]:
+                - /url: https://bgm.tv/character/178783
+                - img "阳树" [ref=e4215]
+              - link "赛西莉亚" [ref=e4216] [cursor=pointer]:
+                - /url: https://bgm.tv/character/178784
+                - img "赛西莉亚" [ref=e4218]
+            - listitem [ref=e4219]:
+              - list [ref=e4220]:
+                - listitem [ref=e4221]:
+                  - generic [ref=e4222]:
+                    - img
+                    - text: 2026-01-06
+                - listitem [ref=e4223]:
+                  - generic [ref=e4224]:
+                    - img
+                    - text: 13 eps
+        - generic [ref=e4225]:
+          - generic [ref=e4226]:
+            - generic [ref=e4227]: 身为魔族的我想向勇者小队的可爱女孩告白。
+            - button [ref=e4228] [cursor=pointer]:
+              - img
+          - generic [ref=e4229]: 勇者パーティーにかわいい子がいたので、告白してみた。
+          - list [ref=e4230]:
+            - listitem [ref=e4231]:
+              - generic [ref=e4232]:
+                - text: 异世界
+                - button [ref=e4233] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4234]:
+              - generic [ref=e4235]:
+                - text: 恋爱
+                - button [ref=e4236] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4237]:
+              - generic [ref=e4238]:
+                - text: 小说改
+                - button [ref=e4239] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4240]:
+              - generic [ref=e4241]:
+                - text: "2026"
+                - button [ref=e4242] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4243]:
+              - generic [ref=e4244]:
+                - text: 月虹
+                - button [ref=e4245] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4246]:
+              - generic [ref=e4247]:
+                - text: 轻小说改
+                - button [ref=e4248] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4249]:
+              - generic [ref=e4250]:
+                - text: 花澤香菜
+                - button [ref=e4251] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4252]:
+              - generic [ref=e4253]:
+                - text: 奇幻
+                - button [ref=e4254] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4255]:
+              - generic [ref=e4256]:
+                - text: 轻改
+                - button [ref=e4257] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4258]:
+              - generic [ref=e4259]:
+                - text: 日本动画
+                - button [ref=e4260] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4261]:
+              - generic [ref=e4262]:
+                - text: 漫画改
+                - button [ref=e4263] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4264]:
+              - generic [ref=e4265]:
+                - text: 动画
+                - button [ref=e4266] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4267]:
+              - generic [ref=e4268]:
+                - text: 搞笑
+                - button [ref=e4269] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4270]:
+              - generic [ref=e4271]:
+                - text: 厕纸
+                - button [ref=e4272] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4273]:
+              - generic [ref=e4274]:
+                - text: 峰友则
+                - button [ref=e4275] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4276]:
+              - generic [ref=e4277]:
+                - text: 战斗
+                - button [ref=e4278] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4279]:
+              - generic [ref=e4280]:
+                - text: 制作中
+                - button [ref=e4281] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4282]:
+              - generic [ref=e4283]:
+                - text: 菅原雪絵
+                - button [ref=e4284] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4285]:
+              - generic [ref=e4286]:
+                - text: 日常
+                - button [ref=e4287] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4288]:
+              - generic [ref=e4289]:
+                - text: 山本靖贵
+                - button [ref=e4290] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4291]:
+              - generic [ref=e4292]:
+                - text: 峯友則
+                - button [ref=e4293] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4294]:
+              - generic [ref=e4295]:
+                - text: 木村良平
+                - button [ref=e4296] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4297]:
+              - generic [ref=e4298]:
+                - text: 天﨑滉平
+                - button [ref=e4299] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4300]:
+              - generic [ref=e4301]:
+                - text: 2026冬
+                - button [ref=e4302] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4303]:
+              - generic [ref=e4304]:
+                - text: 转生
+                - button [ref=e4305] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4306]:
+              - generic [ref=e4307]:
+                - text: 一月新番
+                - button [ref=e4308] [cursor=pointer]:
+                  - img
+      - generic [ref=e4309]:
+        - figure [ref=e4311]:
+          - link "黄金神威 最终章" [ref=e4313] [cursor=pointer]:
+            - /url: https://bgm.tv/subject/443106
+            - img "黄金神威 最终章" [ref=e4314]
+          - list [ref=e4315]:
+            - listitem [ref=e4316]:
+              - generic [ref=e4317]: "# 806"
+            - listitem [ref=e4318]:
+              - generic [ref=e4319]:
+                - img
+                - text: "7.6"
+          - list [ref=e4320]:
+            - listitem [ref=e4321]:
+              - link "杉元佐一" [ref=e4322] [cursor=pointer]:
+                - /url: https://bgm.tv/character/56511
+                - img "杉元佐一" [ref=e4324]
+              - link "阿席莉帕" [ref=e4325] [cursor=pointer]:
+                - /url: https://bgm.tv/character/56512
+                - img "阿席莉帕" [ref=e4327]
+            - listitem [ref=e4328]:
+              - list [ref=e4329]:
+                - listitem [ref=e4330]:
+                  - generic [ref=e4331]:
+                    - img
+                    - text: 2026-01-05
+                - listitem [ref=e4332]:
+                  - generic [ref=e4333]:
+                    - img
+                    - text: 13 eps
+        - generic [ref=e4334]:
+          - generic [ref=e4335]:
+            - generic [ref=e4336]: 黄金神威 最终章
+            - button [ref=e4337] [cursor=pointer]:
+              - img
+          - generic [ref=e4338]: ゴールデンカムイ 最終章
+          - list [ref=e4339]:
+            - listitem [ref=e4340]:
+              - generic [ref=e4341]:
+                - text: 漫画改
+                - button [ref=e4342] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4343]:
+              - generic [ref=e4344]:
+                - text: 冒险
+                - button [ref=e4345] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4346]:
+              - generic [ref=e4347]:
+                - text: 战斗
+                - button [ref=e4348] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4349]:
+              - generic [ref=e4350]:
+                - text: BrainsBase
+                - button [ref=e4351] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4352]:
+              - generic [ref=e4353]:
+                - text: 搞笑
+                - button [ref=e4354] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4355]:
+              - generic [ref=e4356]:
+                - text: "2026"
+                - button [ref=e4357] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4358]:
+              - generic [ref=e4359]:
+                - text: 历史
+                - button [ref=e4360] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4361]:
+              - generic [ref=e4362]:
+                - text: 漫改
+                - button [ref=e4363] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4364]:
+              - generic [ref=e4365]:
+                - text: 黄金神威
+                - button [ref=e4366] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4367]:
+              - generic [ref=e4368]:
+                - text: 剧情
+                - button [ref=e4369] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4370]:
+              - generic [ref=e4371]:
+                - text: 黃金神威
+                - button [ref=e4372] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4373]:
+              - generic [ref=e4374]:
+                - text: 续作
+                - button [ref=e4375] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4376]:
+              - generic [ref=e4377]:
+                - text: 群像
+                - button [ref=e4378] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4379]:
+              - generic [ref=e4380]:
+                - text: 菅原静贵
+                - button [ref=e4381] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4382]:
+              - generic [ref=e4383]:
+                - text: 未定档
+                - button [ref=e4384] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4385]:
+              - generic [ref=e4386]:
+                - text: 菅原静貴
+                - button [ref=e4387] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4388]:
+              - generic [ref=e4389]:
+                - text: 26冬
+                - button [ref=e4390] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4391]:
+              - generic [ref=e4392]:
+                - text: 1月
+                - button [ref=e4393] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4394]:
+              - generic [ref=e4395]:
+                - text: 日本动画
+                - button [ref=e4396] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4397]:
+              - generic [ref=e4398]:
+                - text: 白石晴香
+                - button [ref=e4399] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4400]:
+              - generic [ref=e4401]:
+                - text: 美食
+                - button [ref=e4402] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4403]:
+              - generic [ref=e4404]:
+                - text: 星期一
+                - button [ref=e4405] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4406]:
+              - generic [ref=e4407]:
+                - text: 高木登
+                - button [ref=e4408] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4409]:
+              - generic [ref=e4410]:
+                - text: TVA
+                - button [ref=e4411] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4412]:
+              - generic [ref=e4413]:
+                - text: ゴールデンカムイ
+                - button [ref=e4414] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4415]:
+              - generic [ref=e4416]:
+                - text: 战争
+                - button [ref=e4417] [cursor=pointer]:
+                  - img
+      - generic [ref=e4418]:
+        - figure [ref=e4420]:
+          - link "贵族转生 ～得天眷顾一出生就获得最强力量～" [ref=e4422] [cursor=pointer]:
+            - /url: https://bgm.tv/subject/531724
+            - img "贵族转生 ～得天眷顾一出生就获得最强力量～" [ref=e4423]
+          - list [ref=e4424]:
+            - listitem [ref=e4425]:
+              - generic [ref=e4426]: "# 9665"
+            - listitem [ref=e4427]:
+              - generic [ref=e4428]:
+                - img
+                - text: "4.8"
+          - list [ref=e4429]:
+            - listitem [ref=e4430]:
+              - link "诺亚·亚拉拉特" [ref=e4431] [cursor=pointer]:
+                - /url: https://bgm.tv/character/186657
+                - img "诺亚·亚拉拉特" [ref=e4433]
+              - link "佐伊" [ref=e4434] [cursor=pointer]:
+                - /url: https://bgm.tv/character/186658
+                - img "佐伊" [ref=e4436]
+              - link "雪莉·格兰兹" [ref=e4437] [cursor=pointer]:
+                - /url: https://bgm.tv/character/186659
+                - img "雪莉·格兰兹" [ref=e4439]
+            - listitem [ref=e4440]:
+              - list [ref=e4441]:
+                - listitem [ref=e4442]:
+                  - generic [ref=e4443]:
+                    - img
+                    - text: 2026-01-07
+                - listitem [ref=e4444]:
+                  - generic [ref=e4445]:
+                    - img
+                    - text: 12 eps
+        - generic [ref=e4446]:
+          - generic [ref=e4447]:
+            - generic [ref=e4448]: 贵族转生 ～得天眷顾一出生就获得最强力量～
+            - button [ref=e4449] [cursor=pointer]:
+              - img
+          - generic [ref=e4450]: 貴族転生 ～恵まれた生まれから最強の力を得る～
+          - list [ref=e4451]:
+            - listitem [ref=e4452]:
+              - generic [ref=e4453]:
+                - text: 异世界
+                - button [ref=e4454] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4455]:
+              - generic [ref=e4456]:
+                - text: 奇幻
+                - button [ref=e4457] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4458]:
+              - generic [ref=e4459]:
+                - text: 轻小说改
+                - button [ref=e4460] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4461]:
+              - generic [ref=e4462]:
+                - text: 战斗
+                - button [ref=e4463] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4464]:
+              - generic [ref=e4465]:
+                - text: "2026"
+                - button [ref=e4466] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4467]:
+              - generic [ref=e4468]:
+                - text: 小说改
+                - button [ref=e4469] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4470]:
+              - generic [ref=e4471]:
+                - text: CompTown
+                - button [ref=e4472] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4473]:
+              - generic [ref=e4474]:
+                - text: 转生
+                - button [ref=e4475] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4476]:
+              - generic [ref=e4477]:
+                - text: 轻改
+                - button [ref=e4478] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4479]:
+              - generic [ref=e4480]:
+                - text: 厕纸
+                - button [ref=e4481] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4482]:
+              - generic [ref=e4483]:
+                - text: 后宫
+                - button [ref=e4484] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4485]:
+              - generic [ref=e4486]:
+                - text: 龙傲天
+                - button [ref=e4487] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4488]:
+              - generic [ref=e4489]:
+                - text: 乳化
+                - button [ref=e4490] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4491]:
+              - generic [ref=e4492]:
+                - text: 雍正王朝
+                - button [ref=e4493] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4494]:
+              - generic [ref=e4495]:
+                - text: 福田道生
+                - button [ref=e4496] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4497]:
+              - generic [ref=e4498]:
+                - text: 佐藤寿昭
+                - button [ref=e4499] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4500]:
+              - generic [ref=e4501]:
+                - text: 2026冬
+                - button [ref=e4502] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4503]:
+              - generic [ref=e4504]:
+                - text: 正太
+                - button [ref=e4505] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4506]:
+              - generic [ref=e4507]:
+                - text: 政治
+                - button [ref=e4508] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4509]:
+              - generic [ref=e4510]:
+                - text: 动漫
+                - button [ref=e4511] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4512]:
+              - generic [ref=e4513]:
+                - text: 日本动画
+                - button [ref=e4514] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4515]:
+              - generic [ref=e4516]:
+                - text: 魔法
+                - button [ref=e4517] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4518]:
+              - generic [ref=e4519]:
+                - text: 宫斗
+                - button [ref=e4520] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4521]:
+              - generic [ref=e4522]:
+                - text: TVA
+                - button [ref=e4523] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4524]:
+              - generic [ref=e4525]:
+                - text: 奈波果林
+                - button [ref=e4526] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4527]:
+              - generic [ref=e4528]:
+                - text: 开挂
+                - button [ref=e4529] [cursor=pointer]:
+                  - img
+      - generic [ref=e4530]:
+        - figure [ref=e4532]:
+          - link "地狱模式～喜欢挑战特殊成就的玩家在废设定的异世界成为无双～" [ref=e4534] [cursor=pointer]:
+            - /url: https://bgm.tv/subject/526979
+            - img "地狱模式～喜欢挑战特殊成就的玩家在废设定的异世界成为无双～" [ref=e4535]
+          - list [ref=e4536]:
+            - listitem [ref=e4537]:
+              - generic [ref=e4538]: "# 7915"
+            - listitem [ref=e4539]:
+              - generic [ref=e4540]:
+                - img
+                - text: "5.8"
+          - list [ref=e4541]:
+            - listitem [ref=e4542]:
+              - link "亚莲" [ref=e4543] [cursor=pointer]:
+                - /url: https://bgm.tv/character/179970
+                - img "亚莲" [ref=e4545]
+              - link "格蕾娜" [ref=e4546] [cursor=pointer]:
+                - /url: https://bgm.tv/character/179971
+                - img "格蕾娜" [ref=e4548]
+              - link "多戈拉" [ref=e4549] [cursor=pointer]:
+                - /url: https://bgm.tv/character/179972
+                - img "多戈拉" [ref=e4551]
+              - link "萨希尔·格兰威尔" [ref=e4552] [cursor=pointer]:
+                - /url: https://bgm.tv/character/179973
+                - img "萨希尔·格兰威尔" [ref=e4554]
+            - listitem [ref=e4555]:
+              - list [ref=e4556]:
+                - listitem [ref=e4557]:
+                  - generic [ref=e4558]:
+                    - img
+                    - text: 2026-01-09
+                - listitem [ref=e4559]:
+                  - generic [ref=e4560]:
+                    - img
+                    - text: 12 eps
+        - generic [ref=e4561]:
+          - generic [ref=e4562]:
+            - generic [ref=e4563]: 地狱模式～喜欢挑战特殊成就的玩家在废设定的异世界成为无双～
+            - button [ref=e4564] [cursor=pointer]:
+              - img
+          - generic [ref=e4565]: ヘルモード ～やり込み好きのゲーマーは廃設定の異世界で無双する～
+          - list [ref=e4566]:
+            - listitem [ref=e4567]:
+              - generic [ref=e4568]:
+                - text: 异世界
+                - button [ref=e4569] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4570]:
+              - generic [ref=e4571]:
+                - text: 奇幻
+                - button [ref=e4572] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4573]:
+              - generic [ref=e4574]:
+                - text: 战斗
+                - button [ref=e4575] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4576]:
+              - generic [ref=e4577]:
+                - text: 横滨AnimationLABO
+                - button [ref=e4578] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4579]:
+              - generic [ref=e4580]:
+                - text: 小说改
+                - button [ref=e4581] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4582]:
+              - generic [ref=e4583]:
+                - text: 轻小说改
+                - button [ref=e4584] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4585]:
+              - generic [ref=e4586]:
+                - text: "2026"
+                - button [ref=e4587] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4588]:
+              - generic [ref=e4589]:
+                - text: 转生
+                - button [ref=e4590] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4591]:
+              - generic [ref=e4592]:
+                - text: 轻改
+                - button [ref=e4593] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4594]:
+              - generic [ref=e4595]:
+                - text: 正太
+                - button [ref=e4596] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4597]:
+              - generic [ref=e4598]:
+                - text: 厕纸
+                - button [ref=e4599] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4600]:
+              - generic [ref=e4601]:
+                - text: 飯塚麻結
+                - button [ref=e4602] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4603]:
+              - generic [ref=e4604]:
+                - text: 穿越
+                - button [ref=e4605] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4606]:
+              - generic [ref=e4607]:
+                - text: 冒险
+                - button [ref=e4608] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4609]:
+              - generic [ref=e4610]:
+                - text: 亲情
+                - button [ref=e4611] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4612]:
+              - generic [ref=e4613]:
+                - text: 玉川真人
+                - button [ref=e4614] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4615]:
+              - generic [ref=e4616]:
+                - text: 龙傲天
+                - button [ref=e4617] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4618]:
+              - generic [ref=e4619]:
+                - text: 搞笑
+                - button [ref=e4620] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4621]:
+              - generic [ref=e4622]:
+                - text: 千本木彩花
+                - button [ref=e4623] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4624]:
+              - generic [ref=e4625]:
+                - text: 日本动画
+                - button [ref=e4626] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4627]:
+              - generic [ref=e4628]:
+                - text: 畠中祐
+                - button [ref=e4629] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4630]:
+              - generic [ref=e4631]:
+                - text: 制作中
+                - button [ref=e4632] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4633]:
+              - generic [ref=e4634]:
+                - text: 田村睦心
+                - button [ref=e4635] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4636]:
+              - generic [ref=e4637]:
+                - text: 日常
+                - button [ref=e4638] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4639]:
+              - generic [ref=e4640]:
+                - text: 动画
+                - button [ref=e4641] [cursor=pointer]:
+                  - img
+      - generic [ref=e4642]:
+        - figure [ref=e4644]:
+          - link "厄里斯的圣杯" [ref=e4646] [cursor=pointer]:
+            - /url: https://bgm.tv/subject/520642
+            - img "厄里斯的圣杯" [ref=e4647]
+          - list [ref=e4648]:
+            - listitem [ref=e4649]:
+              - generic [ref=e4650]: "# 9378"
+            - listitem [ref=e4651]:
+              - generic [ref=e4652]:
+                - img
+                - text: "5.1"
+          - list [ref=e4653]:
+            - listitem [ref=e4654]:
+              - link "康士坦丝·古丽儿" [ref=e4655] [cursor=pointer]:
+                - /url: https://bgm.tv/character/165975
+                - img "康士坦丝·古丽儿" [ref=e4657]
+              - link "斯卡蕾特·卡斯蒂尔" [ref=e4658] [cursor=pointer]:
+                - /url: https://bgm.tv/character/165976
+                - img "斯卡蕾特·卡斯蒂尔" [ref=e4660]
+            - listitem [ref=e4661]:
+              - list [ref=e4662]:
+                - listitem [ref=e4663]:
+                  - generic [ref=e4664]:
+                    - img
+                    - text: 2026-01-08
+                - listitem [ref=e4665]:
+                  - generic [ref=e4666]:
+                    - img
+                    - text: 12 eps
+        - generic [ref=e4667]:
+          - generic [ref=e4668]:
+            - generic [ref=e4669]: 厄里斯的圣杯
+            - button [ref=e4670] [cursor=pointer]:
+              - img
+          - generic [ref=e4671]: エリスの聖杯
+          - list [ref=e4672]:
+            - listitem [ref=e4673]:
+              - generic [ref=e4674]:
+                - text: 轻小说改
+                - button [ref=e4675] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4676]:
+              - generic [ref=e4677]:
+                - text: 恶役
+                - button [ref=e4678] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4679]:
+              - generic [ref=e4680]:
+                - text: 苇PRODUCTION
+                - button [ref=e4681] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4682]:
+              - generic [ref=e4683]:
+                - text: "2026"
+                - button [ref=e4684] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4685]:
+              - generic [ref=e4686]:
+                - text: 小说改
+                - button [ref=e4687] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4688]:
+              - generic [ref=e4689]:
+                - text: 悬疑
+                - button [ref=e4690] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4691]:
+              - generic [ref=e4692]:
+                - text: 奇幻
+                - button [ref=e4693] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4694]:
+              - generic [ref=e4695]:
+                - text: 轻改
+                - button [ref=e4696] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4697]:
+              - generic [ref=e4698]:
+                - text: 复仇
+                - button [ref=e4699] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4700]:
+              - generic [ref=e4701]:
+                - text: 正剧
+                - button [ref=e4702] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4703]:
+              - generic [ref=e4704]:
+                - text: 森田纯平
+                - button [ref=e4705] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4706]:
+              - generic [ref=e4707]:
+                - text: 市ノ瀬加那
+                - button [ref=e4708] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4709]:
+              - generic [ref=e4710]:
+                - text: 异世界
+                - button [ref=e4711] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4712]:
+              - generic [ref=e4713]:
+                - text: 百合
+                - button [ref=e4714] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4715]:
+              - generic [ref=e4716]:
+                - text: 鈴代紗弓
+                - button [ref=e4717] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4718]:
+              - generic [ref=e4719]:
+                - text: 乙女向
+                - button [ref=e4720] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4721]:
+              - generic [ref=e4722]:
+                - text: 森田と純平
+                - button [ref=e4723] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4724]:
+              - generic [ref=e4725]:
+                - text: 恶役大小姐
+                - button [ref=e4726] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4727]:
+              - generic [ref=e4728]:
+                - text: 女性向
+                - button [ref=e4729] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4730]:
+              - generic [ref=e4731]:
+                - text: 不是百合
+                - button [ref=e4732] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4733]:
+              - generic [ref=e4734]:
+                - text: 山下宪一
+                - button [ref=e4735] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4736]:
+              - generic [ref=e4737]:
+                - text: 贵族
+                - button [ref=e4738] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4739]:
+              - generic [ref=e4740]:
+                - text: 厄里斯的圣杯
+                - button [ref=e4741] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4742]:
+              - generic [ref=e4743]:
+                - text: 双女主
+                - button [ref=e4744] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4745]:
+              - generic [ref=e4746]:
+                - text: 追番
+                - button [ref=e4747] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4748]:
+              - generic [ref=e4749]:
+                - text: 日本动画
+                - button [ref=e4750] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4751]:
+              - generic [ref=e4752]:
+                - text: 阿座上洋平
+                - button [ref=e4753] [cursor=pointer]:
+                  - img
+      - generic [ref=e4754]:
+        - figure [ref=e4756]:
+          - link "蘑菇魔女" [ref=e4758] [cursor=pointer]:
+            - /url: https://bgm.tv/subject/528434
+            - img "蘑菇魔女" [ref=e4759]
+          - list [ref=e4760]:
+            - listitem [ref=e4761]:
+              - generic [ref=e4762]: "# 9311"
+            - listitem [ref=e4763]:
+              - generic [ref=e4764]:
+                - img
+                - text: "5.2"
+          - list [ref=e4765]:
+            - listitem [ref=e4766]:
+              - link "露娜" [ref=e4767] [cursor=pointer]:
+                - /url: https://bgm.tv/character/176877
+                - img "露娜" [ref=e4769]
+              - link "利泽" [ref=e4770] [cursor=pointer]:
+                - /url: https://bgm.tv/character/187159
+                - img "利泽" [ref=e4772]
+            - listitem [ref=e4773]:
+              - list [ref=e4774]:
+                - listitem [ref=e4775]:
+                  - generic [ref=e4776]:
+                    - img
+                    - text: 2026-01-08
+                - listitem [ref=e4777]:
+                  - generic [ref=e4778]:
+                    - img
+                    - text: 12 eps
+        - generic [ref=e4779]:
+          - generic [ref=e4780]:
+            - generic [ref=e4781]: 蘑菇魔女
+            - button [ref=e4782] [cursor=pointer]:
+              - img
+          - generic [ref=e4783]: シャンピニオンの魔女
+          - list [ref=e4784]:
+            - listitem [ref=e4785]:
+              - generic [ref=e4786]:
+                - text: 漫画改
+                - button [ref=e4787] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4788]:
+              - generic [ref=e4789]:
+                - text: 奇幻
+                - button [ref=e4790] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4791]:
+              - generic [ref=e4792]:
+                - text: 魔女
+                - button [ref=e4793] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4794]:
+              - generic [ref=e4795]:
+                - text: 台风Graphics
+                - button [ref=e4796] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4797]:
+              - generic [ref=e4798]:
+                - text: "2026"
+                - button [ref=e4799] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4800]:
+              - generic [ref=e4801]:
+                - text: 治愈
+                - button [ref=e4802] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4803]:
+              - generic [ref=e4804]:
+                - text: Qzil.la
+                - button [ref=e4805] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4806]:
+              - generic [ref=e4807]:
+                - text: 漫改
+                - button [ref=e4808] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4809]:
+              - generic [ref=e4810]:
+                - text: 少女
+                - button [ref=e4811] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4812]:
+              - generic [ref=e4813]:
+                - text: 恋爱
+                - button [ref=e4814] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4815]:
+              - generic [ref=e4816]:
+                - text: 异世界
+                - button [ref=e4817] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4818]:
+              - generic [ref=e4819]:
+                - text: 久保洋祐
+                - button [ref=e4820] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4821]:
+              - generic [ref=e4822]:
+                - text: 柿原優子
+                - button [ref=e4823] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4824]:
+              - generic [ref=e4825]:
+                - text: 女性向
+                - button [ref=e4826] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4827]:
+              - generic [ref=e4828]:
+                - text: 2026冬
+                - button [ref=e4829] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4830]:
+              - generic [ref=e4831]:
+                - text: 童话
+                - button [ref=e4832] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4833]:
+              - generic [ref=e4834]:
+                - text: 日本动画
+                - button [ref=e4835] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4836]:
+              - generic [ref=e4837]:
+                - text: 白石晴香
+                - button [ref=e4838] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4839]:
+              - generic [ref=e4840]:
+                - text: 追番
+                - button [ref=e4841] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4842]:
+              - generic [ref=e4843]:
+                - text: 柿原优子
+                - button [ref=e4844] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4845]:
+              - generic [ref=e4846]:
+                - text: 榊原優希
+                - button [ref=e4847] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4848]:
+              - generic [ref=e4849]:
+                - text: 日常
+                - button [ref=e4850] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4851]:
+              - generic [ref=e4852]:
+                - text: 1月
+                - button [ref=e4853] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4854]:
+              - generic [ref=e4855]:
+                - text: 冬季
+                - button [ref=e4856] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4857]:
+              - generic [ref=e4858]:
+                - text: 福圓美里
+                - button [ref=e4859] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4860]:
+              - generic [ref=e4861]:
+                - text: "20"
+                - button [ref=e4862] [cursor=pointer]:
+                  - img
+      - generic [ref=e4863]:
+        - figure [ref=e4865]:
+          - link "呼唤少女特别篇 想做的事到底是什么" [ref=e4867] [cursor=pointer]:
+            - /url: https://bgm.tv/subject/627556
+            - img "呼唤少女特别篇 想做的事到底是什么" [ref=e4868]
+          - list [ref=e4869]:
+            - listitem [ref=e4870]:
+              - generic [ref=e4871]: "# 4364"
+            - listitem [ref=e4872]:
+              - generic [ref=e4873]:
+                - img
+                - text: "6.6"
+          - list [ref=e4874]:
+            - listitem [ref=e4875]:
+              - link "叶曦" [ref=e4876] [cursor=pointer]:
+                - /url: https://bgm.tv/character/164308
+                - img "叶曦" [ref=e4878]
+              - link "白小桃" [ref=e4879] [cursor=pointer]:
+                - /url: https://bgm.tv/character/164309
+                - img "白小桃" [ref=e4881]
+              - link "孙芝雅" [ref=e4882] [cursor=pointer]:
+                - /url: https://bgm.tv/character/164310
+                - img "孙芝雅" [ref=e4884]
+              - link "李照" [ref=e4885] [cursor=pointer]:
+                - /url: https://bgm.tv/character/202646
+                - img "李照" [ref=e4887]
+            - listitem [ref=e4888]:
+              - list [ref=e4889]:
+                - listitem [ref=e4890]:
+                  - generic [ref=e4891]:
+                    - img
+                    - text: 2026-02-14
+                - listitem [ref=e4892]:
+                  - generic [ref=e4893]:
+                    - img
+                    - text: 1 eps
+        - generic [ref=e4894]:
+          - generic [ref=e4895]:
+            - generic [ref=e4896]: 呼唤少女特别篇 想做的事到底是什么
+            - button [ref=e4897] [cursor=pointer]:
+              - img
+          - generic [ref=e4898]: 暂无译名
+          - list [ref=e4899]:
+            - listitem [ref=e4900]:
+              - generic [ref=e4901]:
+                - text: 国产
+                - button [ref=e4902] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4903]:
+              - generic [ref=e4904]:
+                - text: 校园
+                - button [ref=e4905] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4906]:
+              - generic [ref=e4907]:
+                - text: 日常
+                - button [ref=e4908] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4909]:
+              - generic [ref=e4910]:
+                - text: 漫画改
+                - button [ref=e4911] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4912]:
+              - generic [ref=e4913]:
+                - text: 轻百合
+                - button [ref=e4914] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4915]:
+              - generic [ref=e4916]:
+                - text: "2026"
+                - button [ref=e4917] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4918]:
+              - generic [ref=e4919]:
+                - text: WEB
+                - button [ref=e4920] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4921]:
+              - generic [ref=e4922]:
+                - text: 中国
+                - button [ref=e4923] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4924]:
+              - generic [ref=e4925]:
+                - text: 百合
+                - button [ref=e4926] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4927]:
+              - generic [ref=e4928]:
+                - text: 萌
+                - button [ref=e4929] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4930]:
+              - generic [ref=e4931]:
+                - text: 四次元动画
+                - button [ref=e4932] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4933]:
+              - generic [ref=e4934]:
+                - text: 漫改
+                - button [ref=e4935] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4936]:
+              - generic [ref=e4937]:
+                - text: 轻百
+                - button [ref=e4938] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4939]:
+              - generic [ref=e4940]:
+                - text: 番外
+                - button [ref=e4941] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4942]:
+              - generic [ref=e4943]:
+                - text: OVA
+                - button [ref=e4944] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4945]:
+              - generic [ref=e4946]:
+                - text: 四次方动画
+                - button [ref=e4947] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4948]:
+              - generic [ref=e4949]:
+                - text: 搞笑
+                - button [ref=e4950] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4951]:
+              - generic [ref=e4952]:
+                - text: 国漫
+                - button [ref=e4953] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4954]:
+              - generic [ref=e4955]:
+                - text: 邓小冰
+                - button [ref=e4956] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4957]:
+              - generic [ref=e4958]:
+                - text: 短片
+                - button [ref=e4959] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4960]:
+              - generic [ref=e4961]:
+                - text: 萌豚
+                - button [ref=e4962] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4963]:
+              - generic [ref=e4964]:
+                - text: 青春
+                - button [ref=e4965] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4966]:
+              - generic [ref=e4967]:
+                - text: 国创
+                - button [ref=e4968] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4969]:
+              - generic [ref=e4970]:
+                - text: 原创
+                - button [ref=e4971] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4972]:
+              - generic [ref=e4973]:
+                - text: 5分
+                - button [ref=e4974] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4975]:
+              - generic [ref=e4976]:
+                - text: 2020s
+                - button [ref=e4977] [cursor=pointer]:
+                  - img
+            - listitem [ref=e4978]:
+              - generic [ref=e4979]:
+                - text: 7分
+                - button [ref=e4980] [cursor=pointer]:
+                  - img
+      - generic [ref=e4981]:
+        - figure [ref=e4983]:
+          - link "神八小妹不可怕" [ref=e4985] [cursor=pointer]:
+            - /url: https://bgm.tv/subject/522414
+            - img "神八小妹不可怕" [ref=e4986]
+          - list [ref=e4987]:
+            - listitem [ref=e4988]:
+              - generic [ref=e4989]: "# 7534"
+            - listitem [ref=e4990]:
+              - generic [ref=e4991]:
+                - img
+                - text: "6.0"
+          - list [ref=e4992]:
+            - listitem [ref=e4993]:
+              - link "佐藤神八" [ref=e4994] [cursor=pointer]:
+                - /url: https://bgm.tv/character/177409
+                - img "佐藤神八" [ref=e4996]
+            - listitem [ref=e4997]:
+              - list [ref=e4998]:
+                - listitem [ref=e4999]:
+                  - generic [ref=e5000]:
+                    - img
+                    - text: 2026-01-11
+                - listitem [ref=e5001]:
+                  - generic [ref=e5002]:
+                    - img
+                    - text: 12 eps
+        - generic [ref=e5003]:
+          - generic [ref=e5004]:
+            - generic [ref=e5005]: 神八小妹不可怕
+            - button [ref=e5006] [cursor=pointer]:
+              - img
+          - generic [ref=e5007]: カヤちゃんはコワくない
+          - list [ref=e5008]:
+            - listitem [ref=e5009]:
+              - generic [ref=e5010]:
+                - text: 恐怖
+                - button [ref=e5011] [cursor=pointer]:
+                  - img
+            - listitem [ref=e5012]:
+              - generic [ref=e5013]:
+                - text: 漫画改
+                - button [ref=e5014] [cursor=pointer]:
+                  - img
+            - listitem [ref=e5015]:
+              - generic [ref=e5016]:
+                - text: 奇幻
+                - button [ref=e5017] [cursor=pointer]:
+                  - img
+            - listitem [ref=e5018]:
+              - generic [ref=e5019]:
+                - text: 灵异
+                - button [ref=e5020] [cursor=pointer]:
+                  - img
+            - listitem [ref=e5021]:
+              - generic [ref=e5022]:
+                - text: "2026"
+                - button [ref=e5023] [cursor=pointer]:
+                  - img
+            - listitem [ref=e5024]:
+              - generic [ref=e5025]:
+                - text: EastFishStudio
+                - button [ref=e5026] [cursor=pointer]:
+                  - img
+            - listitem [ref=e5027]:
+              - generic [ref=e5028]:
+                - text: 幼女
+                - button [ref=e5029] [cursor=pointer]:
+                  - img
+            - listitem [ref=e5030]:
+              - generic [ref=e5031]:
+                - text: 博史池畠
+                - button [ref=e5032] [cursor=pointer]:
+                  - img
+            - listitem [ref=e5033]:
+              - generic [ref=e5034]:
+                - text: 漫改
+                - button [ref=e5035] [cursor=pointer]:
+                  - img
+            - listitem [ref=e5036]:
+              - generic [ref=e5037]:
+                - text: 萝莉
+                - button [ref=e5038] [cursor=pointer]:
+                  - img
+            - listitem [ref=e5039]:
+              - generic [ref=e5040]:
+                - text: 村越繁
+                - button [ref=e5041] [cursor=pointer]:
+                  - img
+            - listitem [ref=e5042]:
+              - generic [ref=e5043]:
+                - text: 内田真礼
+                - button [ref=e5044] [cursor=pointer]:
+                  - img
+            - listitem [ref=e5045]:
+              - generic [ref=e5046]:
+                - text: 日常
+                - button [ref=e5047] [cursor=pointer]:
+                  - img
+            - listitem [ref=e5048]:
+              - generic [ref=e5049]:
+                - text: 猎奇
+                - button [ref=e5050] [cursor=pointer]:
+                  - img
+            - listitem [ref=e5051]:
+              - generic [ref=e5052]:
+                - text: 悬疑
+                - button [ref=e5053] [cursor=pointer]:
+                  - img
+            - listitem [ref=e5054]:
+              - generic [ref=e5055]:
+                - text: 日本动画
+                - button [ref=e5056] [cursor=pointer]:
+                  - img
+            - listitem [ref=e5057]:
+              - generic [ref=e5058]:
+                - text: 百合太郎
+                - button [ref=e5059] [cursor=pointer]:
+                  - img
+            - listitem [ref=e5060]:
+              - generic [ref=e5061]:
+                - text: 搞笑
+                - button [ref=e5062] [cursor=pointer]:
+                  - img
+            - listitem [ref=e5063]:
+              - generic [ref=e5064]:
+                - text: 推荐
+                - button [ref=e5065] [cursor=pointer]:
+                  - img
+            - listitem [ref=e5066]:
+              - generic [ref=e5067]:
+                - text: 怪异
+                - button [ref=e5068] [cursor=pointer]:
+                  - img
+            - listitem [ref=e5069]:
+              - generic [ref=e5070]:
+                - text: 神八小妹不可怕
+                - button [ref=e5071] [cursor=pointer]:
+                  - img
+            - listitem [ref=e5072]:
+              - generic [ref=e5073]:
+                - text: 山本康太
+                - button [ref=e5074] [cursor=pointer]:
+                  - img
+            - listitem [ref=e5075]:
+              - generic [ref=e5076]:
+                - text: 2020-2029
+                - button [ref=e5077] [cursor=pointer]:
+                  - img
+            - listitem [ref=e5078]:
+              - generic [ref=e5079]:
+                - text: bh1630
+                - button [ref=e5080] [cursor=pointer]:
+                  - img
+            - listitem [ref=e5081]:
+              - generic [ref=e5082]:
+                - text: 惊悚
+                - button [ref=e5083] [cursor=pointer]:
+                  - img
+            - listitem [ref=e5084]:
+              - generic [ref=e5085]:
+                - text: 怪谈
+                - button [ref=e5086] [cursor=pointer]:
+                  - img
+            - listitem [ref=e5087]:
+              - generic [ref=e5088]:
+                - text: 民俗
+                - button [ref=e5089] [cursor=pointer]:
+                  - img
+      - generic [ref=e5090]:
+        - figure [ref=e5092]:
+          - link "透明男与人类女～不久成为夫妇的二人～" [ref=e5094] [cursor=pointer]:
+            - /url: https://bgm.tv/subject/525946
+            - img "透明男与人类女～不久成为夫妇的二人～" [ref=e5095]
+          - list [ref=e5096]:
+            - listitem [ref=e5097]:
+              - generic [ref=e5098]: "# 3771"
+            - listitem [ref=e5099]:
+              - generic [ref=e5100]:
+                - img
+                - text: "6.7"
+          - list [ref=e5101]:
+            - listitem [ref=e5102]:
+              - link "透乃眼明" [ref=e5103] [cursor=pointer]:
+                - /url: https://bgm.tv/character/179289
+                - img "透乃眼明" [ref=e5105]
+              - link "夜香静花" [ref=e5106] [cursor=pointer]:
+                - /url: https://bgm.tv/character/179290
+                - img "夜香静花" [ref=e5108]
+            - listitem [ref=e5109]:
+              - list [ref=e5110]:
+                - listitem [ref=e5111]:
+                  - generic [ref=e5112]:
+                    - img
+                    - text: 2026-01-08
+                - listitem [ref=e5113]:
+                  - generic [ref=e5114]:
+                    - img
+                    - text: 12 eps
+        - generic [ref=e5115]:
+          - generic [ref=e5116]:
+            - generic [ref=e5117]: 透明男与人类女～不久成为夫妇的二人～
+            - button [ref=e5118] [cursor=pointer]:
+              - img
+          - generic [ref=e5119]: 透明男と人間女～そのうち夫婦になるふたり～
+          - list [ref=e5120]:
+            - listitem [ref=e5121]:
+              - generic [ref=e5122]:
+                - text: 恋爱
+                - button [ref=e5123] [cursor=pointer]:
+                  - img
+            - listitem [ref=e5124]:
+              - generic [ref=e5125]:
+                - text: projectNo.9
+                - button [ref=e5126] [cursor=pointer]:
+                  - img
+            - listitem [ref=e5127]:
+              - generic [ref=e5128]:
+                - text: 漫画改
+                - button [ref=e5129] [cursor=pointer]:
+                  - img
+            - listitem [ref=e5130]:
+              - generic [ref=e5131]:
+                - text: 日常
+                - button [ref=e5132] [cursor=pointer]:
+                  - img
+            - listitem [ref=e5133]:
+              - generic [ref=e5134]:
+                - text: 人外
+                - button [ref=e5135] [cursor=pointer]:
+                  - img
+            - listitem [ref=e5136]:
+              - generic [ref=e5137]:
+                - text: "2026"
+                - button [ref=e5138] [cursor=pointer]:
+                  - img
+            - listitem [ref=e5139]:
+              - generic [ref=e5140]:
+                - text: 奇幻
+                - button [ref=e5141] [cursor=pointer]:
+                  - img
+            - listitem [ref=e5142]:
+              - generic [ref=e5143]:
+                - text: 漫改
+                - button [ref=e5144] [cursor=pointer]:
+                  - img
+            - listitem [ref=e5145]:
+              - generic [ref=e5146]:
+                - text: 治愈
+                - button [ref=e5147] [cursor=pointer]:
+                  - img
+            - listitem [ref=e5148]:
+              - generic [ref=e5149]:
+                - text: 2026冬
+                - button [ref=e5150] [cursor=pointer]:
+                  - img
+            - listitem [ref=e5151]:
+              - generic [ref=e5152]:
+                - text: 双叶社-WebAction
+                - button [ref=e5153] [cursor=pointer]:
+                  - img
+            - listitem [ref=e5154]:
+              - generic [ref=e5155]:
+                - text: 纯爱
+                - button [ref=e5156] [cursor=pointer]:
+                  - img
+            - listitem [ref=e5157]:
+              - generic [ref=e5158]:
+                - text: 濑田光穗
+                - button [ref=e5159] [cursor=pointer]:
+                  - img
+            - listitem [ref=e5160]:
+              - generic [ref=e5161]:
+                - text: 动画
+                - button [ref=e5162] [cursor=pointer]:
+                  - img
+            - listitem [ref=e5163]:
+              - generic [ref=e5164]:
+                - text: 瀬田光穂
+                - button [ref=e5165] [cursor=pointer]:
+                  - img
+            - listitem [ref=e5166]:
+              - generic [ref=e5167]:
+                - text: 女性向
+                - button [ref=e5168] [cursor=pointer]:
+                  - img
+            - listitem [ref=e5169]:
+              - generic [ref=e5170]:
+                - text: 日本动画
+                - button [ref=e5171] [cursor=pointer]:
+                  - img
+            - listitem [ref=e5172]:
+              - generic [ref=e5173]:
+                - text: 9组
+                - button [ref=e5174] [cursor=pointer]:
+                  - img
+            - listitem [ref=e5175]:
+              - generic [ref=e5176]:
+                - text: 骚福瑞
+                - button [ref=e5177] [cursor=pointer]:
+                  - img
+            - listitem [ref=e5178]:
+              - generic [ref=e5179]:
+                - text: 冬季
+                - button [ref=e5180] [cursor=pointer]:
+                  - img
+            - listitem [ref=e5181]:
+              - generic [ref=e5182]:
+                - text: 温馨
+                - button [ref=e5183] [cursor=pointer]:
+                  - img
+            - listitem [ref=e5184]:
+              - generic [ref=e5185]:
+                - text: 貫井柚佳
+                - button [ref=e5186] [cursor=pointer]:
+                  - img
+            - listitem [ref=e5187]:
+              - generic [ref=e5188]:
+                - text: 季番
+                - button [ref=e5189] [cursor=pointer]:
+                  - img
+            - listitem [ref=e5190]:
+              - generic [ref=e5191]:
+                - text: 残障人士
+                - button [ref=e5192] [cursor=pointer]:
+                  - img
+            - listitem [ref=e5193]:
+              - generic [ref=e5194]:
+                - text: 题材不感兴趣
+                - button [ref=e5195] [cursor=pointer]:
+                  - img
+            - listitem [ref=e5196]:
+              - generic [ref=e5197]:
+                - text: 推荐
+                - button [ref=e5198] [cursor=pointer]:
+                  - img
+      - generic [ref=e5199]:
+        - figure [ref=e5201]:
+          - link "机动战士高达 闪光的哈萨维 喀耳刻的魔女" [ref=e5203] [cursor=pointer]:
+            - /url: https://bgm.tv/subject/243430
+            - img "机动战士高达 闪光的哈萨维 喀耳刻的魔女" [ref=e5204]
+          - list [ref=e5205]:
+            - listitem [ref=e5206]:
+              - generic [ref=e5207]: "# 1257"
+            - listitem [ref=e5208]:
+              - generic [ref=e5209]:
+                - img
+                - text: "7.4"
+          - list [ref=e5210]:
+            - listitem [ref=e5211]:
+              - link "哈萨维·诺亚" [ref=e5212] [cursor=pointer]:
+                - /url: https://bgm.tv/character/31659
+                - img "哈萨维·诺亚" [ref=e5214]
+              - link "琪琪·安达露西亚" [ref=e5215] [cursor=pointer]:
+                - /url: https://bgm.tv/character/91216
+                - img "琪琪·安达露西亚" [ref=e5217]
+              - link "凯奈斯·斯雷格" [ref=e5218] [cursor=pointer]:
+                - /url: https://bgm.tv/character/96994
+                - img "凯奈斯·斯雷格" [ref=e5220]
+              - link "Ξ高达" [ref=e5221] [cursor=pointer]:
+                - /url: https://bgm.tv/character/118650
+                - img "Ξ高达" [ref=e5223]
+            - listitem [ref=e5224]:
+              - list [ref=e5225]:
+                - listitem [ref=e5226]:
+                  - generic [ref=e5227]:
+                    - img
+                    - text: 2026-01-30
+                - listitem [ref=e5228]:
+                  - generic [ref=e5229]:
+                    - img
+                    - text: 1 eps
+        - generic [ref=e5230]:
+          - generic [ref=e5231]:
+            - generic [ref=e5232]: 机动战士高达 闪光的哈萨维 喀耳刻的魔女
+            - button [ref=e5233] [cursor=pointer]:
+              - img
+          - generic [ref=e5234]: 機動戦士ガンダム 閃光のハサウェイ キルケーの魔女
+          - list [ref=e5235]:
+            - listitem [ref=e5236]:
+              - generic [ref=e5237]:
+                - text: 剧场版
+                - button [ref=e5238] [cursor=pointer]:
+                  - img
+            - listitem [ref=e5239]:
+              - generic [ref=e5240]:
+                - text: 高达
+                - button [ref=e5241] [cursor=pointer]:
+                  - img
+            - listitem [ref=e5242]:
+              - generic [ref=e5243]:
+                - text: SUNRISE
+                - button [ref=e5244] [cursor=pointer]:
+                  - img
+            - listitem [ref=e5245]:
+              - generic [ref=e5246]:
+                - text: 小说改
+                - button [ref=e5247] [cursor=pointer]:
+                  - img
+            - listitem [ref=e5248]:
+              - generic [ref=e5249]:
+                - text: 富野由悠季
+                - button [ref=e5250] [cursor=pointer]:
+                  - img
+            - listitem [ref=e5251]:
+              - generic [ref=e5252]:
+                - text: 科幻
+                - button [ref=e5253] [cursor=pointer]:
+                  - img
+            - listitem [ref=e5254]:
+              - generic [ref=e5255]:
+                - text: 机战
+                - button [ref=e5256] [cursor=pointer]:
+                  - img
+            - listitem [ref=e5257]:
+              - generic [ref=e5258]:
+                - text: "2026"
+                - button [ref=e5259] [cursor=pointer]:
+                  - img
+            - listitem [ref=e5260]:
+              - generic [ref=e5261]:
+                - text: 闪光的哈萨维
+                - button [ref=e5262] [cursor=pointer]:
+                  - img
+            - listitem [ref=e5263]:
+              - generic [ref=e5264]:
+                - text: 萝卜
+                - button [ref=e5265] [cursor=pointer]:
+                  - img
+            - listitem [ref=e5266]:
+              - generic [ref=e5267]:
+                - text: GUNDAM
+                - button [ref=e5268] [cursor=pointer]:
+                  - img
+            - listitem [ref=e5269]:
+              - generic [ref=e5270]:
+                - text: 村濑修功
+                - button [ref=e5271] [cursor=pointer]:
+                  - img
+            - listitem [ref=e5272]:
+              - generic [ref=e5273]:
+                - text: 剧情
+                - button [ref=e5274] [cursor=pointer]:
+                  - img
+            - listitem [ref=e5275]:
+              - generic [ref=e5276]:
+                - text: 悬疑
+                - button [ref=e5277] [cursor=pointer]:
+                  - img
+            - listitem [ref=e5278]:
+              - generic [ref=e5279]:
+                - text: 小说改编
+                - button [ref=e5280] [cursor=pointer]:
+                  - img
+            - listitem [ref=e5281]:
+              - generic [ref=e5282]:
+                - text: 钢之魂
+                - button [ref=e5283] [cursor=pointer]:
+                  - img
+            - listitem [ref=e5284]:
+              - generic [ref=e5285]:
+                - text: 村瀬修功
+                - button [ref=e5286] [cursor=pointer]:
+                  - img
+            - listitem [ref=e5287]:
+              - generic [ref=e5288]:
+                - text: 轻小说改
+                - button [ref=e5289] [cursor=pointer]:
+                  - img
+            - listitem [ref=e5290]:
+              - generic [ref=e5291]:
+                - text: 未定档
+                - button [ref=e5292] [cursor=pointer]:
+                  - img
+            - listitem [ref=e5293]:
+              - generic [ref=e5294]:
+                - text: 泽野弘之
+                - button [ref=e5295] [cursor=pointer]:
+                  - img
+            - listitem [ref=e5296]:
+              - generic [ref=e5297]:
+                - text: 续作
+                - button [ref=e5298] [cursor=pointer]:
+                  - img
+            - listitem [ref=e5299]:
+              - generic [ref=e5300]:
+                - text: 战斗
+                - button [ref=e5301] [cursor=pointer]:
+                  - img
+            - listitem [ref=e5302]:
+              - generic [ref=e5303]:
+                - text: 战争
+                - button [ref=e5304] [cursor=pointer]:
+                  - img
+            - listitem [ref=e5305]:
+              - generic [ref=e5306]:
+                - text: 机甲
+                - button [ref=e5307] [cursor=pointer]:
+                  - img
+            - listitem [ref=e5308]:
+              - generic [ref=e5309]:
+                - text: 原创
+                - button [ref=e5310] [cursor=pointer]:
+                  - img
+            - listitem [ref=e5311]:
+              - generic [ref=e5312]:
+                - text: むとうやすゆき
+                - button [ref=e5313] [cursor=pointer]:
+                  - img
+            - listitem [ref=e5314]:
+              - generic [ref=e5315]:
+                - text: 2020s
+                - button [ref=e5316] [cursor=pointer]:
+                  - img
+  - region "Notifications alt+T"
+  - button "Open Next.js Dev Tools" [ref=e1120] [cursor=pointer]:
+    - img [ref=e1121]
+  - alert [ref=e1124]

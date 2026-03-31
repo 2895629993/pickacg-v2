@@ -1,0 +1,10 @@
+[GET] http://127.0.0.1:3000/api/auth/get-session => [200] OK
+[POST] http://127.0.0.1:3000/ => [200] OK
+[POST] http://127.0.0.1:3000/ => [500] Internal Server Error
+[POST] http://127.0.0.1:3000/?airDate={%22enable%22:true,%22mode%22:%22period%22,%22year%22:2026} => [500] Internal Server Error
+[POST] http://127.0.0.1:3000/?airDate={%22enable%22:true,%22mode%22:%22period%22,%22year%22:2026} => [500] Internal Server Error
+[POST] http://127.0.0.1:3000/?airDate={%22enable%22:true,%22mode%22:%22period%22,%22year%22:2026} => [500] Internal Server Error
+[POST] http://127.0.0.1:3000/?airDate={%22enable%22:true,%22mode%22:%22period%22,%22year%22:2026} => [500] Internal Server Error
+[POST] http://127.0.0.1:3000/?airDate={%22enable%22:true,%22mode%22:%22period%22,%22year%22:2026} => [500] Internal Server Error
+[POST] http://127.0.0.1:3000/?airDate={%22enable%22:true,%22mode%22:%22period%22,%22year%22:2026} => [500] Internal Server Error
+[POST] http://127.0.0.1:3000/?airDate={%22enable%22:true,%22mode%22:%22period%22,%22year%22:2026} => [500] Internal Server Error

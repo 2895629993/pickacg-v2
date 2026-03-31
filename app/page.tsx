@@ -29,8 +29,6 @@ const pageLimit = 40
 
 const categoryValues = Object.values(Category)
 const sortValues = Object.values(Sort)
-const seasonValues = Object.values(Season)
-
 const CategoryID = {
     [Category.Anime]: 2,
     [Category.Book]: 1,
@@ -45,7 +43,64 @@ const SeasonStart = {
     [Season.Autumn]: 10,
 } as const
 
-const fetcher = async (key: { params: SearchParam, payload: SearchPayload }) => await search(key)
+const quarterMonths = Object.values(SeasonStart)
+
+type SearchKey = {
+    params: SearchParam
+    payload: SearchPayload
+    mergedPageIndex?: number
+    yearQuarterTags?: string[]
+}
+
+function mergeSearchResponses(responses: SearchResponse[], mergedPageIndex = 0): SearchResponse {
+    const uniqueSubjects = new Map<number, SearchResponse["data"][number]>()
+
+    for (const response of responses) {
+        for (const subject of response.data) {
+            if (!uniqueSubjects.has(subject.id)) {
+                uniqueSubjects.set(subject.id, subject)
+            }
+        }
+    }
+
+    const mergedSubjects = Array.from(uniqueSubjects.values())
+    const pageStart = mergedPageIndex * pageLimit
+    const pageData = mergedSubjects.slice(pageStart, pageStart + pageLimit)
+
+    return {
+        data: pageData,
+        total: pageStart + pageData.length + (pageData.length === pageLimit ? 1 : 0),
+    }
+}
+
+const fetcher = async (key: SearchKey) => {
+    if (key.yearQuarterTags?.length) {
+        const baseTags = key.payload.filter.tags?.filter((existingTag) => !key.yearQuarterTags?.includes(existingTag)) ?? []
+        const quarterParams: SearchParam = {
+            ...key.params,
+            offset: 0,
+            limit: ((key.mergedPageIndex ?? 0) + 1) * pageLimit,
+        }
+
+        return mergeSearchResponses(await Promise.all(
+            key.yearQuarterTags.map((tag) => search({
+                params: quarterParams,
+                payload: {
+                    ...key.payload,
+                    filter: {
+                        ...key.payload.filter,
+                        tags: [
+                            ...baseTags,
+                            tag,
+                        ],
+                    },
+                },
+            }))
+        ), key.mergedPageIndex)
+    }
+
+    return await search(key)
+}
 
 export default function Home() {
     const now = React.useMemo(() => new Date(), [])
@@ -78,6 +133,9 @@ export default function Home() {
     const { query, tags: inlineTags, excludedTags: inlineExcludedTags } = parseSearchInput(filters.query)
     const structuredTags = filters.tags?.tags ?? []
     const structuredExcludedTags = filters.tags?.excludedTags ?? []
+    const periodAirDate = filters.airDate.enable && filters.airDate.mode === AirDateMode.Period
+        ? filters.airDate
+        : null
     const excludedTags = [...new Set([
         ...(filters.tags.enable
             ? structuredExcludedTags
@@ -98,9 +156,18 @@ export default function Home() {
         const rating = filters.rating.enable
             ? [`>=${filters.rating.min}`, `<=${filters.rating.max}`]
             : []
+        const yearQuarterTags = periodAirDate &&
+            filters.category === Category.Anime &&
+            !periodAirDate.season
+            ? quarterMonths.map((month) => `${periodAirDate.year}年${month}月`)
+            : undefined
         const tags = [...new Set([
-            ...(filters.airDate.enable && filters.airDate.mode === AirDateMode.Period
-                ? [filters.category === Category.Anime ? `${filters.airDate.year}年${SeasonStart[filters.airDate.season ?? seasonValues[Math.floor(now.getMonth() / 3)]]}月` : filters.airDate.year.toString()]
+            ...(periodAirDate
+                ? [filters.category === Category.Anime
+                    ? (periodAirDate.season
+                        ? `${periodAirDate.year}年${SeasonStart[periodAirDate.season]}月`
+                        : `${periodAirDate.year}年1月`)
+                    : periodAirDate.year.toString()]
                 : []),
             ...(filters.tags.enable
                 ? structuredTags
@@ -124,7 +191,7 @@ export default function Home() {
                 ...(rank.length > 0 && { rank: rank }),
             },
         }
-        return { params, payload }
+        return { params, payload, mergedPageIndex: pageIndex, yearQuarterTags }
     }
     const { data, error, isLoading, size, setSize } = useSWRInfinite<SearchResponse>(getKey, fetcher)
 
@@ -172,10 +239,12 @@ export default function Home() {
                     {data?.flatMap((page) =>
                         page.data
                             // exclude mismatches by air date
-                            .filter((subject) => filters.airDate.enable && filters.airDate.mode === AirDateMode.Period
+                            .filter((subject) => periodAirDate
                                 ? (filters.category === Category.Anime
-                                    ? [`${filters.airDate.year}年${SeasonStart[filters.airDate.season ?? seasonValues[Math.floor(now.getMonth() / 3)]]}月`]
-                                    : [filters.airDate.year.toString(), `${filters.airDate.year}年`])
+                                    ? (periodAirDate.season
+                                        ? [`${periodAirDate.year}年${SeasonStart[periodAirDate.season]}月`]
+                                        : quarterMonths.map((month) => `${periodAirDate.year}年${month}月`))
+                                    : [periodAirDate.year.toString(), `${periodAirDate.year}年`])
                                     .includes(subject.tags?.find((tag) => filters.category === Category.Anime
                                         ? /^\d{4}年\d{1,2}月$/.test(tag.name)
                                         : /^\d{4}(年)?$/.test(tag.name))?.name ?? "")
