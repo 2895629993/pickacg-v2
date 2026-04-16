@@ -50,7 +50,7 @@
 ### 克隆仓库
 
 ```bash
-git clone https://github.com/Ezer015/pickacg.git
+git clone https://github.com/2895629993/pickacg.git
 cd pickacg
 ```
 
