@@ -3,7 +3,7 @@
 import * as React from "react"
 import { format, parseISO } from "date-fns"
 import { useQueryStates, parseAsStringLiteral, parseAsJson } from "nuqs"
-import { ChevronsUpDown, ArrowDownWideNarrow, Clock, Star, Tag, CalendarDays, CalendarRange, CalendarIcon, WholeWord, Flame, Trophy, RotateCcw, Snowflake, Sun, Flower, Leaf } from "lucide-react"
+import { ChevronsUpDown, ArrowDownWideNarrow, Clock, Star, Tag, CalendarDays, CalendarRange, CalendarIcon, WholeWord, Flame, Trophy, RotateCcw, Snowflake, Sun, Flower, Leaf, Tags } from "lucide-react"
 
 import {
     ToggleGroup,
@@ -74,6 +74,11 @@ const sortOptions: Option[] = [
         value: Sort.Rank,
         label: "排名",
         icon: Trophy,
+    },
+    {
+        value: Sort.MultiTagCount,
+        label: "多标签",
+        icon: Tags,
     }
 ] as const
 // Options for air date mode select

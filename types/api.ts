@@ -22,6 +22,8 @@ export type Subject = {
     tags?: {
         name: string
         count: number
+        score?: number
+        isHighWeight?: boolean
     }[]
     characters?: {
         id: number
@@ -29,6 +31,13 @@ export type Subject = {
         nameCN?: string
         image?: string
     }[]
+    searchMeta?: {
+        originalIndex?: number
+        sourceChannels?: string[]
+        timeScore?: number
+        leadingTagScore?: number
+        roundedLeadingTagScore?: number
+    }
 }
 
 export type SearchResponse = {
@@ -49,6 +58,17 @@ export type SearchParam = {
     offset: number
 }
 
+export type MultiTagRecallChannel = {
+    id: string
+    budget: number
+    airDate?: string[]
+}
+
+export type MultiTagRecallPlan = {
+    batchIndex: number
+    channels: MultiTagRecallChannel[]
+}
+
 export type SearchPayload = {
     keyword: string
     sort: string
@@ -58,6 +78,13 @@ export type SearchPayload = {
         rating?: string[]
         tags?: string[]
         rank?: string[]
+    }
+    sortMeta?: {
+        orderedTags?: string[]
+        mode?: "multi_tag_count"
+        recallPlan?: MultiTagRecallPlan
+        debugTagScore?: boolean
+        requireFirstTagHighWeight?: boolean
     }
 }
 

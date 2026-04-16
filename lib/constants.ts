@@ -10,6 +10,7 @@ export const Sort = {
     Match: "match",
     Heat: "heat",
     Rank: "rank",
+    MultiTagCount: "multi_tag_count",
 } as const
 
 export const AirDateMode = {

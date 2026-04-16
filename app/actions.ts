@@ -7,7 +7,7 @@ import { format, subDays, eachDayOfInterval, fromUnixTime, getUnixTime } from 'd
 import { toZonedTime } from 'date-fns-tz'
 
 import { auth } from "@/lib/auth"
-import { Category, Character, Relation } from "@/lib/constants"
+import { Category, Character, Relation, Sort } from "@/lib/constants"
 import { SearchParam, SearchPayload, SearchResponse, TrendingResponse, DetailResponse, TimelineEntry, TimelineResponse } from "@/types/api"
 
 const apiUrl = process.env.API_URL
@@ -67,6 +67,43 @@ function isCategoryID(value: number): value is keyof typeof CategoryFromID {
 
 const relationValues = Object.values(Relation)
 
+function getTagScores(subject: SearchResponse["data"][number]) {
+    const tags = subject.tags ?? []
+    if (tags.length === 0) {
+        return {
+            averageCount: 0,
+            totalHighWeightCount: 0,
+            highWeightTagNames: new Set<string>(),
+            tagScores: new Map<string, number>(),
+        }
+    }
+
+    const averageCount = tags.reduce((sum, { count }) => sum + count, 0) / tags.length
+    const highWeightTags = tags.filter(({ count }) => count >= averageCount)
+    const totalHighWeightCount = highWeightTags.reduce((sum, { count }) => sum + count, 0)
+
+    return {
+        averageCount,
+        totalHighWeightCount,
+        highWeightTagNames: new Set(highWeightTags.map(({ name }) => name)),
+        tagScores: new Map(
+            highWeightTags.map(({ name, count }) => [
+                name,
+                totalHighWeightCount > 0 ? count / totalHighWeightCount : 0,
+            ])
+        ),
+    }
+}
+
+function hasHighWeightLeadingTag(
+    subject: SearchResponse["data"][number],
+    leadingTag?: string,
+) {
+    if (!leadingTag) { return true }
+
+    return getTagScores(subject).tagScores.has(leadingTag)
+}
+
 type CharacterQueryResponse = {
     id: number
     infobox?: {
@@ -105,6 +142,12 @@ export async function search({
     const searchParams = Object.fromEntries(
         Object.entries(params).map(([key, value]) => [key, value.toString()])
     )
+    const upstreamPayload = {
+        keyword: payload.keyword,
+        sort: payload.sort,
+        filter: payload.filter,
+    }
+
     const rawResult = await fetch(
         isTrending
             ? `https://${nextApiUrl}/p1/trending/subjects?${new URLSearchParams({
@@ -119,7 +162,7 @@ export async function search({
                 ...(userAgent && { "User-Agent": userAgent }),
                 ...(accessToken && { Authorization: `Bearer ${accessToken}` }),
             },
-            ...(!isTrending && { body: JSON.stringify(payload) }),
+            ...(!isTrending && { body: JSON.stringify(upstreamPayload) }),
         }
     )
     if (!rawResult.ok) {
@@ -256,11 +299,18 @@ export async function search({
 
                     const topYearTag = getMostPopular(tagGroups.year)
                     const topMonthTag = getMostPopular(tagGroups.month)
-                    return [
+                    const normalizedTags = [
                         ...(topYearTag ? [topYearTag] : []),
                         ...(topMonthTag ? [topMonthTag] : []),
                         ...(tagGroups.other ?? [])
                     ]
+                    const tagScoreInfo = getTagScores({ ...subject, tags: normalizedTags })
+
+                    return normalizedTags.map((tag) => ({
+                        ...tag,
+                        score: tagScoreInfo.tagScores.get(tag.name) ?? 0,
+                        isHighWeight: tagScoreInfo.highWeightTagNames.has(tag.name),
+                    }))
                 })(),
                 characters: extra.characters
                     .filter((c) => c.type === Character.Main)
@@ -273,7 +323,67 @@ export async function search({
             }
         })
 
-        return { ...searchData, data: subjectDetails }
+        const orderedTags = payload.sortMeta?.orderedTags?.filter(Boolean) ?? []
+        const filteredSubjectDetails = orderedTags.length > 0
+            ? subjectDetails.filter((subject) => hasHighWeightLeadingTag(subject, orderedTags[0]))
+            : subjectDetails
+        const isMultiTagSort = payload.sortMeta?.mode === Sort.MultiTagCount
+        const sortedSubjectDetails = isMultiTagSort
+            ? (() => {
+                const nowYear = new Date().getFullYear()
+                const getYear = (subject: SearchResponse["data"][number]) => {
+                    const y = subject.date ? parseInt(subject.date.slice(0, 4)) : NaN
+                    return isNaN(y) ? null : y
+                }
+                const getLeadingScore = (subject: SearchResponse["data"][number]) =>
+                    orderedTags.length > 0
+                        ? (subject.tags?.find((t) => t.name === orderedTags[0])?.score ?? 0)
+                        : 0
+                const getRoundedLeadingScore = (subject: SearchResponse["data"][number]) =>
+                    Math.round(getLeadingScore(subject) * 10) / 10
+
+                return filteredSubjectDetails
+                    .map((subject, index) => {
+                        const year = getYear(subject)
+                        const timeScore = year !== null
+                            ? 100 - Math.abs(year - nowYear)
+                            : Number.NEGATIVE_INFINITY
+                        const leadingTagScore = getLeadingScore(subject)
+                        const roundedLeadingTagScore = getRoundedLeadingScore(subject)
+
+                        return {
+                            ...subject,
+                            searchMeta: {
+                                ...subject.searchMeta,
+                                originalIndex: subject.searchMeta?.originalIndex ?? index,
+                                timeScore,
+                                leadingTagScore,
+                                roundedLeadingTagScore,
+                            },
+                        }
+                    })
+                    .sort((a, b) => {
+                        const timeA = a.searchMeta?.timeScore ?? Number.NEGATIVE_INFINITY
+                        const timeB = b.searchMeta?.timeScore ?? Number.NEGATIVE_INFINITY
+                        if (timeA !== timeB) { return timeB - timeA }
+
+                        const tagA = a.searchMeta?.roundedLeadingTagScore ?? 0
+                        const tagB = b.searchMeta?.roundedLeadingTagScore ?? 0
+                        if (tagA !== tagB) { return tagB - tagA }
+
+                        if (a.rating.score !== b.rating.score) { return b.rating.score - a.rating.score }
+
+                        const rankA = a.rating.rank > 0 ? a.rating.rank : Number.POSITIVE_INFINITY
+                        const rankB = b.rating.rank > 0 ? b.rating.rank : Number.POSITIVE_INFINITY
+                        if (rankA !== rankB) { return rankA - rankB }
+
+                        return (a.searchMeta?.originalIndex ?? Number.MAX_SAFE_INTEGER)
+                            - (b.searchMeta?.originalIndex ?? Number.MAX_SAFE_INTEGER)
+                    })
+            })()
+            : filteredSubjectDetails
+
+        return { ...searchData, data: sortedSubjectDetails }
 
     } catch (e) {
         console.error("Subject Detail Query Error:", e)

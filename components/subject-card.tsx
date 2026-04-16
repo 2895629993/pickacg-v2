@@ -2,9 +2,11 @@
 
 import * as React from "react"
 import { useQueryState, parseAsStringLiteral, parseAsJson } from "nuqs"
+import { z } from "zod"
 import Link from "next/link"
 import Image from "next/image"
 import { ExternalLink, Plus, Star, CalendarFold, Clapperboard, Book } from "lucide-react"
+import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover"
 
 import { cn } from "@/lib/utils"
 
@@ -35,6 +37,18 @@ import { tagSchema } from "@/lib/search-params"
 import { Category } from "@/lib/constants"
 
 const bangumiUrl = process.env.NEXT_PUBLIC_BANGUMI_URL
+const debugSchema = z.object({
+    enable: z.boolean(),
+    sorting: z.object({
+        showTagScore: z.boolean(),
+    }),
+    tags: z.object({
+        highlightHighWeight: z.boolean(),
+    }),
+    request: z.object({
+        showSearchMeta: z.boolean(),
+    }),
+})
 
 const placeholderUrl = "https://lain.bgm.tv/img/no_icon_subject.png"
 
@@ -52,9 +66,30 @@ export function SubjectCard({
     // Sync states with URL query parameters
     const [tagFilter, setTagFilter] = useQueryState('tags', parseAsJson(tagSchema).withDefault({ enable: true, tags: [], excludedTags: [] }))
     const [category] = useQueryState('category', parseAsStringLiteral(Object.values(Category)).withDefault(Category.Anime))
+    const [debugMenu] = useQueryState('debug', parseAsJson(debugSchema).withDefault({
+        enable: false,
+        sorting: { showTagScore: false },
+        tags: { highlightHighWeight: true },
+        request: { showSearchMeta: false },
+    }))
 
     const [isLoading, setIsLoading] = React.useState(true)
     const allowState = React.useRef<typeof AllowState[keyof typeof AllowState]>(AllowState.Wait)
+    const visibleTagLimit = 8
+    const sortedTags = (subject.tags ?? [])
+        // filter out tags that are too long
+        .filter(({ name }) => name && name.length < 16)
+        // filter out tags that are too common
+        .filter(({ name }) => !(category === Category.Anime && ["TV", "日本"].includes(name)))
+        // filter out air date tags
+        .filter(({ name }) => !(category === Category.Anime
+            ? /^\d{4}年(\d{1,2}月)?$/.test(name)
+            : /^\d{4}(年)?$/.test(name)
+        ))
+        // sort by count
+        .sort((a, b) => b.count - a.count)
+    const visibleTags = sortedTags.slice(0, visibleTagLimit)
+    const hiddenTags = sortedTags.slice(visibleTagLimit)
 
     return (
         <Item key={subject.id} variant="muted" className={cn("flex-nowrap items-stretch sm:flex-wrap", className)} {...props}>
@@ -207,36 +242,92 @@ export function SubjectCard({
                 </div>
                 <ItemSeparator />
                 <ItemTitle className="text-sm text-muted-foreground line-clamp-1" lang={subject.nameCN ? "ja" : "en"}>{subject.nameCN ? subject.name : "暂无译名"}</ItemTitle>
-                <ul className="pt-2 flex w-full flex-wrap gap-2 items-center h-30 content-start overflow-hidden">
-                    {(subject.tags ?? [])
-                        // filter out tags that are too long
-                        .filter(({ name }) => name && name.length < 16)
-                        // filter out tags that are too common
-                        .filter(({ name }) => !(category === Category.Anime && ["TV", "日本"].includes(name)))
-                        // filter out air date tags
-                        .filter(({ name }) => !(category === Category.Anime
-                            ? /^\d{4}年(\d{1,2}月)?$/.test(name)
-                            : /^\d{4}(年)?$/.test(name)
-                        ))
-                        // sort by count
-                        .sort((a, b) => b.count - a.count)
-                        .map(({ name }) => (
-                            <li key={name} className="contents">
-                                <Badge variant={tagFilter.enable && tagFilter.tags.includes(name) ? "default" : "secondary"}>
-                                    {name}
-                                    {!tagFilter.tags.includes(name) && (
-                                        <Button
-                                            variant="ghost"
-                                            size="icon-6xs"
-                                            className="rounded-full text-muted-foreground hover:text-foreground"
-                                            onClick={() => setTagFilter({ ...tagFilter, tags: [...tagFilter.tags, name] })}
-                                        >
-                                            <Plus />
-                                        </Button>
+                <ul className="pt-2 flex w-full flex-wrap gap-2 items-center min-h-30 content-start overflow-hidden">
+                    {visibleTags.map(({ name, score, isHighWeight }) => (
+                        <li key={name} className="contents">
+                            <Badge
+                                variant={tagFilter.enable && tagFilter.tags.includes(name) ? "default" : "secondary"}
+                                className={cn({
+                                    "bg-amber-100 text-amber-900 ring-1 ring-amber-300 dark:bg-amber-500/20 dark:text-amber-100 dark:ring-amber-400/40": debugMenu.enable && debugMenu.tags.highlightHighWeight && isHighWeight,
+                                })}
+                            >
+                                <span className="inline-flex items-center gap-1">
+                                    <span>{name}</span>
+                                    {debugMenu.enable && debugMenu.sorting.showTagScore && (
+                                        <span className={cn(
+                                            "rounded-full px-1.5 py-0.5 text-[0.625rem] font-mono leading-none opacity-90",
+                                            isHighWeight
+                                                ? "bg-amber-500/15 text-amber-900 dark:bg-amber-400/20 dark:text-amber-100"
+                                                : "bg-muted text-muted-foreground"
+                                        )}>
+                                            {score?.toFixed(3) ?? "0.000"}
+                                            {isHighWeight ? "*" : ""}
+                                        </span>
                                     )}
-                                </Badge>
-                            </li>
-                        ))}
+                                </span>
+                                {!tagFilter.tags.includes(name) && (
+                                    <Button
+                                        variant="ghost"
+                                        size="icon-6xs"
+                                        className="rounded-full text-muted-foreground hover:text-foreground"
+                                        onClick={() => setTagFilter({ ...tagFilter, tags: [...tagFilter.tags, name] })}
+                                    >
+                                        <Plus />
+                                    </Button>
+                                )}
+                            </Badge>
+                        </li>
+                    ))}
+                    {hiddenTags.length > 0 && (
+                        <li className="contents">
+                            <Popover>
+                                <PopoverTrigger asChild>
+                                    <Button variant="outline" size="sm" className="h-6 rounded-full px-2 text-xs text-muted-foreground">
+                                        更多 {hiddenTags.length}
+                                    </Button>
+                                </PopoverTrigger>
+                                <PopoverContent align="start" className="w-84 max-w-[min(24rem,calc(100vw-2rem))] p-3">
+                                    <ul className="flex max-h-80 flex-wrap gap-2 overflow-y-auto pr-1">
+                                        {sortedTags.map(({ name, score, isHighWeight }) => (
+                                            <li key={name} className="contents">
+                                                <Badge
+                                                    variant={tagFilter.enable && tagFilter.tags.includes(name) ? "default" : "secondary"}
+                                                    className={cn({
+                                                        "bg-amber-100 text-amber-900 ring-1 ring-amber-300 dark:bg-amber-500/20 dark:text-amber-100 dark:ring-amber-400/40": debugMenu.enable && debugMenu.tags.highlightHighWeight && isHighWeight,
+                                                    })}
+                                                >
+                                                    <span className="inline-flex items-center gap-1">
+                                                        <span>{name}</span>
+                                                        {debugMenu.enable && debugMenu.sorting.showTagScore && (
+                                                            <span className={cn(
+                                                                "rounded-full px-1.5 py-0.5 text-[0.625rem] font-mono leading-none opacity-90",
+                                                                isHighWeight
+                                                                    ? "bg-amber-500/15 text-amber-900 dark:bg-amber-400/20 dark:text-amber-100"
+                                                                    : "bg-muted text-muted-foreground"
+                                                            )}>
+                                                                {score?.toFixed(3) ?? "0.000"}
+                                                                {isHighWeight ? "*" : ""}
+                                                            </span>
+                                                        )}
+                                                    </span>
+                                                    {!tagFilter.tags.includes(name) && (
+                                                        <Button
+                                                            variant="ghost"
+                                                            size="icon-6xs"
+                                                            className="rounded-full text-muted-foreground hover:text-foreground"
+                                                            onClick={() => setTagFilter({ ...tagFilter, tags: [...tagFilter.tags, name] })}
+                                                        >
+                                                            <Plus />
+                                                        </Button>
+                                                    )}
+                                                </Badge>
+                                            </li>
+                                        ))}
+                                    </ul>
+                                </PopoverContent>
+                            </Popover>
+                        </li>
+                    )}
                 </ul>
             </ItemContent>
         </Item>

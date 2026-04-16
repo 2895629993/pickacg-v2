@@ -4,6 +4,7 @@ import { NuqsAdapter } from 'nuqs/adapters/next/app'
 import { Suspense } from "react"
 import { Analytics } from '@vercel/analytics/next'
 import { ThemeProvider } from "@/components/theme-provider"
+import { NextDevToolsI18n } from "@/components/next-dev-tools-i18n"
 import { Toaster } from "@/components/ui/sonner"
 import "./globals.css"
 
@@ -51,6 +52,7 @@ export default function RootLayout({
                     >
                         <Suspense>{children}</Suspense>
                         <Toaster />
+                        <NextDevToolsI18n />
                     </ThemeProvider>
                 </NuqsAdapter>
                 <Analytics />
